@@ -18,6 +18,7 @@ import csv
 import json
 import re
 import sys
+from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -44,7 +45,7 @@ OTHER_HOSTS = {"featuredcustomers.com": "Featured Customers", "nicejob.com": "Ni
                "amazon.com": "Amazon", "verified-reviews.com": "Verified Reviews"}
 
 BASE_COLUMNS = ["Name", "URL", "Segment", "Tags", "Industries", "Bio"]
-EXTRA_COLUMNS = ["Logo URL", "Event Location", "Event Dates"]
+EXTRA_COLUMNS = ["Event Location", "Event Dates"]
 COLUMNS = BASE_COLUMNS + [f"{s} {f}" for s in SOURCES for f in ("Rating", "Review Count", "URL")] + EXTRA_COLUMNS
 
 # Listings-app export -> master sheet.
@@ -128,12 +129,13 @@ def from_app_export(r):
     row = {
         "Name": r["Company Name"], "URL": r["Website"], "Tags": r["Tags"], "Industries": r["Industries"],
         "Segment": APP_SEGMENTS.get(r["Category"].strip(), r["Category"].strip()),
-        "Logo URL": r.get("Company Logo", ""),
     }
     desc = (r.get("Description") or "").strip()
     parts = [p.strip() for p in desc.split("|")]
     if row["Segment"] == "Events" and len(parts) == 2:
-        row["Event Location"], row["Event Dates"] = parts
+        end = event_end(parts[1])
+        if not end or end >= date.today():  # past dates are dropped; the event itself stays listed
+            row["Event Location"], row["Event Dates"] = parts
     else:
         row["Bio"] = desc
     # One review link ("Source: url"); "Average Rating" is that source's rating (0 = none).
@@ -146,6 +148,17 @@ def from_app_export(r):
         if rating not in ("", "0"):
             row[f"{source} Rating"] = rating
     return row
+
+
+def event_end(dates):
+    """Last day of an event from text like "Oct 19-21, 2026" or "Nov 30 - Dec 2, 2026"."""
+    m = re.search(r"([A-Z][a-z]{2})[a-z]*\.?\s+(\d{1,2})(?:\s*[-–]\s*(?:([A-Z][a-z]{2})[a-z]*\.?\s+)?(\d{1,2}))?,?\s*(\d{4})", dates)
+    if not m:
+        return None
+    try:
+        return datetime.strptime(f"{m.group(3) or m.group(1)} {m.group(4) or m.group(2)} {m.group(5)}", "%b %d %Y").date()
+    except ValueError:
+        return None
 
 
 def host(url):
@@ -250,9 +263,9 @@ def build():
 
         tags = split_list(r["Tags"])
         extra = {}
-        if r.get("Logo URL"):
-            extra["logo"] = r["Logo URL"]
-        if r.get("Event Dates") or r.get("Event Location"):
+        if r.get("Event Dates") and (event_end(r["Event Dates"]) or date.max) < date.today():
+            problems.append(f"{name}: event dates {r['Event Dates']} have passed")
+        if r["Segment"] == "Events":
             extra["event"] = {"dates": r.get("Event Dates", ""), "location": r.get("Event Location", "")}
         listings.append({
             "slug": slug,

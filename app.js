@@ -50,7 +50,16 @@ window.Revues = (function () {
   }
 
   const topRating = (t) => (t.ratings || [])[0];
-  const eventLine = (t) => (t.event ? `${esc(t.event.dates)}${t.event.location ? ` · ${esc(t.event.location)}` : ""}` : "");
+  // Last day of "Oct 19-21, 2026" / "Nov 30 - Dec 2, 2026"; dates that have passed are hidden.
+  function eventEnd(dates) {
+    const m = /([A-Z][a-z]{2})[a-z]*\.?\s+(\d{1,2})(?:\s*[-–]\s*(?:([A-Z][a-z]{2})[a-z]*\.?\s+)?(\d{1,2}))?,?\s*(\d{4})/.exec(dates || "");
+    return m ? new Date(`${m[3] || m[1]} ${m[4] || m[2]}, ${m[5]} 23:59`) : null;
+  }
+  const upcoming = (e) => e && e.dates && !(eventEnd(e.dates) < new Date());
+  const eventLine = (t) =>
+    !t.event ? "" : upcoming(t.event)
+      ? `${esc(t.event.dates)}${t.event.location ? ` · ${esc(t.event.location)}` : ""}`
+      : "Annual event · next dates TBA";
 
   function submitLinks() {
     const href = `mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Listing submission for The Revues")}`;
@@ -199,7 +208,7 @@ window.Revues = (function () {
         <aside class="facts">
           <dl>
             <dt>Category</dt><dd><a href="index.html?category=${encodeURIComponent(t.category)}">${esc(t.category)}</a>${t.type ? ` · ${esc(t.type)}` : ""}</dd>
-            ${t.event ? `<dt>When</dt><dd>${esc(t.event.dates)}</dd>${t.event.location ? `<dt>Where</dt><dd>${esc(t.event.location)}</dd>` : ""}` : ""}
+            ${t.event ? (upcoming(t.event) ? `<dt>When</dt><dd>${esc(t.event.dates)}</dd>${t.event.location ? `<dt>Where</dt><dd>${esc(t.event.location)}</dd>` : ""}` : `<dt>When</dt><dd>Annual · next dates TBA</dd>`) : ""}
             ${t.industries?.length ? `<dt>Industries</dt><dd>${t.industries.map((i) => `<a href="index.html?industry=${encodeURIComponent(i)}">${esc(i)}</a>`).join(", ")}</dd>` : ""}
             ${t.tags?.length ? `<dt>Features</dt><dd class="tag-list">${t.tags.map((x) => `<span class="tag">${esc(x)}</span>`).join("")}</dd>` : ""}
             ${t.bestFor ? `<dt>Best for</dt><dd>${esc(t.bestFor)}</dd>` : ""}

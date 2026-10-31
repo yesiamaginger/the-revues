@@ -77,8 +77,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/116187/Acculynx/reviews/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/137bb3586_acculynx.png"
+  ]
  },
  {
   "slug": "active-knocker",
@@ -112,8 +111,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/active-knocker/id1281048896"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/ae128d766_40.png"
+  ]
  },
  {
   "slug": "aerialytic",
@@ -142,8 +140,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=aerialytic+reviews&rlz=1C5CHFA_enUS952US952&oq=aerialytic+reviews&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDc0MDJqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x882b34ce1128155b:0xa86f9cdc3b5c8e4d,1,,,,"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/10c75ecc0_59.png"
+  ]
  },
  {
   "slug": "aether",
@@ -220,10 +217,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/678d59914_AmericanSolarenergysociety.png",
   "event": {
-   "dates": "Oct 19-21, 2026",
-   "location": "Austin, TX"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -247,8 +243,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/Jy7oXBZ"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/72e953cfd_ampleo.png"
+  ]
  },
  {
   "slug": "anthony-conklin",
@@ -499,8 +494,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://play.google.com/store/apps/details?id=com.insac.can.pinthatpoint&hl=en_US&gl=US&pli=1"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/910d6b7b2_42.png"
+  ]
  },
  {
   "slug": "artemis",
@@ -556,8 +550,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://maps.app.goo.gl/6MGGGtRX1kHuhrDL7"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5498413de_Ascend.png"
+  ]
  },
  {
   "slug": "ascent",
@@ -633,8 +626,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=aurora+solar+reviews&rlz=1C5CHFA_enUS952US952&oq=aurora+solar+reviews&aqs=chrome.0.0i20i263i512j0i22i30l3j0i390l3.3623j0j7&sourceid=chrome&ie=UTF-8#lrd=0x808fbb399d7a68df:0xc9d5285bcc82bf34,1,,,,"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8b002aba3_50.png"
+  ]
  },
  {
   "slug": "avoca",
@@ -682,8 +674,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2bb9ac034_AxiaPartners.png"
+  "ratings": []
  },
  {
   "slug": "axomo",
@@ -780,8 +771,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.verified-reviews.com/reviews/bestcompany.com"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/39e14610e_61.png"
+  ]
  },
  {
   "slug": "best-hustler-academy",
@@ -812,10 +802,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/80fb799ca_BestofSuccess.png",
   "event": {
-   "dates": "Dec 3-5, 2025",
-   "location": "Arlington, TX"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -959,8 +948,7 @@ window.LISTINGS = [
     "count": 995,
     "url": "https://www.featuredcustomers.com/vendor/bodhi"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/96ca8be11_41.png"
+  ]
  },
  {
   "slug": "booked-out-roofers",
@@ -992,8 +980,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/23fb7569a_70.png"
+  "ratings": []
  },
  {
   "slug": "boss-up-solutions",
@@ -1018,8 +1005,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.facebook.com/dontbealittleboss/reviews"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/9d2424fad_68.png"
+  ]
  },
  {
   "slug": "breakthrough-academy",
@@ -1113,8 +1099,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/160267/Briostack/reviews/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/39ec90a3d_38.png"
+  ]
  },
  {
   "slug": "brix-recruiting-partners",
@@ -1137,8 +1122,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=brix+recruiting+reviews&rlz=1C5CHFA_enUS952US952&oq=brix+recruiting+reviews&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiGAxiABBiKBTINCAIQABiGAxiABBiKBdIBCDQyNTBqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x87f60ff4be58403b:0x716f3fa325af0eef,1,,,,"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/66fdd3cbe_BrixRecruitingPartners.png"
+  ]
  },
  {
   "slug": "broccoli-ai",
@@ -1273,8 +1257,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/buildertrend/id504370616"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f55f7e0fc_90.png"
+  ]
  },
  {
   "slug": "buildops",
@@ -1441,8 +1424,7 @@ window.LISTINGS = [
     "count": 145,
     "url": "https://apps.apple.com/us/app/canvass-sales-tool/id1314095813"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/3f1796999_35.png"
+  ]
  },
  {
   "slug": "cashflowing-investments",
@@ -1559,8 +1541,7 @@ window.LISTINGS = [
   "industries": [],
   "tagline": "Expense management platform",
   "description": "Expense management platform",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/df8aa07ac_clyr.png"
+  "ratings": []
  },
  {
   "slug": "companycam",
@@ -1597,8 +1578,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/companycam/id960043499"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e3726f0ff_CompanyCam.png"
+  ]
  },
  {
   "slug": "contractor-coach-pro",
@@ -1735,8 +1715,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/coperniq/id6447186370"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5f598d537_Coperniq.png"
+  ]
  },
  {
   "slug": "core-365",
@@ -1779,8 +1758,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/core365/id6746187912#productRatings"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/3912b012b_core365logo.png"
+  ]
  },
  {
   "slug": "cory-clark-the-sales-therapist",
@@ -2002,10 +1980,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8c721556f_d2dcon.png",
   "event": {
-   "dates": "Jan 22-24, 2026",
-   "location": "Salt Lake City, Utah"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -2132,8 +2109,7 @@ window.LISTINGS = [
     "count": 5,
     "url": "https://apps.apple.com/us/app/driven-kpis/id6587583620"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/dc6ee9501_93.png"
+  ]
  },
  {
   "slug": "dronequote",
@@ -2161,8 +2137,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=dronequote+google+maps&sca_esv=9b3cc17ccfc9df8a&rlz=1C5CHFA_enUS952US952&sxsrf=ACQVn08N2SI9OlGynNsfvPKA73R4M_1Ckw%3A1708898191335&ei=j7fbZcqNFN-qur8PrKetmAo"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b2b17353e_73.png"
+  ]
  },
  {
   "slug": "duo-digital",
@@ -2227,8 +2202,7 @@ window.LISTINGS = [
     "count": 486,
     "url": "https://play.google.com/store/apps/details?id=com.eagleview.mobile&hl=en"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/64b9bfe54_74.png"
+  ]
  },
  {
   "slug": "elev8te-recruiting",
@@ -2274,8 +2248,7 @@ window.LISTINGS = [
     "count": 26,
     "url": "https://get.nicejob.com/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d4993f86d_EnactSolar.png"
+  ]
  },
  {
   "slug": "enerflo",
@@ -2314,8 +2287,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=enerflo+&sca_esv=b0f432fdb9a278a4&rlz=1C5CHFA_enUS952US952&biw=1719&bih=918&sxsrf=AHTn8zqr3beh7lpT6PUs33uC2E7AN-VCDw%3A1740955204894&ei=RN7EZ9imNuWvur8PhPuE-AQ"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b2882382a_Enerflo.png"
+  ]
  },
  {
   "slug": "enzy",
@@ -2359,8 +2331,7 @@ window.LISTINGS = [
     "count": 43,
     "url": "https://play.google.com/store/apps/details?id=com.sunder.sales&hl=en_GB"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e9f4b1f2a_46.png"
+  ]
  },
  {
   "slug": "evolve",
@@ -2585,8 +2556,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.g2.com/products/fieldroutes-a-servicetitan-company/reviews"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/34a15256d_FieldRoutes.png"
+  ]
  },
  {
   "slug": "fieldservicely",
@@ -2702,8 +2672,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://sotellus.com/reviews/fortress-credit-pro/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/16432cbe8_FortressPro.png"
+  ]
  },
  {
   "slug": "g-four-marketing",
@@ -2726,8 +2695,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.facebook.com/gFourMarketing/reviews"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/be90295e6_GFourmarketing.png"
+  ]
  },
  {
   "slug": "gaiia",
@@ -2795,8 +2763,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/maps/place/Get+The+Referral/@32.7092511,-117.1602785,17z/data=!4m8!3m7!1s0x80d9535bc61aaaab:0xe426607df5f5cba5!8m2!3d32.7092466!4d-117.1580845!9m1!1b1!16s%2Fg%2F11ggs9qv38"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d640ab8ea_64.png"
+  ]
  },
  {
   "slug": "giddy-up-roofing",
@@ -2836,8 +2803,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=giddyup+roofing+reviews&source=lmns&bih=650&biw=1324&rlz=1C5CHFA_enUS983US983&hl=en&sa=X&ved=2ahUKEwj-rffvsr79AhVZN0QIHbOaAK4Q0pQJKAB6BAgBEAI#"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f66f9759d_10.png"
+  ]
  },
  {
   "slug": "glasshouse",
@@ -2917,8 +2883,7 @@ window.LISTINGS = [
     "count": 1200,
     "url": "https://www.capterra.com/p/177156/HighLevel/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/435ec53ee_HighLevel.png"
+  ]
  },
  {
   "slug": "gorilla-desk",
@@ -2970,8 +2935,7 @@ window.LISTINGS = [
     "count": 43,
     "url": "https://www.g2.com/products/gorilladesk/reviews"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/09085c760_GorillaDesk.png"
+  ]
  },
  {
   "slug": "grade-a-hire",
@@ -2994,8 +2958,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/DL3ZRsH"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/4f6ebca4b_GradeAHire.png"
+  ]
  },
  {
   "slug": "grosso-university",
@@ -3047,8 +3010,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=hail+trace&rlz=1C5CHFA_enUS952US952&oq=hail+trace&aqs=chrome..69i57j0i20i263i512j0i512j46i175i199i512j0i512l5.1679j0j4&sourceid=chrome&ie=UTF-8#lrd=0x87b21fb48f7bce35:0xcc0ebe852776fe3,1,,,,"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8d5596e8f_62.png"
+  ]
  },
  {
   "slug": "harris-investment-group",
@@ -3071,8 +3033,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=harris+investment+group+&sca_esv=ecb9c3497f6c7642&rlz=1C5CHFA_enUS952US952&sxsrf=ADLYWIJwuIpcnQkG_weSBBUNk3HiQvnTng%3A1737240142883&ei=Ti6MZ7LUNausur8PiNLboQc&ved=0ahUKEwiys-zsq4CLAxUrlu4BHQjpNnQQ4dUDCA8&uact=5&oq=harris+investment+group+"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f6cfd015d_HarrisInvestmentGroup.png"
+  ]
  },
  {
   "slug": "hatch",
@@ -3128,8 +3089,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/REx2F4M"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/23a57ee8e_Hireacanvasser.png"
+  ]
  },
  {
   "slug": "hire-bloom",
@@ -3238,8 +3198,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/87bd841ab_Homesourced.png"
+  "ratings": []
  },
  {
   "slug": "hook-agency",
@@ -3262,8 +3221,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/yKr6wvp"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/40b2dae33_HookAgency.png"
+  ]
  },
  {
   "slug": "housecall-pro",
@@ -3313,8 +3271,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/housecall-pro/id692833651?see-all=reviews"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/51e64b444_HousecallPro.png"
+  ]
  },
  {
   "slug": "hover",
@@ -3356,8 +3313,7 @@ window.LISTINGS = [
     "count": 59,
     "url": "https://www.capterra.com/p/177092/Hover/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/12ab70182_54.png"
+  ]
  },
  {
   "slug": "hyper-hired",
@@ -3380,8 +3336,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/yzGLu5C"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/af2656f85_HyperHired.png"
+  ]
  },
  {
   "slug": "incline-marketing",
@@ -3404,8 +3359,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=incline+marketing+&sca_esv=cd82cf180911c650&rlz=1C5CHFA_enUS952US952&sxsrf=AHTn8zr-sY7MiOYM1t3wPD9DMIaRDWyJ5Q%3A1740975454004&ei=XS3FZ4__PLjikPIP8sPs-A8"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5e04cb431_InclineMarketing.png"
+  ]
  },
  {
   "slug": "insightly",
@@ -3458,8 +3412,7 @@ window.LISTINGS = [
     "count": 289,
     "url": "https://apps.apple.com/us/app/insightly-crm/id563017797"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/9a7655c95_Insightly.png"
+  ]
  },
  {
   "slug": "intersolar",
@@ -3474,10 +3427,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0c5c114e0_InterSolar.png",
   "event": {
-   "dates": "Feb 18-20, 2026",
-   "location": "San Diego, California"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -3531,10 +3483,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2795cb734_InternationalRoofingExpo.png",
   "event": {
-   "dates": "Jan 20-22, 2026",
-   "location": "Las Vegas, NV"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -3590,8 +3541,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=jb+accounting&rlz=1C5CHFA_enUS952US952&oq=jb+accounting&aqs=chrome..69i57j46i67i175i199i650j0i512j46i175i199i512j0i512l3j0i390i650l2.2015j0j4&sourceid=chrome&ie=UTF-8#rlimm=12948321726905152988"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/a5104f381_JBAccounting.png"
+  ]
  },
  {
   "slug": "job-engine",
@@ -3607,8 +3557,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/beaf6b3dc_JobEngine.png"
+  "ratings": []
  },
  {
   "slug": "job-flow-go",
@@ -3693,8 +3642,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/jobber/id1014146758?see-all=reviews"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/54c846f6b_Jobber.png"
+  ]
  },
  {
   "slug": "jobnimbus",
@@ -3739,8 +3687,7 @@ window.LISTINGS = [
     "count": 482,
     "url": "https://www.softwareadvice.com/crm/profile/jobnimbus-profile/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d64b03689_jobnimbus.png"
+  ]
  },
  {
   "slug": "jobtread",
@@ -3874,8 +3821,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d3d402782_KnockGear.png"
+  "ratings": []
  },
  {
   "slug": "knock-on-wood",
@@ -3891,8 +3837,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/829786edb_KnockonWood.png"
+  "ratings": []
  },
  {
   "slug": "knockbuddy-pro",
@@ -4075,8 +4020,7 @@ window.LISTINGS = [
     "count": 10,
     "url": "https://www.google.com/maps/place/Lead+Scout+Canvassing+App/@38.3001513,-171.2262862,13958688m/data=!3m1!1e3!4m6!3m5!1s0x88184f67450a1181:0xa8c010a6f6cc5a2!8m2!3d46.423669!4d-129.9427086!16s%2Fg%2F11sc_zcht4?entry=tts&g_ep=EgoyMDI2MDYyNC4wIPu8ASoASAFQAw%3D%3D&skid=0fc090f2-5636-46f3-9fcc-d02f45a9ce06"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/c50c047af_39.png"
+  ]
  },
  {
   "slug": "leap",
@@ -4116,8 +4060,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.getapp.com/operations-management-software/a/jobprogress/reviews/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f5e0ef2b9_Leap.png"
+  ]
  },
  {
   "slug": "lee-haight",
@@ -4181,8 +4124,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/x3fnsZY"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/59c9ad1d5_LiftThreadz.png"
+  ]
  },
  {
   "slug": "lightningos",
@@ -4272,8 +4214,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://trustburn.com/reviews/get-solardesigntool-com"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/459f312a6_58.png"
+  ]
  },
  {
   "slug": "markate",
@@ -4338,8 +4279,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/markate-job-management/id1154246059"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/21102d266_84.png"
+  ]
  },
  {
   "slug": "maser-sales-training",
@@ -4378,8 +4318,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/cyX7dVZ"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8450564e2_MF9.png"
+  ]
  },
  {
   "slug": "midwest-roofing-expo",
@@ -4394,7 +4333,6 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2e30b77af_MidwestRoofing.png",
   "event": {
    "dates": "Nov 18-19, 2026",
    "location": "Cape Coral, FL"
@@ -4421,8 +4359,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=mitsuoka+company+reviews&rlz=1C5CHFA_enUS952US952&oq=mitsuoka+company+reviews&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyCggFEAAYgAQYogTSAQg0MzMzajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8#lrd=0x872b0d0c74499895:0x498ed8c96bed6a2e,1,,,,"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/be7c9e076_Mitsuoka.png"
+  ]
  },
  {
   "slug": "mixify-media",
@@ -4541,8 +4478,7 @@ window.LISTINGS = [
     "count": 5,
     "url": "https://www.capterra.com/p/237908/Nearmap/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/94a4efc9c_75.png"
+  ]
  },
  {
   "slug": "nerd-portal",
@@ -4651,8 +4587,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/prospect-pro/id1661978661"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/9a9b325ac_89.png"
+  ]
  },
  {
   "slug": "notifi",
@@ -4708,8 +4643,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://maps.app.goo.gl/dCfmFGVxWtGiUpyd8"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/239116c29_NowCFO.png"
+  ]
  },
  {
   "slug": "nxt-lvl-solutions",
@@ -4780,8 +4714,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/one-tap-connect/id6670749082"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/4b134dc7a_48.png"
+  ]
  },
  {
   "slug": "open-solar",
@@ -4805,8 +4738,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://play.google.com/store/apps/details?id=com.opensolar.app&hl=en_US&gl=US&pli=1"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/596379fb9_52.png"
+  ]
  },
  {
   "slug": "opsync",
@@ -4872,8 +4804,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/gamify-canvass-compete-reward/id1577406696"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b56e24909_paiv.webp"
+  ]
  },
  {
   "slug": "pathfinder-productions",
@@ -4896,8 +4827,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/aNs8cZj"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/833b2d2aa_Pathfinder.png"
+  ]
  },
  {
   "slug": "paykeeper",
@@ -4937,8 +4867,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/183763/Payzerware/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/53887b22b_Payzer.png"
+  ]
  },
  {
   "slug": "pco-bookkeepers",
@@ -4961,8 +4890,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://sotellus.com/reviews/v05a07a/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d272d7d6a_PCOBookkeepers.png"
+  ]
  },
  {
   "slug": "permitiq",
@@ -5092,8 +5020,8 @@ window.LISTINGS = [
   "description": "",
   "ratings": [],
   "event": {
-   "dates": "Oct 20-23, 2026",
-   "location": "Grapevine, Texas"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -5118,8 +5046,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/194603/PESTBOSS/#reviews"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b4fd30656_30.png"
+  ]
  },
  {
   "slug": "pestpac",
@@ -5145,8 +5072,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.softwareadvice.com/field-service/pestpac-profile/reviews/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/aa9b7c4a0_31.png"
+  ]
  },
  {
   "slug": "ping-marketing",
@@ -5182,8 +5108,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5d7e86cb3_PipeSolar.png"
+  "ratings": []
  },
  {
   "slug": "pivotal-recruiting",
@@ -5206,8 +5131,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/maps?cid=2265090926182870049"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8782ecae4_Pivotal.png"
+  ]
  },
  {
   "slug": "pivotl",
@@ -5267,8 +5191,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=pocomos+reviews&source=lmns&bih=912&biw=1271&rlz=1C5CHFA_enUS952US952&hl=en&sa=X&ved=2ahUKEwisgKXUsc39AhUXw8kDHcPyCGEQ0pQJKAB6BAgBEAI#lrd=0x874dbd3aa7803fe3:0xa51d5ce930e086f1,1,,,,"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/ff507cd15_Pocomos.png"
+  ]
  },
  {
   "slug": "podium",
@@ -5365,8 +5288,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/155c77272_Projectpros.png"
+  "ratings": []
  },
  {
   "slug": "project-sunroof",
@@ -5382,8 +5304,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/528e95229_76.png"
+  "ratings": []
  },
  {
   "slug": "proline",
@@ -5406,8 +5327,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/proline-app/id1549360548"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5f4709e65_ProLine.png"
+  ]
  },
  {
   "slug": "prospect-bacon",
@@ -5430,8 +5350,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/4syJ72k"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2467eba16_ProspectBacon.png"
+  ]
  },
  {
   "slug": "quoteiq",
@@ -5482,7 +5401,7 @@ window.LISTINGS = [
   "slug": "rdcl-services",
   "name": "RDCL Services",
   "url": "https://www.rdclservices.com/",
-  "category": "Software",
+  "category": "Professional Services",
   "type": "Site Surveys",
   "tags": [
    "Site Surveys",
@@ -5493,8 +5412,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0dabaabf8_77.png"
+  "ratings": []
  },
  {
   "slug": "re",
@@ -5509,7 +5427,6 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/874a52eee_Re.png",
   "event": {
    "dates": "Nov 16-19, 2026",
    "location": "Las Vegas, NV"
@@ -5672,8 +5589,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/repcard/id1372990002"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e955721d0_47.png"
+  ]
  },
  {
   "slug": "restoration-referral-system",
@@ -5696,8 +5612,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=restoration+referral+system&rlz=1C5"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0d2abb119_63.png"
+  ]
  },
  {
   "slug": "revhawk-ai",
@@ -5731,8 +5646,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2c210e0b6_60.png"
+  "ratings": []
  },
  {
   "slug": "rilla-voice",
@@ -5756,8 +5670,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/rillavoice/id1488233758"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/eda287a50_66.png"
+  ]
  },
  {
   "slug": "roofcon",
@@ -5772,10 +5685,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/6f30fe0ed_RoofCon.png",
   "event": {
-   "dates": "Jan 5-7, 2026",
-   "location": "Oklahoma City, OK"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -5825,8 +5737,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?kgmid=/g/1263_4dxs&hl=en-US&q=RoofHawk&kgs=36b919998c8e122b&shndl=17&source=sh/x/kp/osrp/m5/5#lrd=0x87b692edacb5575b:0x70f4b500cc0eac0e,1,,,,"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d17d43911_55.png"
+  ]
  },
  {
   "slug": "roofhub",
@@ -5849,8 +5760,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/roof-hub/id1434560046"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/00264aa19_RoofHub.png"
+  ]
  },
  {
   "slug": "roofing-business-partner",
@@ -5879,10 +5789,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b6420676d_RoofingProcess.png",
   "event": {
-   "dates": "Dec 3-5, 2025",
-   "location": "Marco Island, Florida"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -5943,8 +5852,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/198426/ROOF-link/reviews/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/6a088d7c0_Rooflink.png"
+  ]
  },
  {
   "slug": "roofnuts",
@@ -5988,8 +5896,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/208102/Roofr/reviews/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0e006248e_Roofr.png"
+  ]
  },
  {
   "slug": "roofs-in-a-box",
@@ -6006,8 +5913,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/21a2b12ab_Roofsinabox.png"
+  "ratings": []
  },
  {
   "slug": "roofstack",
@@ -6262,8 +6168,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/salesrabbit-lead-canvass-crm/id879884387"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/01869cb0e_34.png"
+  ]
  },
  {
   "slug": "salesrecruitinguniversity",
@@ -6286,8 +6191,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?hl=en-US&gl=us&q=Sales+Recruiting+University,+151+E+5600+S+%23112,+Murray,+UT+84107&ludocid=17355635973160999730&lsig=AB86z5WT1J23BlbOQ2cwox0uTIXm#lrd=0x8752899b67a8da9b:0xf0db9af6a7409b32,1,,,,"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/a7978a600_SalesRecruitingUniversity.png"
+  ]
  },
  {
   "slug": "sameday",
@@ -6336,8 +6240,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?sca_esv=ecb9c3497f6c7642&rlz=1C5CHFA_enUS952US952&sxsrf=ADLYWIJxb0aPjEMyuf0vsV3WLZVnGuoK4Q:1737240671082&q=sandlot+partners&source=lnms"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e56eb441f_SandlotPartners.png"
+  ]
  },
  {
   "slug": "scanifly",
@@ -6361,8 +6264,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/scanifly-mobile/id1640105720"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/bee757c69_56.png"
+  ]
  },
  {
   "slug": "scoop-solar",
@@ -6386,8 +6288,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/136648/Scoop-MAE-Enterprise-Software/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/caf6f4866_43.png"
+  ]
  },
  {
   "slug": "scorpion",
@@ -6482,8 +6383,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/10017548/Sequifi/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/ee4f32077_83.png"
+  ]
  },
  {
   "slug": "serge-creator-studios",
@@ -6499,8 +6399,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/1b23790c9_SergeCreatorStudios.png"
+  "ratings": []
  },
  {
   "slug": "service-auto-pilot",
@@ -6525,8 +6424,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/122075/Service-Autopilot/reviews/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5b159dc8c_32.png"
+  ]
  },
  {
   "slug": "service-fusion",
@@ -6599,10 +6497,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8e0d3e4d6_serviceworld.png",
   "event": {
-   "dates": "Oct 27-30, 2026",
-   "location": "Las Vegas, NV"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -6619,8 +6516,8 @@ window.LISTINGS = [
   "description": "",
   "ratings": [],
   "event": {
-   "dates": "Mar 2-4, 2026",
-   "location": "Houston, TX"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -6649,8 +6546,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://maps.app.goo.gl/e6xNVx3ZbZoc1YZH9"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/a7ad3c808_86.png"
+  ]
  },
  {
   "slug": "shape-solar",
@@ -6756,8 +6652,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/siro-sales-game-film/id1546176487"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/69f462b82_69.png"
+  ]
  },
  {
   "slug": "sitecapture",
@@ -6831,8 +6726,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=slingshot+utah+reviews&sca_esv=3da5c569e43fb20e&sca_upv=1&rlz=1C5CHFA_enUS952US952&sxsrf=ADLYWIII-4-tePn5sxEUnzNEJeOrrq5ZPA%3A1717469354189&ei=qoBeZtiTC4PAkPIPnKvPsAc&ved=0ahUKEwjYkJP298CGAxUDIEQIHZzVE3YQ4dUDCBA&uact=5&oq=slingshot+utah+reviews"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/a9a6bfed7_Slingshot.png"
+  ]
  },
  {
   "slug": "sma-support-services",
@@ -6901,8 +6795,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/gNNq6QK"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/89c5d8701_Socius.png"
+  ]
  },
  {
   "slug": "solar-ceos",
@@ -6944,8 +6837,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/888d63eb8_SolarCheatCode.png"
+  "ratings": []
  },
  {
   "slug": "solar-exclusive",
@@ -6968,8 +6860,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/TgjpiFr"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/847729a59_SolarExclusive.png"
+  ]
  },
  {
   "slug": "solar-school",
@@ -7021,8 +6912,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/409d4c656_45.png"
+  "ratings": []
  },
  {
   "slug": "solargraf",
@@ -7046,8 +6936,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.capterra.com/p/224635/Solargraf/reviews/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/463e4bd4c_51.png"
+  ]
  },
  {
   "slug": "solarscout",
@@ -7063,8 +6952,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f8854a01c_72.png"
+  "ratings": []
  },
  {
   "slug": "solea-ai",
@@ -7120,8 +7008,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/search?q=solo+llc+&sca_esv=62a27476b4e2a955&rlz=1C5CHFA_enUS952US952&sxsrf=ACQVn081lbOxsOvNJ68i6RdccDP4mDLtKA%3A1709264335338&ei=z03hZYSWFKfGkPIPr7af6A0"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e57db36b5_49.png"
+  ]
  },
  {
   "slug": "sonar-software",
@@ -7212,8 +7099,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/spotio-1-field-sales-app/id1321365455"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f986874bb_33.png"
+  ]
  },
  {
   "slug": "src-summit",
@@ -7228,10 +7114,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/30e058637_SRCSummit.png",
   "event": {
-   "dates": "Feb 10-11, 2026",
-   "location": "Irving, TX"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -7277,8 +7162,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/stakt-commissions/id6475820589?platform=iphone"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8d9c135b5_78.png"
+  ]
  },
  {
   "slug": "stormbuddi",
@@ -7340,8 +7224,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/40cb27cd0_Studio168.png"
+  "ratings": []
  },
  {
   "slug": "subcontractor-hub",
@@ -7367,8 +7250,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://share.google/umcQkFWyVX5wITsrm"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/64674fb2d_SubcontractorHub.png"
+  ]
  },
  {
   "slug": "sumo-quote",
@@ -7392,8 +7274,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.google.com/maps/place/SumoQuote/@45.7039342,-154.9023899,3z/data=!4m8!3m7!1s0x537165131352302d:0xf7c9b9e9f2415856!8m2!3d51.2072!4d-121.9883!9m1!1b1!16s%2Fg%2F11fml3jcvg"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/61592bc71_53.png"
+  ]
  },
  {
   "slug": "sunate",
@@ -7449,8 +7330,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/sunbase/id1336351915"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/9f6e71761_Sunbase.png"
+  ]
  },
  {
   "slug": "sunobi",
@@ -7528,8 +7408,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://maps.app.goo.gl/VseYQqSLUjt2qfit9"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/c41415ca5_44.png"
+  ]
  },
  {
   "slug": "superconnect",
@@ -7677,8 +7556,8 @@ window.LISTINGS = [
   "description": "",
   "ratings": [],
   "event": {
-   "dates": "Jun 16-18, 2026",
-   "location": "Fort Worth, Texas"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -7694,10 +7573,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0c40293ea_theamericandream.png",
   "event": {
-   "dates": "Jun 17-19, 2026",
-   "location": "Houston, TX"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -7895,8 +7773,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/DAQCVHc"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5bf53bf59_TruWear.png"
+  ]
  },
  {
   "slug": "turtle-sales",
@@ -8039,8 +7916,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/kVYE17C"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0b390d37f_ValleyTaxAccounting.png"
+  ]
  },
  {
   "slug": "viam-cx",
@@ -8133,8 +8009,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://g.co/kgs/7SbWq4K"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/c548ade98_Vox.png"
+  ]
  },
  {
   "slug": "vsl-hire",
@@ -8177,8 +8052,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/wattmonk/id1552218547"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/7df78e095_57.png"
+  ]
  },
  {
   "slug": "welch-olsen",
@@ -8194,8 +8068,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/39b752692_WelchOlsen.png"
+  "ratings": []
  },
  {
   "slug": "western-roofing-expo",
@@ -8210,10 +8083,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/38dfa0d1e_WesternStates.png",
   "event": {
-   "dates": "Sep 27-29, 2026",
-   "location": "Las Vegas, NV"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -8254,10 +8126,9 @@ window.LISTINGS = [
   "tagline": "",
   "description": "",
   "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/dc7c5884f_WintheStorm.png",
   "event": {
-   "dates": "Oct 28-30, 2026",
-   "location": "Dallas, TX"
+   "dates": "",
+   "location": ""
   }
  },
  {
@@ -8321,8 +8192,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://apps.apple.com/us/app/workiz-field-service-software/id1469769810"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d7a582b86_87.png"
+  ]
  },
  {
   "slug": "workwave",
@@ -8349,8 +8219,7 @@ window.LISTINGS = [
     "count": null,
     "url": "https://www.softwareadvice.com/construction/workwave-profile/reviews/"
    }
-  ],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/bbaeaaae4_Workwave.png"
+  ]
  },
  {
   "slug": "wrk",
@@ -8399,8 +8268,7 @@ window.LISTINGS = [
   ],
   "tagline": "",
   "description": "",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/dc7582c1b_yourtaxcoach.png"
+  "ratings": []
  },
  {
   "slug": "zotley",
@@ -8459,8 +8327,7 @@ window.LISTINGS = [
   ],
   "tagline": "Zuper is a highly customizable field service management platform that helps D2D and home service businesses automate their operations from initial booking to final payment.",
   "description": "Zuper is a highly customizable field service management platform that helps D2D and home service businesses automate their operations from initial booking to final payment. Serving a wide variety of trades like HVAC, roofing, solar, and pest control, it equips field technicians with an offline-capable mobile app for job checklists, estimating, and route optimization. Zuper's no-code workflows and intelligent dispatching capabilities allow back-office teams to easily scale scheduling and improve overall customer communication.",
-  "ratings": [],
-  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5ddeee9ee_zupercrm.png"
+  "ratings": []
  },
  {
   "slug": "zyratalk",
