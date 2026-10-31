@@ -156,3 +156,10 @@ a { color: inherit; }
 .rating-src:hover { border-color: var(--text); }
 .rating-big { font-size: 30px; font-weight: 800; letter-spacing: -0.03em; }
 .event-when { color: var(--text); font-weight: 500; }
+
+/* Industry filter + listing tags */
+.filters { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: center; padding-bottom: 24px; }
+.filters .chips { padding: 8px 0 0; }
+.industry { font: inherit; font-size: 14px; font-weight: 500; border: 1px solid var(--line); background: var(--card); color: var(--text); padding: 8px 14px; border-radius: 999px; cursor: pointer; margin-top: 8px; max-width: 100%; }
+.card p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.tag-list { display: flex; flex-wrap: wrap; gap: 6px; }

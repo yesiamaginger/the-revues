@@ -43,7 +43,10 @@
 
     <section id="categories" class="wrap">
       <h2 class="dir-title">The Directory</h2>
-      <div class="chips" id="chips"></div>
+      <div class="filters">
+        <div class="chips" id="chips"></div>
+        <select id="industry" class="industry" aria-label="Filter by industry"></select>
+      </div>
     </section>
 
     <section id="tools" class="wrap">
@@ -67,6 +70,7 @@
   </footer>
 
   <script src="data/tools.js"></script>
+  <script src="data/listings.js"></script>
   <script src="app.js"></script>
   <script>Revues.home();</script>
 </body>

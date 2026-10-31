@@ -1,5 +1,22 @@
 // Rendering for the homepage directory and individual tool pages.
 window.Revues = (function () {
+  // Hand-written entries (data/tools.js) win; the spreadsheet listings (data/listings.js) fill in
+  // everything else, and supply tags, industries and ratings the hand-written entry leaves out.
+  const TOOLS = (() => {
+    const curated = window.TOOLS || [];
+    const bySlug = Object.fromEntries(curated.map((t) => [t.slug, t]));
+    const out = [...curated];
+    for (const l of window.LISTINGS || []) {
+      const c = bySlug[l.slug];
+      if (!c) out.push(l);
+      else {
+        c.tags = c.tags?.length ? c.tags : l.tags;
+        c.industries = c.industries?.length ? c.industries : l.industries;
+        c.ratings = c.ratings?.length ? c.ratings : l.ratings;
+      }
+    }
+    return out;
+  })();
   const esc = (s) =>
     String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -49,6 +66,12 @@ window.Revues = (function () {
     document.querySelector("[data-tagline]").textContent = SITE.tagline;
     const params = new URLSearchParams(location.search);
     let active = params.get("category") || "All";
+    const industrySel = document.getElementById("industry");
+    const industries = [...new Set(TOOLS.flatMap((t) => t.industries || []))].sort((a, b) =>
+      a === "Other" ? 1 : b === "Other" ? -1 : a.localeCompare(b)
+    );
+    industrySel.innerHTML = `<option value="">All industries</option>` + industries.map((i) => `<option>${esc(i)}</option>`).join("");
+    industrySel.value = params.get("industry") || "";
     const input = document.getElementById("search");
     input.value = params.get("q") || "";
 
@@ -81,14 +104,16 @@ window.Revues = (function () {
       const list = sorted.filter(
         (t) =>
           (active === "All" || t.category === active) &&
-          (!q || [t.name, t.type, t.tagline, t.description, t.category, t.bestFor].join(" ").toLowerCase().includes(q))
+          (!industrySel.value || (t.industries || []).includes(industrySel.value)) &&
+          (!q || [t.name, t.type, t.tagline, t.description, t.category, t.bestFor, ...(t.tags || [])].join(" ").toLowerCase().includes(q))
       );
       document.getElementById("grid").innerHTML = list.map(card).join("");
       document.getElementById("empty").hidden = list.length > 0;
-      document.getElementById("count").textContent = `${list.length} listing${list.length === 1 ? "" : "s"}${active === "All" ? "" : ` in ${active}`}`;
+      document.getElementById("count").textContent = `${list.length} listing${list.length === 1 ? "" : "s"}${active === "All" ? "" : ` in ${active}`}${industrySel.value ? ` for ${industrySel.value}` : ""}`;
       chips.querySelectorAll(".chip").forEach((b) => b.classList.toggle("active", b.dataset.cat === active));
       const p = new URLSearchParams();
       if (active !== "All") p.set("category", active);
+      if (industrySel.value) p.set("industry", industrySel.value);
       if (q) p.set("q", q);
       history.replaceState(null, "", p.toString() ? `?${p}` : location.pathname);
     }
@@ -100,6 +125,7 @@ window.Revues = (function () {
       render();
     });
     input.addEventListener("input", render);
+    industrySel.addEventListener("change", render);
     render();
   }
 
@@ -167,6 +193,8 @@ window.Revues = (function () {
           <dl>
             <dt>Category</dt><dd><a href="index.html?category=${encodeURIComponent(t.category)}">${esc(t.category)}</a>${t.type ? ` · ${esc(t.type)}` : ""}</dd>
             ${t.event ? `<dt>When</dt><dd>${esc(t.event.dates)}</dd>${t.event.location ? `<dt>Where</dt><dd>${esc(t.event.location)}</dd>` : ""}` : ""}
+            ${t.industries?.length ? `<dt>Industries</dt><dd>${t.industries.map((i) => `<a href="index.html?industry=${encodeURIComponent(i)}">${esc(i)}</a>`).join(", ")}</dd>` : ""}
+            ${t.tags?.length ? `<dt>Features</dt><dd class="tag-list">${t.tags.map((x) => `<span class="tag">${esc(x)}</span>`).join("")}</dd>` : ""}
             ${t.bestFor ? `<dt>Best for</dt><dd>${esc(t.bestFor)}</dd>` : ""}
             ${t.pricing ? `<dt>Pricing</dt><dd>${esc(t.pricing)}</dd>` : ""}
             <dt>Website</dt><dd><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(domain(t.url))}</a></dd>
