@@ -36,3 +36,16 @@ Then open http://localhost:8000.
 
 Any static host works (Netlify, Vercel, Cloudflare Pages, GitHub Pages): point it at the repo
 root, no build command. Then point `www.therevues.com` at it.
+
+## Find new listings from event sponsor lists
+
+The `event-vendors` Claude Code skill (`.claude/skills/event-vendors/`) scrapes every sponsor,
+exhibitor and vendor from an event website, flags the ones already in `data/tools.js`, and sorts
+the rest into Software / Professional Services leads. In Claude Code, ask e.g. "get the vendors
+from winthestorm.com", or run the scraper directly:
+
+```bash
+node .claude/skills/event-vendors/scripts/scrape_vendors.js https://www.winthestorm.com --existing data/tools.js --deep --out research/event-vendors
+```
+
+Needs Node and Playwright with Chromium (`npm i -g playwright && npx playwright install chromium`).
