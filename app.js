@@ -20,13 +20,20 @@ window.Revues = (function () {
   const esc = (s) =>
     String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  const domain = (url) => new URL(url).hostname.replace(/^www\./, "");
+  const domain = (url) => {
+    try {
+      return new URL(url).hostname.replace(/^www\./, "");
+    } catch {
+      return "";
+    }
+  };
+  const summary = (t) => t.tagline || (t.tags || []).join(" · ");
 
   function logo(tool, size) {
     const initials = tool.name.replace(/[^A-Za-z0-9 ]/g, "").split(" ").map((w) => w[0]).join("").slice(0, 2);
-    const src = tool.logo || `https://www.google.com/s2/favicons?domain=${domain(tool.url)}&sz=128`;
-    return `<div class="logo-box logo-${size}"><img src="${esc(src)}" alt="" loading="lazy"
-      onerror="this.remove()" /><span>${esc(initials)}</span></div>`;
+    const src = tool.logo || (domain(tool.url) && `https://www.google.com/s2/favicons?domain=${domain(tool.url)}&sz=128`);
+    return `<div class="logo-box logo-${size}">${src ? `<img src="${esc(src)}" alt="" loading="lazy"
+      onerror="this.remove()" />` : ""}<span>${esc(initials)}</span></div>`;
   }
 
   function stars(rating) {
@@ -56,7 +63,7 @@ window.Revues = (function () {
       <div class="card-top">${logo(t, "md")}
         <div><h3>${esc(t.name)}</h3><span class="tag">${esc(t.type || t.category)}</span></div>
       </div>
-      <p>${esc(t.tagline)}</p>
+      <p>${esc(summary(t))}</p>
       <div class="card-foot"><span class="rating">${t.event ? `<span class="event-when">📅 ${eventLine(t)}</span>` : ratingLine(topRating(t))}</span></div>
     </a>`;
   }
@@ -139,7 +146,7 @@ window.Revues = (function () {
       return;
     }
     document.title = `${t.name} reviews & overview — The Revues`;
-    document.querySelector('meta[name="description"]').content = `${t.name}: ${t.tagline}`;
+    document.querySelector('meta[name="description"]').content = `${t.name}: ${summary(t)}`;
 
     const list = (items, cls) => (items && items.length ? `<ul class="${cls}">${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>` : "");
     const reviews = (t.reviews || []).length
@@ -169,18 +176,18 @@ window.Revues = (function () {
         ${logo(t, "lg")}
         <div class="tool-title">
           <h1>${esc(t.name)}</h1>
-          <p class="lede">${esc(t.tagline)}</p>
+          <p class="lede">${esc(summary(t))}</p>
           <div class="rating">${t.event ? `📅 ${eventLine(t)}` : ratingLine(topRating(t))}</div>
         </div>
         <div class="tool-actions">
-          <a class="btn" href="${esc(t.url)}" target="_blank" rel="noopener">Visit ${esc(domain(t.url))} ↗</a>
+          ${domain(t.url) ? `<a class="btn" href="${esc(t.url)}" target="_blank" rel="noopener">Visit ${esc(domain(t.url))} ↗</a>` : ""}
         </div>
       </section>
 
       <div class="tool-body">
         <div>
-          <h2>Overview</h2>
-          <p>${esc(t.description)}</p>
+          ${t.description && t.description !== t.tagline ? `<h2>Overview</h2>
+          <p>${esc(t.description)}</p>` : ""}
           ${t.pros?.length || t.cons?.length ? `<div class="proscons">
             <div><h3>What users like</h3>${list(t.pros, "pros")}</div>
             <div><h3>What to watch for</h3>${list(t.cons, "cons")}</div>
@@ -197,7 +204,7 @@ window.Revues = (function () {
             ${t.tags?.length ? `<dt>Features</dt><dd class="tag-list">${t.tags.map((x) => `<span class="tag">${esc(x)}</span>`).join("")}</dd>` : ""}
             ${t.bestFor ? `<dt>Best for</dt><dd>${esc(t.bestFor)}</dd>` : ""}
             ${t.pricing ? `<dt>Pricing</dt><dd>${esc(t.pricing)}</dd>` : ""}
-            <dt>Website</dt><dd><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(domain(t.url))}</a></dd>
+            ${domain(t.url) ? `<dt>Website</dt><dd><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(domain(t.url))}</a></dd>` : ""}
           </dl>
         </aside>
       </div>

@@ -5,11 +5,14 @@
 
 Usage:
     python3 scripts/build_listings.py                    # rebuild data/listings.js
-    python3 scripts/build_listings.py --import new.csv   # clean new.csv into data/companies.csv, then rebuild
+    python3 scripts/build_listings.py --import new.csv   # merge new.csv into data/companies.csv, then rebuild
 
---import tidies an export before it becomes the master file: trims whitespace, adds https:// to
-URLs, fixes tag/industry casing, and merges rows that repeat the same company (first row wins
-for single-value fields; tags, industries and empty rating columns are filled from the repeats).
+--import accepts either the master-sheet format (same columns as data/companies.csv) or the
+listings-app export ("Company Name", "Category", "Review Links", ...). It tidies each row (trims
+whitespace, adds https:// to URLs, maps tags and industries onto the site's names) and merges it
+into the master file. A row is the same company as an existing one when the names match ignoring
+spaces and punctuation, or the website domains match. Existing values win; the new row only adds
+tags, industries, and columns that were empty.
 """
 import csv
 import json
@@ -37,10 +40,34 @@ DISPLAY_NAME = {
     "Google Play Store": "Google Play", "Google Play": "Google Play",
 }
 # "Other" ratings are named after the site they link to.
-OTHER_HOSTS = {"featuredcustomers.com": "Featured Customers", "nicejob.com": "NiceJob"}
+OTHER_HOSTS = {"featuredcustomers.com": "Featured Customers", "nicejob.com": "NiceJob", "facebook.com": "Facebook",
+               "amazon.com": "Amazon", "verified-reviews.com": "Verified Reviews"}
 
 BASE_COLUMNS = ["Name", "URL", "Segment", "Tags", "Industries", "Bio"]
-COLUMNS = BASE_COLUMNS + [f"{s} {f}" for s in SOURCES for f in ("Rating", "Review Count", "URL")]
+EXTRA_COLUMNS = ["Logo URL", "Event Location", "Event Dates"]
+COLUMNS = BASE_COLUMNS + [f"{s} {f}" for s in SOURCES for f in ("Rating", "Review Count", "URL")] + EXTRA_COLUMNS
+
+# Listings-app export -> master sheet.
+APP_SEGMENTS = {"Technology": "Software", "Trainers": "Professional Services"}
+APP_SOURCES = {"Google": "Google", "App Store": "Apple App Store", "Google Play": "Google Play Store",
+               "Capterra": "Capterra", "G2": "G2", "Trustpilot": "Trustpilot", "Software Advice": "Software Advice"}
+INDUSTRY_ALIASES = {"fiber internet": "Fiber"}
+# App tag -> site tag(s). Tags not listed here are kept as written.
+TAG_ALIASES = {
+    "canvassing app": ["Canvassing"], "proposal / imagery": ["Proposal Tools", "Imagery"],
+    "proposal tool": ["Proposal Tools"], "quoting": ["Proposal Tools"], "routing": ["Route Optimization"],
+    "tax / accounting": ["Tax/Accounting"], "tax": ["Tax/Accounting"], "accounting": ["Tax/Accounting"],
+    "swag / merch": ["Swag & Custom Apparel"], "referral & reputation tools": ["Referral Programs", "Review Management"],
+    "marketing tool": ["Marketing Tools"], "marketing": ["Marketing Agency"], "branding": ["Marketing Agency"],
+    "onboarding/hr": ["HR & Workforce Management"], "site survey": ["Site Surveys"], "measurement": ["Aerial Measurements"],
+    "payments": ["Payments & Invoicing"], "recruiting": ["Recruiting Services"], "ai": ["AI Agents"],
+    "investment": ["Investment Strategy"], "lead management": ["CRM"], "sales": ["Sales Enablement"],
+    "systems / process training": ["Systems & Process Training"],
+}
+# Different listings that share a website domain; never merged on domain alone.
+SEPARATE_LISTINGS = {"d2du"}
+# Spellings of the same company name -> the name key it should merge into.
+NAME_ALIASES = {"pestcontrolmillionaires": "pestcontrolmillionaire"}
 
 
 def split_list(value):
@@ -69,14 +96,17 @@ def clean_row(row, known_tags):
         if row[f"{s} URL"]:
             row[f"{s} URL"] = row[f"{s} URL"] if row[f"{s} URL"].startswith("http") else fix_url(row[f"{s} URL"])
         row[f"{s} Review Count"] = row[f"{s} Review Count"].replace(",", "")
+    inds = {i.lower(): i for i in INDUSTRIES}
+    found = [inds.get(i.lower(), INDUSTRY_ALIASES.get(i.lower(), i)) for i in split_list(row["Industries"])]
     tags = []
     for t in split_list(row["Tags"]):
-        t = known_tags.get(t.lower(), t)
-        if t not in tags:
-            tags.append(t)
+        if t.lower() in inds:  # an industry entered as a tag
+            found.append(inds[t.lower()])
+            continue
+        for t in TAG_ALIASES.get(t.lower(), [known_tags.get(t.lower(), t)]):
+            if t not in tags:
+                tags.append(t)
     row["Tags"] = "; ".join(tags)
-    inds = {i.lower(): i for i in INDUSTRIES}
-    found = [inds.get(i.lower(), i) for i in split_list(row["Industries"])]
     row["Industries"] = "; ".join([i for i in INDUSTRIES if i in found] + [i for i in found if i not in INDUSTRIES])
     return row
 
@@ -86,38 +116,85 @@ def merge(into, extra):
         values = split_list(into[field])
         values += [v for v in split_list(extra[field]) if v not in values]
         into[field] = "; ".join(values)
+    found = split_list(into["Industries"])
+    into["Industries"] = "; ".join([i for i in INDUSTRIES if i in found] + [i for i in found if i not in INDUSTRIES])
     for c in COLUMNS:
         if not into[c] and extra[c]:
             into[c] = extra[c]
 
 
+def from_app_export(r):
+    """Convert one listings-app export row to master-sheet columns."""
+    row = {
+        "Name": r["Company Name"], "URL": r["Website"], "Tags": r["Tags"], "Industries": r["Industries"],
+        "Segment": APP_SEGMENTS.get(r["Category"].strip(), r["Category"].strip()),
+        "Logo URL": r.get("Company Logo", ""),
+    }
+    desc = (r.get("Description") or "").strip()
+    parts = [p.strip() for p in desc.split("|")]
+    if row["Segment"] == "Events" and len(parts) == 2:
+        row["Event Location"], row["Event Dates"] = parts
+    else:
+        row["Bio"] = desc
+    # One review link ("Source: url"); "Average Rating" is that source's rating (0 = none).
+    link = (r.get("Review Links") or "").strip()
+    rating = (r.get("Average Rating") or "").strip()
+    if link:
+        label, _, url = link.partition(":")
+        source = APP_SOURCES.get(label.strip(), "Other")
+        row[f"{source} URL"] = url.strip()
+        if rating not in ("", "0"):
+            row[f"{source} Rating"] = rating
+    return row
+
+
+def host(url):
+    return re.sub(r"^www\.", "", url.split("://", 1)[-1].split("/")[0].lower())
+
+
 def import_csv(path):
     with open(path, encoding="utf-8-sig", newline="") as f:
         rows = list(csv.DictReader(f))
+    if rows and "Company Name" in rows[0]:
+        rows = [from_app_export(r) for r in rows]
+    existing = []
+    if MASTER.exists():
+        with open(MASTER, encoding="utf-8-sig", newline="") as f:
+            existing = list(csv.DictReader(f))
     # Canonical casing for tags = the most common spelling.
     counts = {}
-    for r in rows:
+    for r in existing + rows:
         for t in split_list(r.get("Tags")):
             counts.setdefault(t.lower(), {}).setdefault(t, 0)
             counts[t.lower()][t] += 1
     known_tags = {k: max(v, key=lambda s: (v[s], s[:1].isupper())) for k, v in counts.items()}
 
-    merged, by_key = [], {}
-    for raw in rows:
+    merged, by_name, by_host = [], {}, {}
+    added = 0
+    for i, raw in enumerate(existing + rows):
         row = clean_row(raw, known_tags)
-        key = slugify(row["Name"])
-        if key in by_key:
-            merge(by_key[key], row)
-            print(f"merged repeat row: {row['Name']}")
+        name_key = re.sub(r"[^a-z0-9]", "", row["Name"].lower())
+        name_key = NAME_ALIASES.get(name_key, name_key)
+        host_key = host(row["URL"]) if row["URL"] and name_key not in SEPARATE_LISTINGS else None
+        match = by_name.get(name_key) or (by_host.get(host_key) if host_key else None)
+        if match:
+            merge(match, row)
+            if i >= len(existing):
+                print(f"merged into existing: {row['Name']} -> {match['Name']}" if row["Name"] != match["Name"] else f"merged into existing: {row['Name']}")
         else:
-            by_key[key] = row
             merged.append(row)
+            if i >= len(existing):
+                added += 1
+            match = row
+        by_name.setdefault(name_key, match)
+        if host_key:
+            by_host.setdefault(host_key, match)
     merged.sort(key=lambda r: r["Name"].lower())
     with open(MASTER, "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS)
         w.writeheader()
         w.writerows(merged)
-    print(f"wrote {MASTER.relative_to(ROOT)}: {len(rows)} rows in, {len(merged)} companies out")
+    print(f"wrote {MASTER.relative_to(ROOT)}: {len(rows)} rows imported, {added} new companies, {len(merged)} total")
 
 
 def num(value, cast):
@@ -144,16 +221,16 @@ def build():
         slugs.add(slug)
         if r["Segment"] not in SEGMENTS:
             problems.append(f"{name}: unknown segment '{r['Segment']}'")
-        if not re.match(r"^https?://[^/\s]+\.[^/\s]+", r["URL"]):
+        if not r["URL"]:
+            problems.append(f"{name}: no website")
+        elif not re.match(r"^https?://[^/\s]+\.[^/\s]+", r["URL"]):
             problems.append(f"{name}: bad URL '{r['URL']}'")
 
-        ratings, seen = [], set()
+        ratings, seen = [], {}
         for s in SOURCES:
             rating = num(r.get(f"{s} Rating"), float)
             url = r.get(f"{s} URL", "")
             if rating is None:
-                if url:
-                    problems.append(f"{name}: {s} URL but no rating")
                 continue
             if not 0 <= rating <= 5:
                 problems.append(f"{name}: {s} rating {rating} is not 0-5")
@@ -161,13 +238,22 @@ def build():
             if s == "Other":
                 host = re.sub(r"^www\.", "", url.split("/")[2]) if "://" in url else ""
                 label = next((v for k, v in OTHER_HOSTS.items() if host.endswith(k)), host or "Other")
-            if (label, url) in seen:  # same rating entered under two equivalent columns
+            entry = {"source": label, "rating": rating, "count": num(r.get(f"{s} Review Count"), int), "url": url}
+            if (label, url) in seen:  # same rating entered under two equivalent columns: keep the one with a count
+                prev = seen[(label, url)]
+                if entry["count"] and not prev["count"]:
+                    prev.update(entry)
                 continue
-            seen.add((label, url))
-            ratings.append({"source": label, "rating": rating, "count": num(r.get(f"{s} Review Count"), int), "url": url})
+            seen[(label, url)] = entry
+            ratings.append(entry)
         ratings.sort(key=lambda x: -(x["count"] or 0))
 
         tags = split_list(r["Tags"])
+        extra = {}
+        if r.get("Logo URL"):
+            extra["logo"] = r["Logo URL"]
+        if r.get("Event Dates") or r.get("Event Location"):
+            extra["event"] = {"dates": r.get("Event Dates", ""), "location": r.get("Event Location", "")}
         listings.append({
             "slug": slug,
             "name": name,
@@ -179,6 +265,7 @@ def build():
             "tagline": first_sentence(r["Bio"]),
             "description": r["Bio"],
             "ratings": ratings,
+            **extra,
         })
 
     for p in problems:

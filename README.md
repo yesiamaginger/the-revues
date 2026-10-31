@@ -26,6 +26,8 @@ One row per business. Columns:
   Google Play Store, G2, Capterra, Software Advice, Other, App Store, Google Play, Google Reviews,
   Trustpilot, Featured Customers. "App Store"/"Apple App Store", "Google Play"/"Google Play Store"
   and "Google"/"Google Reviews" show under one name on the site.
+- **Logo URL** (optional — otherwise the site uses the website's favicon), and for events
+  **Event Location** and **Event Dates**
 
 After editing the CSV (or replacing it with a fresh export), rebuild:
 
@@ -33,15 +35,22 @@ After editing the CSV (or replacing it with a fresh export), rebuild:
 python3 scripts/build_listings.py
 ```
 
-To bring in a new export from the spreadsheet, let the script clean it first (trims spaces, adds
-`https://`, fixes tag casing, merges repeated companies), then commit both files:
+To add more companies, import the new file. It merges into `companies.csv`: companies already
+on the list keep their details and only gain new tags, industries and empty rating columns, and
+new companies are added. It accepts the master-sheet format or the listings-app export
+("Company Name", "Category", "Review Links"…), and tidies rows on the way in (spaces, `https://`,
+tag and industry names). Then commit both data files:
 
 ```bash
 python3 scripts/build_listings.py --import path/to/export.csv
 ```
 
-The script prints a `check:` line for anything that needs a look (bad URL, unknown segment,
-rating out of range).
+Running the same import twice changes nothing. If two different listings share a website
+(e.g. D2DU and D2D Experts), or one company is spelled two ways, adjust `SEPARATE_LISTINGS` or
+`NAME_ALIASES` at the top of the script.
+
+The script prints a `check:` line for anything that needs a look (missing or bad URL, unknown
+segment, rating out of range).
 
 ## Hand-written entries (`data/tools.js`)
 

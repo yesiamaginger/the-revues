@@ -24,6 +24,29 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "180-sites",
+  "name": "180 sites",
+  "url": "https://180sites.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Facebook",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.facebook.com/180sites/reviews"
+   }
+  ]
+ },
+ {
   "slug": "acculynx",
   "name": "Acculynx",
   "url": "https://acculynx.com/",
@@ -47,7 +70,15 @@ window.LISTINGS = [
   ],
   "tagline": "AccuLynx is an all-in-one business management software built specifically for roofing and exterior home service contractors.",
   "description": "AccuLynx is an all-in-one business management software built specifically for roofing and exterior home service contractors. The platform centralizes operations by providing tools for CRM, estimating, crew scheduling, aerial measurements, and invoicing. It serves residential and commercial roofing teams, as well as restoration professionals, helping them scale operations and streamline field-to-office communication.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 4.6,
+    "count": null,
+    "url": "https://www.capterra.com/p/116187/Acculynx/reviews/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/137bb3586_acculynx.png"
  },
  {
   "slug": "active-knocker",
@@ -74,7 +105,15 @@ window.LISTINGS = [
   ],
   "tagline": "Active Knocker is a mobile productivity and CRM application designed specifically for door-to-door sales teams and canvassers.",
   "description": "Active Knocker is a mobile productivity and CRM application designed specifically for door-to-door sales teams and canvassers. It provides tools for live location tracking, territory management, route planning, and lead tracking to help field representatives optimize their time and avoid double knocks. The platform serves businesses in solar, pest control, home security, and other home services by streamlining their field operations and reporting.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 3.8,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/active-knocker/id1281048896"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/ae128d766_40.png"
  },
  {
   "slug": "aerialytic",
@@ -96,7 +135,15 @@ window.LISTINGS = [
   ],
   "tagline": "Aerialytic provides an AI-powered, white-label design and proposal platform built specifically for solar sales professionals and installation companies.",
   "description": "Aerialytic provides an AI-powered, white-label design and proposal platform built specifically for solar sales professionals and installation companies. By leveraging machine learning and high-resolution aerial intelligence, the software automatically generates accurate 3D solar layouts, shading analyses, and comprehensive customer proposals in under 90 seconds. This empowers direct-to-door and field sales teams to pitch and close deals on the spot, drastically reducing design lag and accelerating the overall sales cycle.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/search?q=aerialytic+reviews&rlz=1C5CHFA_enUS952US952&oq=aerialytic+reviews&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDc0MDJqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x882b34ce1128155b:0xa86f9cdc3b5c8e4d,1,,,,"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/10c75ecc0_59.png"
  },
  {
   "slug": "aether",
@@ -125,6 +172,98 @@ window.LISTINGS = [
   ],
   "tagline": "Aether is an AI-driven go-to-market CRM and sales platform designed specifically for home service contractors and D2D sales teams in the solar, roofing, HVAC, and landscaping industries.",
   "description": "Aether is an AI-driven go-to-market CRM and sales platform designed specifically for home service contractors and D2D sales teams in the solar, roofing, HVAC, and landscaping industries. They streamline the entire sales lifecycle by equipping field teams with automated proposal tools, instant aerial measurements, and dynamic 3D layouts right from the door. Through AI-powered agents that manage workflows, follow-ups, and integrated financing, Aether helps contractors quote faster, lower customer acquisition costs, and close more jobs efficiently.",
+  "ratings": []
+ },
+ {
+  "slug": "alchemy-sales-coaching",
+  "name": "Alchemy Sales Coaching",
+  "url": "https://www.alchemysalescoaching.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Mindset Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "allan-draper",
+  "name": "Allan Draper",
+  "url": "https://allandraper.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "american-solar-energy-society",
+  "name": "American Solar Energy Society",
+  "url": "https://ases.org/conference/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/678d59914_AmericanSolarenergysociety.png",
+  "event": {
+   "dates": "Oct 19-21, 2026",
+   "location": "Austin, TX"
+  }
+ },
+ {
+  "slug": "ampleo",
+  "name": "Ampleo",
+  "url": "https://ampleo.com/",
+  "category": "Professional Services",
+  "type": "Tax/Accounting",
+  "tags": [
+   "Tax/Accounting"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://g.co/kgs/Jy7oXBZ"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/72e953cfd_ampleo.png"
+ },
+ {
+  "slug": "anthony-conklin",
+  "name": "Anthony Conklin",
+  "url": "https://anthonyjconklin.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -162,10 +301,13 @@ window.LISTINGS = [
    "Performance Management",
    "Gamification",
    "Review Management",
-   "Referral Programs"
+   "Referral Programs",
+   "Productivity Tool",
+   "Sales Enablement"
   ],
   "industries": [
    "Pest Control",
+   "Solar",
    "HVAC",
    "Plumbing",
    "Landscaping",
@@ -173,7 +315,14 @@ window.LISTINGS = [
   ],
   "tagline": "Applause is an employee engagement and review management software platform designed specifically for home and field service industries like pest control, HVAC, and landscaping.",
   "description": "Applause is an employee engagement and review management software platform designed specifically for home and field service industries like pest control, HVAC, and landscaping. The platform automatically tracks technician performance via digital scorecards, sends timely requests for customer reviews, and incentivizes staff with digital tips and spot bonuses. By connecting excellent service with real-time rewards, Applause helps businesses boost their online reputation while improving employee retention and motivation.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Google Play",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://play.google.com/store/apps/details?id=com.applausehq.app&hl=en_US"
+   }
+  ]
  },
  {
   "slug": "apruv",
@@ -188,7 +337,8 @@ window.LISTINGS = [
    "Review Management",
    "Referral Programs",
    "Communication",
-   "Sales Enablement"
+   "Sales Enablement",
+   "Productivity Tool"
   ],
   "industries": [
    "Pest Control",
@@ -197,7 +347,14 @@ window.LISTINGS = [
   ],
   "tagline": "Apruv is an AI-driven field service software platform designed to improve transparency, accountability, and performance for door-to-door and home service teams.",
   "description": "Apruv is an AI-driven field service software platform designed to improve transparency, accountability, and performance for door-to-door and home service teams. The platform offers tools for automated third-party verification (TPV) via video calls, real-time gamified leaderboards for technicians, and automated review and referral generation. By clarifying contracts at the point of sale and capturing proof of service, Apruv helps businesses reduce cancellations, track team metrics, and boost customer satisfaction.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://g.co/kgs/Ssrwmjo"
+   }
+  ]
  },
  {
   "slug": "arcsite",
@@ -226,7 +383,14 @@ window.LISTINGS = [
   ],
   "tagline": "ArcSite is a mobile-first CAD and estimating software designed for residential contractors and field service professionals.",
   "description": "ArcSite is a mobile-first CAD and estimating software designed for residential contractors and field service professionals. It enables users to quickly sketch accurate floor plans on-site, perform takeoffs, and automatically generate professional sales proposals. Trusted by industries like HVAC, plumbing, roofing, and landscaping, ArcSite helps sales teams and technicians streamline their design-to-proposal workflow and close deals directly at the customer's home.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 4.6,
+    "count": null,
+    "url": "https://www.capterra.com/p/156735/ArcSite/reviews/"
+   }
+  ]
  },
  {
   "slug": "ardenus",
@@ -311,7 +475,8 @@ window.LISTINGS = [
    "GPS & Location Tracking",
    "Payments & Invoicing",
    "Communication",
-   "HR & Workforce Management"
+   "HR & Workforce Management",
+   "Project Management"
   ],
   "industries": [
    "Pest Control",
@@ -327,7 +492,15 @@ window.LISTINGS = [
   ],
   "tagline": "Arrivy is a cloud-based field service management software that connects office teams, field crews, and customers into a seamless operational workflow.",
   "description": "Arrivy is a cloud-based field service management software that connects office teams, field crews, and customers into a seamless operational workflow. Designed for home services and D2D businesses, it provides powerful tools for scheduling, route optimization, digital forms, and real-time dispatch tracking. By automating customer notifications and live technician locations, Arrivy helps companies improve operational efficiency and deliver an exceptional, Uber-like day-of-service experience.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Google Play",
+    "rating": 4.0,
+    "count": null,
+    "url": "https://play.google.com/store/apps/details?id=com.insac.can.pinthatpoint&hl=en_US&gl=US&pli=1"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/910d6b7b2_42.png"
  },
  {
   "slug": "artemis",
@@ -361,6 +534,46 @@ window.LISTINGS = [
     "url": "https://www.g2.com/products/artemispower/reviews"
    }
   ]
+ },
+ {
+  "slug": "ascend",
+  "name": "Ascend",
+  "url": "https://ascenddigitalexperts.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://maps.app.goo.gl/6MGGGtRX1kHuhrDL7"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5498413de_Ascend.png"
+ },
+ {
+  "slug": "ascent",
+  "name": "Ascent",
+  "url": "https://www.ascentos.ai/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "Solar-specific CRM platform",
+  "description": "Solar-specific CRM platform",
+  "ratings": []
  },
  {
   "slug": "ashton-buswell-s-foundational-selling-system",
@@ -413,8 +626,15 @@ window.LISTINGS = [
     "rating": 4.3,
     "count": 136,
     "url": "https://www.google.com/maps/search/Aurora+Solar+San+Francisco"
+   },
+   {
+    "source": "Google",
+    "rating": 4.5,
+    "count": null,
+    "url": "https://www.google.com/search?q=aurora+solar+reviews&rlz=1C5CHFA_enUS952US952&oq=aurora+solar+reviews&aqs=chrome.0.0i20i263i512j0i22i30l3j0i390l3.3623j0j7&sourceid=chrome&ie=UTF-8#lrd=0x808fbb399d7a68df:0xc9d5285bcc82bf34,1,,,,"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8b002aba3_50.png"
  },
  {
   "slug": "avoca",
@@ -449,6 +669,23 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "axia-partners",
+  "name": "Axia Partners",
+  "url": "https://www.axiapartners.com/",
+  "category": "Professional Services",
+  "type": "Investment Strategy",
+  "tags": [
+   "Investment Strategy"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2bb9ac034_AxiaPartners.png"
+ },
+ {
   "slug": "axomo",
   "name": "Axomo",
   "url": "https://www.axomo.com/",
@@ -479,6 +716,123 @@ window.LISTINGS = [
     "url": "https://www.featuredcustomers.com/vendor/axomo"
    }
   ]
+ },
+ {
+  "slug": "becca-switzer",
+  "name": "Becca Switzer",
+  "url": "https://roofsalesmastery.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Facebook",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.facebook.com/roofsalesmastery/"
+   }
+  ]
+ },
+ {
+  "slug": "ben-ward",
+  "name": "Ben Ward",
+  "url": "https://www.benward.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "best-company",
+  "name": "Best Company",
+  "url": "https://bestcompany.com/",
+  "category": "Software",
+  "type": "Productivity Tool",
+  "tags": [
+   "Productivity Tool"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Verified Reviews",
+    "rating": 4.4,
+    "count": null,
+    "url": "https://www.verified-reviews.com/reviews/bestcompany.com"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/39e14610e_61.png"
+ },
+ {
+  "slug": "best-hustler-academy",
+  "name": "Best Hustler Academy",
+  "url": "https://www.besthustleracademy.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "best-of-success",
+  "name": "Best of Success",
+  "url": "https://www.roofingcontractor.com/best-of-success-conference",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/80fb799ca_BestofSuccess.png",
+  "event": {
+   "dates": "Dec 3-5, 2025",
+   "location": "Arlington, TX"
+  }
+ },
+ {
+  "slug": "best-roofer-marketing",
+  "name": "Best Roofer Marketing",
+  "url": "https://www.bestroofermarketing.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
  },
  {
   "slug": "black-propeller",
@@ -523,7 +877,8 @@ window.LISTINGS = [
    "Expense Management",
    "Scheduling",
    "Field Service Management",
-   "Communication"
+   "Communication",
+   "Productivity Tool"
   ],
   "industries": [
    "Solar",
@@ -531,7 +886,14 @@ window.LISTINGS = [
   ],
   "tagline": "BluBanyan develops robust, cloud-based ERP software and business management applications optimized for solar installers and construction trades.",
   "description": "BluBanyan develops robust, cloud-based ERP software and business management applications optimized for solar installers and construction trades. Built on the Oracle NetSuite platform, their flagship product SolarSuccess unifies project management, accounting, CRM, and field service operations to help residential and commercial solar businesses scale efficiently. By connecting back-office financial data with mobile tools for field personnel, BluBanyan helps contractors reduce soft costs and accelerate their project-to-cash cycles.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://maps.app.goo.gl/dfPkxW9JhL5VVv266"
+   }
+  ]
  },
  {
   "slug": "bluesuite",
@@ -582,7 +944,8 @@ window.LISTINGS = [
    "Review Management",
    "Referral Programs",
    "Client Communication",
-   "Customer Retention"
+   "Customer Retention",
+   "Project Management"
   ],
   "industries": [
    "Solar"
@@ -596,7 +959,8 @@ window.LISTINGS = [
     "count": 995,
     "url": "https://www.featuredcustomers.com/vendor/bodhi"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/96ca8be11_41.png"
  },
  {
   "slug": "booked-out-roofers",
@@ -615,13 +979,31 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "boom-system",
+  "name": "Boom System",
+  "url": "https://boomsystem.io/",
+  "category": "Software",
+  "type": "Productivity Tool",
+  "tags": [
+   "Productivity Tool"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/23fb7569a_70.png"
+ },
+ {
   "slug": "boss-up-solutions",
   "name": "Boss Up Solutions",
   "url": "https://bossupsolutions.com/",
   "category": "Professional Services",
   "type": "Outsourced Labor",
   "tags": [
-   "Outsourced Labor"
+   "Outsourced Labor",
+   "Productivity Tool"
   ],
   "industries": [
    "Roofing",
@@ -629,7 +1011,41 @@ window.LISTINGS = [
   ],
   "tagline": "Boss Up Solutions provides back-office administration, estimating, and claims management services tailored for roofing and home exterior contractors.",
   "description": "Boss Up Solutions provides back-office administration, estimating, and claims management services tailored for roofing and home exterior contractors. They leverage a hybrid model of AI technology and human experts to deliver flat-fee supplement processing and dedicated bilingual executive assistants. By offloading tedious administrative tasks and carrier negotiations, they empower home service businesses to maximize claim payouts and focus on scaling their sales and field crews.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Facebook",
+    "rating": 4.5,
+    "count": null,
+    "url": "https://www.facebook.com/dontbealittleboss/reviews"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/9d2424fad_68.png"
+ },
+ {
+  "slug": "breakthrough-academy",
+  "name": "Breakthrough Academy",
+  "url": "https://www.btacademy.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Marketing Training",
+   "Operations Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://g.co/kgs/P3pwyh5"
+   }
+  ]
  },
  {
   "slug": "breche",
@@ -690,8 +1106,39 @@ window.LISTINGS = [
     "rating": 2.9,
     "count": 15,
     "url": "https://play.google.com/store/apps/details?id=com.briostack.tech"
+   },
+   {
+    "source": "Capterra",
+    "rating": 4.1,
+    "count": null,
+    "url": "https://www.capterra.com/p/160267/Briostack/reviews/"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/39ec90a3d_38.png"
+ },
+ {
+  "slug": "brix-recruiting-partners",
+  "name": "Brix Recruiting Partners",
+  "url": "https://brixrecruiting.com/",
+  "category": "Professional Services",
+  "type": "Recruiting Services",
+  "tags": [
+   "Recruiting Services"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/search?q=brix+recruiting+reviews&rlz=1C5CHFA_enUS952US952&oq=brix+recruiting+reviews&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTINCAEQABiGAxiABBiKBTINCAIQABiGAxiABBiKBdIBCDQyNTBqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x87f60ff4be58403b:0x716f3fa325af0eef,1,,,,"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/66fdd3cbe_BrixRecruitingPartners.png"
  },
  {
   "slug": "broccoli-ai",
@@ -737,6 +1184,21 @@ window.LISTINGS = [
   ],
   "tagline": "Buildout Studios is a custom software development studio that builds tailored operational platforms, web apps, and AI workflows for home service businesses.",
   "description": "Buildout Studios is a custom software development studio that builds tailored operational platforms, web apps, and AI workflows for home service businesses. Rather than selling generic SaaS subscriptions, they develop personalized systems featuring custom CRMs, field service apps, canvassing trackers, estimating tools, and automated billing. Founded by an operator with deep experience in exterior contracting, they empower roofing, window, and solar companies to fully own their own technology infrastructure.",
+  "ratings": []
+ },
+ {
+  "slug": "builder-prime",
+  "name": "Builder Prime",
+  "url": "",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Construction"
+  ],
+  "industries": [],
+  "tagline": "Construction and home improvement CRM",
+  "description": "Construction and home improvement CRM",
   "ratings": []
  },
  {
@@ -791,16 +1253,28 @@ window.LISTINGS = [
    "Communication",
    "Marketing Tools",
    "Client Communication",
-   "Internal Communication"
+   "Internal Communication",
+   "Project Management",
+   "Productivity Tool",
+   "Imagery"
   ],
   "industries": [
+   "Solar",
    "Roofing",
    "Windows",
    "Other"
   ],
   "tagline": "Buildertrend is an all-in-one construction management software platform designed for home builders, remodelers, and specialty home service contractors.",
   "description": "Buildertrend is an all-in-one construction management software platform designed for home builders, remodelers, and specialty home service contractors. It centralizes operations by offering robust tools for project scheduling, financial management, CRM, and seamless field-to-office communication. By streamlining workflows from initial estimates to final invoicing, Buildertrend helps contractors manage crews, track budgets in real time, and deliver superior customer experiences.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.5,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/buildertrend/id504370616"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f55f7e0fc_90.png"
  },
  {
   "slug": "buildops",
@@ -881,6 +1355,31 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "business-411",
+  "name": "Business 411",
+  "url": "https://business411.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Systems & Process Training",
+   "Marketing Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://maps.app.goo.gl/vq4hQgZcceF9djNY6"
+   }
+  ]
+ },
+ {
   "slug": "callpilot",
   "name": "CallPilot",
   "url": "https://callpilot.app/",
@@ -888,7 +1387,9 @@ window.LISTINGS = [
   "type": "TPV (Third Party Verification)",
   "tags": [
    "TPV (Third Party Verification)",
-   "Site Surveys"
+   "Site Surveys",
+   "Productivity Tool",
+   "Sales Enablement"
   ],
   "industries": [
    "Pest Control",
@@ -940,7 +1441,23 @@ window.LISTINGS = [
     "count": 145,
     "url": "https://apps.apple.com/us/app/canvass-sales-tool/id1314095813"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/3f1796999_35.png"
+ },
+ {
+  "slug": "cashflowing-investments",
+  "name": "Cashflowing Investments",
+  "url": "https://cashflowinginvestments.com/",
+  "category": "Professional Services",
+  "type": "Finance",
+  "tags": [
+   "Finance",
+   "Investment Strategy"
+  ],
+  "industries": [],
+  "tagline": "Financial advisory and investment services",
+  "description": "Financial advisory and investment services",
+  "ratings": []
  },
  {
   "slug": "catapult",
@@ -1007,6 +1524,45 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "clean-energy-experts",
+  "name": "Clean Energy Experts",
+  "url": "https://www.cleanenergyexperts.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Facebook",
+    "rating": 3.0,
+    "count": null,
+    "url": "https://www.facebook.com/CleanEnergyExperts/reviews"
+   }
+  ]
+ },
+ {
+  "slug": "clyr",
+  "name": "Clyr",
+  "url": "https://clyr.io/",
+  "category": "Software",
+  "type": "Expense Management",
+  "tags": [
+   "Expense Management",
+   "Finance"
+  ],
+  "industries": [],
+  "tagline": "Expense management platform",
+  "description": "Expense management platform",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/df8aa07ac_clyr.png"
+ },
+ {
   "slug": "companycam",
   "name": "CompanyCam",
   "url": "https://www.companycam.com/",
@@ -1019,7 +1575,9 @@ window.LISTINGS = [
    "Payments & Invoicing",
    "Communication",
    "Proposal Tools",
-   "Marketing Tools"
+   "Marketing Tools",
+   "CRM",
+   "Project Management"
   ],
   "industries": [
    "Pest Control",
@@ -1032,6 +1590,54 @@ window.LISTINGS = [
   ],
   "tagline": "CompanyCam is a photo-based documentation and communication app designed specifically for contractors in the home services and D2D industries.",
   "description": "CompanyCam is a photo-based documentation and communication app designed specifically for contractors in the home services and D2D industries. The platform allows field teams to capture unlimited, GPS- and time-stamped photos and videos that instantly sync with the office to keep projects organized. With features for real-time collaboration, checklists, proposal building, and seamless integrations with major CRMs and FSMs, CompanyCam streamlines job site management from start to finish.",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/companycam/id960043499"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e3726f0ff_CompanyCam.png"
+ },
+ {
+  "slug": "contractor-coach-pro",
+  "name": "Contractor Coach Pro",
+  "url": "https://contractorcoachpro.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Facebook",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.facebook.com/contractorcoachpro/"
+   }
+  ]
+ },
+ {
+  "slug": "contractor-dynamics",
+  "name": "Contractor Dynamics",
+  "url": "https://www.contractordynamics.com/",
+  "category": "Professional Services",
+  "type": "Marketing Training",
+  "tags": [
+   "Marketing Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -1122,7 +1728,15 @@ window.LISTINGS = [
   ],
   "tagline": "Coperniq is an AI-native operating system designed to help solar, energy, and multi-trade contractors streamline their operations from initial bid to project closeout.",
   "description": "Coperniq is an AI-native operating system designed to help solar, energy, and multi-trade contractors streamline their operations from initial bid to project closeout. The platform unifies sales, project management, and field service by providing tools for CRM, scheduling, route optimization, and real-time customer communication. By seamlessly connecting office dispatchers with field technicians, Coperniq helps businesses enforce standard operating procedures, accelerate project timelines, and boost overall profitability.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 3.1,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/coperniq/id6447186370"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5f598d537_Coperniq.png"
  },
  {
   "slug": "core-365",
@@ -1147,7 +1761,8 @@ window.LISTINGS = [
    "Sales Enablement",
    "Project Management",
    "AI Agents",
-   "Client Communication"
+   "Client Communication",
+   "Expense Management"
   ],
   "industries": [
    "Pest Control",
@@ -1157,6 +1772,30 @@ window.LISTINGS = [
   ],
   "tagline": "Core365 is a unified operational intelligence and ERP platform designed for field service and door-to-door businesses like solar, roofing, pest control, and smart home security.",
   "description": "Core365 is a unified operational intelligence and ERP platform designed for field service and door-to-door businesses like solar, roofing, pest control, and smart home security. It replaces multiple disconnected software systems by providing comprehensive tools for canvassing, scheduling, lead management, HR, and payroll within a single solution. By streamlining workflows from lead generation to final compliance, Core365 helps teams reduce project timelines and scale their operations efficiently.",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/core365/id6746187912#productRatings"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/3912b012b_core365logo.png"
+ },
+ {
+  "slug": "cory-clark-the-sales-therapist",
+  "name": "Cory Clark The Sales Therapist",
+  "url": "https://www.thesalestherapist.org/",
+  "category": "Professional Services",
+  "type": "Mindset Training",
+  "tags": [
+   "Mindset Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -1283,6 +1922,51 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "customerbase",
+  "name": "Customerbase",
+  "url": "https://customerbase.com/",
+  "category": "Software",
+  "type": "Field Service Management",
+  "tags": [
+   "Field Service Management",
+   "Project Management"
+  ],
+  "industries": [
+   "Roofing",
+   "HVAC",
+   "Windows"
+  ],
+  "tagline": "Field service management solution",
+  "description": "Field service management solution",
+  "ratings": []
+ },
+ {
+  "slug": "d2d-experts",
+  "name": "D2D Experts",
+  "url": "https://thed2dexperts.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training",
+   "Leadership Training",
+   "Systems & Process Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://www.google.com/search?q=d2d+experts+reviews&sca_esv=ba58"
+   }
+  ]
+ },
+ {
   "slug": "d2d-hq",
   "name": "D2D HQ",
   "url": "https://www.d2dhq.com/",
@@ -1303,6 +1987,69 @@ window.LISTINGS = [
   ],
   "tagline": "D2D HQ is a commission operations and canvassing software platform built specifically for door-to-door sales teams.",
   "description": "D2D HQ is a commission operations and canvassing software platform built specifically for door-to-door sales teams. It streamlines back-office administration by automating commission calculations, handling clawbacks, generating rep statements, and pushing finalized runs directly to QuickBooks for payroll. Additionally, the platform features an integrated Door Knocker mobile app that equips field reps with territory assignments, lead routes, and knock tracking.",
+  "ratings": []
+ },
+ {
+  "slug": "d2dcon",
+  "name": "D2DCON",
+  "url": "https://www.d2dcon.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8c721556f_d2dcon.png",
+  "event": {
+   "dates": "Jan 22-24, 2026",
+   "location": "Salt Lake City, Utah"
+  }
+ },
+ {
+  "slug": "d2du",
+  "name": "D2DU",
+  "url": "https://thed2dexperts.com/services/door-to-door-university/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training",
+   "Leadership Training",
+   "Mindset Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://g.co/kgs/MZsGDed"
+   }
+  ]
+ },
+ {
+  "slug": "danny-pessy",
+  "name": "Danny Pessy",
+  "url": "https://dannypessy.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -1366,7 +2113,8 @@ window.LISTINGS = [
    "Performance Management",
    "Gamification",
    "Review Management",
-   "Referral Programs"
+   "Referral Programs",
+   "Productivity Tool"
   ],
   "industries": [
    "Pest Control",
@@ -1384,7 +2132,8 @@ window.LISTINGS = [
     "count": 5,
     "url": "https://apps.apple.com/us/app/driven-kpis/id6587583620"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/dc6ee9501_93.png"
  },
  {
   "slug": "dronequote",
@@ -1405,7 +2154,15 @@ window.LISTINGS = [
   ],
   "tagline": "DroneQuote provides an interactive software platform and an online marketplace that streamlines the quoting and sales process for solar and roofing projects.",
   "description": "DroneQuote provides an interactive software platform and an online marketplace that streamlines the quoting and sales process for solar and roofing projects. By leveraging a nationwide network of FAA-certified drone pilots, they provide contractors and homeowners with highly accurate site surveys, aerial measurements, and engaging proposal tools. Their solutions empower solar and roofing professionals to deliver transparent, no-pressure sales experiences while ensuring accurate project designs and post-installation quality assurance.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/search?q=dronequote+google+maps&sca_esv=9b3cc17ccfc9df8a&rlz=1C5CHFA_enUS952US952&sxsrf=ACQVn08N2SI9OlGynNsfvPKA73R4M_1Ckw%3A1708898191335&ei=j7fbZcqNFN-qur8PrKetmAo"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b2b17353e_73.png"
  },
  {
   "slug": "duo-digital",
@@ -1470,7 +2227,24 @@ window.LISTINGS = [
     "count": 486,
     "url": "https://play.google.com/store/apps/details?id=com.eagleview.mobile&hl=en"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/64b9bfe54_74.png"
+ },
+ {
+  "slug": "elev8te-recruiting",
+  "name": "Elev8te Recruiting",
+  "url": "https://www.instagram.com/elev8te_recruiting_?igsh=MTk1eDBuYWlsdXpsaw==",
+  "category": "Professional Services",
+  "type": "Recruiting Services",
+  "tags": [
+   "Recruiting Services"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
  },
  {
   "slug": "enact-solar",
@@ -1500,7 +2274,8 @@ window.LISTINGS = [
     "count": 26,
     "url": "https://get.nicejob.com/"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d4993f86d_EnactSolar.png"
  },
  {
   "slug": "enerflo",
@@ -1517,7 +2292,9 @@ window.LISTINGS = [
    "Payments & Invoicing",
    "TPV (Third Party Verification)",
    "Communication",
-   "Utility Data"
+   "Utility Data",
+   "Imagery",
+   "Project Management"
   ],
   "industries": [
    "Solar"
@@ -1530,8 +2307,15 @@ window.LISTINGS = [
     "rating": 3.5,
     "count": 2,
     "url": "https://www.trustpilot.com/review/enerflo.com"
+   },
+   {
+    "source": "Google",
+    "rating": 4.3,
+    "count": null,
+    "url": "https://www.google.com/search?q=enerflo+&sca_esv=b0f432fdb9a278a4&rlz=1C5CHFA_enUS952US952&biw=1719&bih=918&sxsrf=AHTn8zqr3beh7lpT6PUs33uC2E7AN-VCDw%3A1740955204894&ei=RN7EZ9imNuWvur8PhPuE-AQ"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b2882382a_Enerflo.png"
  },
  {
   "slug": "enzy",
@@ -1575,7 +2359,8 @@ window.LISTINGS = [
     "count": 43,
     "url": "https://play.google.com/store/apps/details?id=com.sunder.sales&hl=en_GB"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e9f4b1f2a_46.png"
  },
  {
   "slug": "evolve",
@@ -1769,7 +2554,8 @@ window.LISTINGS = [
    "GPS & Location Tracking",
    "Communication",
    "Marketing Tools",
-   "Review Management"
+   "Review Management",
+   "Canvassing"
   ],
   "industries": [
    "Pest Control",
@@ -1792,8 +2578,15 @@ window.LISTINGS = [
     "rating": 1.8,
     "count": 205,
     "url": "https://play.google.com/store/apps/details?id=com.fieldroutes&hl=en_GB"
+   },
+   {
+    "source": "G2",
+    "rating": 4.4,
+    "count": null,
+    "url": "https://www.g2.com/products/fieldroutes-a-servicetitan-company/reviews"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/34a15256d_FieldRoutes.png"
  },
  {
   "slug": "fieldservicely",
@@ -1889,6 +2682,54 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "fortress-university",
+  "name": "Fortress University",
+  "url": "https://fortresscreditpro.com/",
+  "category": "Professional Services",
+  "type": "Credit Repair",
+  "tags": [
+   "Credit Repair"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "sotellus.com",
+    "rating": 4.7,
+    "count": null,
+    "url": "https://sotellus.com/reviews/fortress-credit-pro/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/16432cbe8_FortressPro.png"
+ },
+ {
+  "slug": "g-four-marketing",
+  "name": "G Four Marketing",
+  "url": "https://gfourmarketing.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Facebook",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.facebook.com/gFourMarketing/reviews"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/be90295e6_GFourmarketing.png"
+ },
+ {
   "slug": "gaiia",
   "name": "Gaiia",
   "url": "https://gaiia.com/",
@@ -1921,7 +2762,9 @@ window.LISTINGS = [
   "tags": [
    "Referral Programs",
    "Communication",
-   "Marketing Tools"
+   "Marketing Tools",
+   "Productivity Tool",
+   "Review Management"
   ],
   "industries": [
    "Solar",
@@ -1945,8 +2788,15 @@ window.LISTINGS = [
     "rating": 4.6,
     "count": 10,
     "url": "https://apps.apple.com/us/app/get-the-referral"
+   },
+   {
+    "source": "Google",
+    "rating": 4.3,
+    "count": null,
+    "url": "https://www.google.com/maps/place/Get+The+Referral/@32.7092511,-117.1602785,17z/data=!4m8!3m7!1s0x80d9535bc61aaaab:0xe426607df5f5cba5!8m2!3d32.7092466!4d-117.1580845!9m1!1b1!16s%2Fg%2F11ggs9qv38"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d640ab8ea_64.png"
  },
  {
   "slug": "giddy-up-roofing",
@@ -1979,8 +2829,15 @@ window.LISTINGS = [
     "rating": 3.5,
     "count": 24,
     "url": "https://apps.apple.com/us/app/giddyup-roofing/id1543024793"
+   },
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/search?q=giddyup+roofing+reviews&source=lmns&bih=650&biw=1324&rlz=1C5CHFA_enUS983US983&hl=en&sa=X&ved=2ahUKEwj-rffvsr79AhVZN0QIHbOaAK4Q0pQJKAB6BAgBEAI#"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f66f9759d_10.png"
  },
  {
   "slug": "glasshouse",
@@ -2025,7 +2882,8 @@ window.LISTINGS = [
    "Payments & Invoicing",
    "Communication",
    "Marketing Tools",
-   "Review Management"
+   "Review Management",
+   "Project Management"
   ],
   "industries": [
    "Pest Control",
@@ -2035,6 +2893,7 @@ window.LISTINGS = [
    "Plumbing",
    "Landscaping",
    "Windows",
+   "Alarms",
    "Other"
   ],
   "tagline": "GoHighLevel is an all-in-one sales and marketing CRM built specifically for agencies and home service businesses.",
@@ -2058,7 +2917,8 @@ window.LISTINGS = [
     "count": 1200,
     "url": "https://www.capterra.com/p/177156/HighLevel/"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/435ec53ee_HighLevel.png"
  },
  {
   "slug": "gorilla-desk",
@@ -2074,7 +2934,9 @@ window.LISTINGS = [
    "GPS & Location Tracking",
    "Payments & Invoicing",
    "Communication",
-   "Review Management"
+   "Review Management",
+   "Proposal Tools",
+   "Imagery"
   ],
   "industries": [
    "Pest Control",
@@ -2108,7 +2970,44 @@ window.LISTINGS = [
     "count": 43,
     "url": "https://www.g2.com/products/gorilladesk/reviews"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/09085c760_GorillaDesk.png"
+ },
+ {
+  "slug": "grade-a-hire",
+  "name": "Grade 'A' Hire",
+  "url": "https://gradeahire.com/",
+  "category": "Professional Services",
+  "type": "Recruiting Services",
+  "tags": [
+   "Recruiting Services"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.6,
+    "count": null,
+    "url": "https://g.co/kgs/DL3ZRsH"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/4f6ebca4b_GradeAHire.png"
+ },
+ {
+  "slug": "grosso-university",
+  "name": "Grosso University",
+  "url": "",
+  "category": "Professional Services",
+  "type": "",
+  "tags": [],
+  "industries": [],
+  "tagline": "Professional sales training and development",
+  "description": "Professional sales training and development",
+  "ratings": []
  },
  {
   "slug": "hail-trace",
@@ -2119,7 +3018,8 @@ window.LISTINGS = [
   "tags": [
    "Canvassing",
    "CRM",
-   "Sales Enablement"
+   "Sales Enablement",
+   "Productivity Tool"
   ],
   "industries": [
    "Roofing",
@@ -2140,8 +3040,39 @@ window.LISTINGS = [
     "rating": 3.3,
     "count": 119,
     "url": "https://apps.apple.com/us/app/hail-trace/id550171847"
+   },
+   {
+    "source": "Google",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://www.google.com/search?q=hail+trace&rlz=1C5CHFA_enUS952US952&oq=hail+trace&aqs=chrome..69i57j0i20i263i512j0i512j46i175i199i512j0i512l5.1679j0j4&sourceid=chrome&ie=UTF-8#lrd=0x87b21fb48f7bce35:0xcc0ebe852776fe3,1,,,,"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8d5596e8f_62.png"
+ },
+ {
+  "slug": "harris-investment-group",
+  "name": "Harris Investment Group",
+  "url": "https://www.harrisinvestmentgroup.com/",
+  "category": "Professional Services",
+  "type": "Investment Strategy",
+  "tags": [
+   "Investment Strategy"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/search?q=harris+investment+group+&sca_esv=ecb9c3497f6c7642&rlz=1C5CHFA_enUS952US952&sxsrf=ADLYWIJwuIpcnQkG_weSBBUNk3HiQvnTng%3A1737240142883&ei=Ti6MZ7LUNausur8PiNLboQc&ved=0ahUKEwiys-zsq4CLAxUrlu4BHQjpNnQQ4dUDCA8&uact=5&oq=harris+investment+group+"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f6cfd015d_HarrisInvestmentGroup.png"
  },
  {
   "slug": "hatch",
@@ -2152,7 +3083,9 @@ window.LISTINGS = [
   "tags": [
    "Communication",
    "Marketing Tools",
-   "Review Management"
+   "Review Management",
+   "Sales Enablement",
+   "Productivity Tool"
   ],
   "industries": [
    "Solar",
@@ -2165,7 +3098,38 @@ window.LISTINGS = [
   ],
   "tagline": "Hatch is an AI-powered customer communication platform designed specifically for home services and home improvement businesses.",
   "description": "Hatch is an AI-powered customer communication platform designed specifically for home services and home improvement businesses. It helps contractors automate their lead outreach, follow-ups, and review requests across text, email, and voice channels. By seamlessly integrating with existing CRM platforms, Hatch enables sales teams to instantly engage leads, book more appointments, and efficiently manage their sales pipeline.",
-  "ratings": []
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 3.8,
+    "count": null,
+    "url": "https://www.capterra.com/p/174914/Hatch/reviews/"
+   }
+  ]
+ },
+ {
+  "slug": "hire-a-canvasser",
+  "name": "Hire a canvasser",
+  "url": "https://www.hireacanvasser.com/",
+  "category": "Professional Services",
+  "type": "Recruiting Services",
+  "tags": [
+   "Recruiting Services"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://g.co/kgs/REx2F4M"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/23a57ee8e_Hireacanvasser.png"
  },
  {
   "slug": "hire-bloom",
@@ -2187,6 +3151,45 @@ window.LISTINGS = [
   ],
   "tagline": "Hire Bloom is a social-impact staffing agency that connects US businesses with pre-vetted, English-speaking global talent.",
   "description": "Hire Bloom is a social-impact staffing agency that connects US businesses with pre-vetted, English-speaking global talent. In the D2D and home services sectors, they help solar, roofing, pest control, and HVAC companies scale their remote operations by providing offshore professionals for roles like customer support, data entry, and sales. Their unique mission-driven model offers reliable and cost-effective labor to home service operators while creating high-paying career opportunities for college-educated workers abroad.",
+  "ratings": []
+ },
+ {
+  "slug": "home-service-business-coach",
+  "name": "Home Service Business Coach",
+  "url": "https://homeservicebusinesscoach.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://maps.app.goo.gl/HhPUBszXSdASazh18"
+   }
+  ]
+ },
+ {
+  "slug": "home-services-digital",
+  "name": "Home Services Digital",
+  "url": "https://homeservicesdigital.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -2222,6 +3225,47 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "homesourced",
+  "name": "Homesourced",
+  "url": "https://www.homesourced.com/",
+  "category": "Professional Services",
+  "type": "Outsourced Labor",
+  "tags": [
+   "Outsourced Labor"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/87bd841ab_Homesourced.png"
+ },
+ {
+  "slug": "hook-agency",
+  "name": "Hook agency",
+  "url": "https://hookagency.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://g.co/kgs/yKr6wvp"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/40b2dae33_HookAgency.png"
+ },
+ {
   "slug": "housecall-pro",
   "name": "Housecall Pro",
   "url": "https://www.housecallpro.com/",
@@ -2241,10 +3285,12 @@ window.LISTINGS = [
    "Client Communication",
    "Expense Management",
    "Payroll",
-   "HR & Workforce Management"
+   "HR & Workforce Management",
+   "Project Management"
   ],
   "industries": [
    "Pest Control",
+   "Solar",
    "Roofing",
    "HVAC",
    "Plumbing",
@@ -2260,8 +3306,15 @@ window.LISTINGS = [
     "rating": 4.6,
     "count": 27000,
     "url": "https://apps.apple.com/us/app/housecall-pro-field-service/id692833651"
+   },
+   {
+    "source": "App Store",
+    "rating": 4.6,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/housecall-pro/id692833651?see-all=reviews"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/51e64b444_HousecallPro.png"
  },
  {
   "slug": "hover",
@@ -2303,7 +3356,56 @@ window.LISTINGS = [
     "count": 59,
     "url": "https://www.capterra.com/p/177092/Hover/"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/12ab70182_54.png"
+ },
+ {
+  "slug": "hyper-hired",
+  "name": "Hyper Hired",
+  "url": "https://www.hyperhired.com/",
+  "category": "Professional Services",
+  "type": "Recruiting Services",
+  "tags": [
+   "Recruiting Services"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://g.co/kgs/yzGLu5C"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/af2656f85_HyperHired.png"
+ },
+ {
+  "slug": "incline-marketing",
+  "name": "Incline Marketing",
+  "url": "https://inclinemktg.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://www.google.com/search?q=incline+marketing+&sca_esv=cd82cf180911c650&rlz=1C5CHFA_enUS952US952&sxsrf=AHTn8zr-sY7MiOYM1t3wPD9DMIaRDWyJ5Q%3A1740975454004&ei=XS3FZ4__PLjikPIP8sPs-A8"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5e04cb431_InclineMarketing.png"
  },
  {
   "slug": "insightly",
@@ -2356,7 +3458,27 @@ window.LISTINGS = [
     "count": 289,
     "url": "https://apps.apple.com/us/app/insightly-crm/id563017797"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/9a7655c95_Insightly.png"
+ },
+ {
+  "slug": "intersolar",
+  "name": "InterSolar",
+  "url": "https://www.intersolar.us/2023-conference-program/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0c5c114e0_InterSolar.png",
+  "event": {
+   "dates": "Feb 18-20, 2026",
+   "location": "San Diego, California"
+  }
  },
  {
   "slug": "interval-ai",
@@ -2397,6 +3519,25 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "ire-international-roofing-expo",
+  "name": "IRE (International Roofing Expo)",
+  "url": "https://www.theroofingexpo.com/en/home.html",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2795cb734_InternationalRoofingExpo.png",
+  "event": {
+   "dates": "Jan 20-22, 2026",
+   "location": "Las Vegas, NV"
+  }
+ },
+ {
   "slug": "jack-app",
   "name": "Jack App",
   "url": "https://jackapp.io/",
@@ -2427,6 +3568,47 @@ window.LISTINGS = [
     "url": "https://apps.apple.com/au/app/jack-app-construction-software/id6738333361"
    }
   ]
+ },
+ {
+  "slug": "jb-accounting",
+  "name": "JB Accounting",
+  "url": "https://jbaccountingandtax.com/",
+  "category": "Professional Services",
+  "type": "Tax/Accounting",
+  "tags": [
+   "Tax/Accounting"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.4,
+    "count": null,
+    "url": "https://www.google.com/search?q=jb+accounting&rlz=1C5CHFA_enUS952US952&oq=jb+accounting&aqs=chrome..69i57j46i67i175i199i650j0i512j46i175i199i512j0i512l3j0i390i650l2.2015j0j4&sourceid=chrome&ie=UTF-8#rlimm=12948321726905152988"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/a5104f381_JBAccounting.png"
+ },
+ {
+  "slug": "job-engine",
+  "name": "Job Engine",
+  "url": "https://jobengine.ai/",
+  "category": "Professional Services",
+  "type": "Outsourced Labor",
+  "tags": [
+   "Outsourced Labor"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/beaf6b3dc_JobEngine.png"
  },
  {
   "slug": "job-flow-go",
@@ -2488,6 +3670,7 @@ window.LISTINGS = [
   ],
   "industries": [
    "Pest Control",
+   "Solar",
    "Roofing",
    "HVAC",
    "Plumbing",
@@ -2503,8 +3686,15 @@ window.LISTINGS = [
     "rating": 4.8,
     "count": 552,
     "url": "https://www.google.com/maps/search/Jobber+Edmonton/"
+   },
+   {
+    "source": "App Store",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/jobber/id1014146758?see-all=reviews"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/54c846f6b_Jobber.png"
  },
  {
   "slug": "jobnimbus",
@@ -2549,7 +3739,22 @@ window.LISTINGS = [
     "count": 482,
     "url": "https://www.softwareadvice.com/crm/profile/jobnimbus-profile/"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d64b03689_jobnimbus.png"
+ },
+ {
+  "slug": "jobtread",
+  "name": "JobTread",
+  "url": "",
+  "category": "Software",
+  "type": "Project Management",
+  "tags": [
+   "Project Management"
+  ],
+  "industries": [],
+  "tagline": "Project management software for contractors",
+  "description": "Project management software for contractors",
+  "ratings": []
  },
  {
   "slug": "jobtrek",
@@ -2624,6 +3829,72 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "john-dye-signature-supplement-training",
+  "name": "John Dye signature supplement training",
+  "url": "https://www.supplementclass.com/",
+  "category": "Professional Services",
+  "type": "Supplement Training",
+  "tags": [
+   "Supplement Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "jordan-stupar",
+  "name": "Jordan Stupar",
+  "url": "https://www.jordanstupar.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "knock-gear",
+  "name": "Knock Gear",
+  "url": "https://www.knockgear.com/",
+  "category": "Professional Services",
+  "type": "Swag & Custom Apparel",
+  "tags": [
+   "Swag & Custom Apparel"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d3d402782_KnockGear.png"
+ },
+ {
+  "slug": "knock-on-wood",
+  "name": "Knock on Wood",
+  "url": "https://www.knockapparel.com/",
+  "category": "Professional Services",
+  "type": "Swag & Custom Apparel",
+  "tags": [
+   "Swag & Custom Apparel"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/829786edb_KnockonWood.png"
+ },
+ {
   "slug": "knockbuddy-pro",
   "name": "Knockbuddy Pro",
   "url": "https://getknockbuddypro.com/",
@@ -2692,6 +3963,23 @@ window.LISTINGS = [
   ],
   "tagline": "KnockOp is an AI-powered third-party verification (TPV) software built specifically for the door-to-door pest control industry.",
   "description": "KnockOp is an AI-powered third-party verification (TPV) software built specifically for the door-to-door pest control industry. It enables sales reps to launch a 60-second AI avatar verification session on their phone, generating a GPS-stamped, video-recorded compliance record right at the customer's doorstep. This allows operators to instantly secure verified contracts and defend against disputes without the delays and costs of traditional call centers.",
+  "ratings": []
+ },
+ {
+  "slug": "knockstar-university",
+  "name": "Knockstar University",
+  "url": "https://knockstar.university/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Mindset Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -2787,7 +4075,8 @@ window.LISTINGS = [
     "count": 10,
     "url": "https://www.google.com/maps/place/Lead+Scout+Canvassing+App/@38.3001513,-171.2262862,13958688m/data=!3m1!1e3!4m6!3m5!1s0x88184f67450a1181:0xa8c010a6f6cc5a2!8m2!3d46.423669!4d-129.9427086!16s%2Fg%2F11sc_zcht4?entry=tts&g_ep=EgoyMDI2MDYyNC4wIPu8ASoASAFQAw%3D%3D&skid=0fc090f2-5636-46f3-9fcc-d02f45a9ce06"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/c50c047af_39.png"
  },
  {
   "slug": "leap",
@@ -2820,8 +4109,80 @@ window.LISTINGS = [
     "rating": 3.4,
     "count": 100,
     "url": "https://apps.apple.com/us/app/leap-formerly-jobprogress/id1063635242"
+   },
+   {
+    "source": "getapp.com",
+    "rating": 4.3,
+    "count": null,
+    "url": "https://www.getapp.com/operations-management-software/a/jobprogress/reviews/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f5e0ef2b9_Leap.png"
+ },
+ {
+  "slug": "lee-haight",
+  "name": "Lee Haight",
+  "url": "https://www.leehaight.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "lenny-gray",
+  "name": "Lenny Gray",
+  "url": "https://lennygray.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Amazon",
+    "rating": 4.7,
+    "count": null,
+    "url": "https://www.amazon.com/Door-Door-Millionaire-Secrets-Making/dp/1482"
    }
   ]
+ },
+ {
+  "slug": "lift-threadz",
+  "name": "Lift Threadz",
+  "url": "https://liftthreadz.com/",
+  "category": "Professional Services",
+  "type": "Swag & Custom Apparel",
+  "tags": [
+   "Swag & Custom Apparel"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://g.co/kgs/x3fnsZY"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/59c9ad1d5_LiftThreadz.png"
  },
  {
   "slug": "lightningos",
@@ -2890,6 +4251,31 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "lyra",
+  "name": "Lyra",
+  "url": "https://get.solardesigntool.com/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "trustburn.com",
+    "rating": 4.3,
+    "count": null,
+    "url": "https://trustburn.com/reviews/get-solardesigntool-com"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/459f312a6_58.png"
+ },
+ {
   "slug": "markate",
   "name": "Markate",
   "url": "https://www.markate.com/",
@@ -2908,9 +4294,12 @@ window.LISTINGS = [
    "GPS & Location Tracking",
    "AI Agents",
    "Client Communication",
-   "Project Management"
+   "Project Management",
+   "Productivity Tool",
+   "Communication"
   ],
   "industries": [
+   "Solar",
    "HVAC",
    "Plumbing",
    "Landscaping",
@@ -2942,8 +4331,98 @@ window.LISTINGS = [
     "rating": 4.2,
     "count": 10,
     "url": "https://www.capterra.com/p/173150/Markate/reviews/"
+   },
+   {
+    "source": "App Store",
+    "rating": 4.2,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/markate-job-management/id1154246059"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/21102d266_84.png"
+ },
+ {
+  "slug": "maser-sales-training",
+  "name": "Maser Sales Training",
+  "url": "https://masersalestraining.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "mf9-world",
+  "name": "MF9 World",
+  "url": "https://mf9.world/",
+  "category": "Professional Services",
+  "type": "Swag & Custom Apparel",
+  "tags": [
+   "Swag & Custom Apparel"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://g.co/kgs/cyX7dVZ"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8450564e2_MF9.png"
+ },
+ {
+  "slug": "midwest-roofing-expo",
+  "name": "Midwest Roofing Expo",
+  "url": "https://www.mrca.org/aws/MRCA/pt/sp/conference",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2e30b77af_MidwestRoofing.png",
+  "event": {
+   "dates": "Nov 18-19, 2026",
+   "location": "Cape Coral, FL"
+  }
+ },
+ {
+  "slug": "mitsuoka-company",
+  "name": "Mitsuoka Company",
+  "url": "https://www.mitsuokacompany.com/",
+  "category": "Professional Services",
+  "type": "Recruiting Services",
+  "tags": [
+   "Recruiting Services"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/search?q=mitsuoka+company+reviews&rlz=1C5CHFA_enUS952US952&oq=mitsuoka+company+reviews&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyCggDEAAYgAQYogQyCggEEAAYgAQYogQyCggFEAAYgAQYogTSAQg0MzMzajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8#lrd=0x872b0d0c74499895:0x498ed8c96bed6a2e,1,,,,"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/be7c9e076_Mitsuoka.png"
  },
  {
   "slug": "mixify-media",
@@ -2962,6 +4441,38 @@ window.LISTINGS = [
   ],
   "tagline": "Mixify Media is a digital marketing agency that helps home service businesses, such as pest control and HVAC providers, build customer loyalty and generate steady monthly revenue.",
   "description": "Mixify Media is a digital marketing agency that helps home service businesses, such as pest control and HVAC providers, build customer loyalty and generate steady monthly revenue. They specialize in implementing automated content marketing systems and producing tailored podcasting or video content to drive retention, repeat jobs, and past customer reactivations. By building customized customer workflows, their team helps companies maximize the lifetime value of their existing client base without relying solely on new lead generation.",
+  "ratings": []
+ },
+ {
+  "slug": "mod-sales-academy",
+  "name": "MOD Sales Academy",
+  "url": "https://www.modsalesacademy.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "momentum",
+  "name": "Momentum",
+  "url": "https://www.momentumwe.com/",
+  "category": "Professional Services",
+  "type": "Mindset Training",
+  "tags": [
+   "Mindset Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -3030,7 +4541,8 @@ window.LISTINGS = [
     "count": 5,
     "url": "https://www.capterra.com/p/237908/Nearmap/"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/94a4efc9c_75.png"
  },
  {
   "slug": "nerd-portal",
@@ -3078,6 +4590,25 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "next-level-pros",
+  "name": "Next Level Pros",
+  "url": "https://gonextlevelpros.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Operations Training",
+   "Marketing Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
   "slug": "nomohub",
   "name": "NomoHub",
   "url": "https://www.nomohub.com/",
@@ -3102,6 +4633,7 @@ window.LISTINGS = [
    "Client Communication"
   ],
   "industries": [
+   "Solar",
    "Roofing"
   ],
   "tagline": "NomoHub is an all-in-one field sales software platform designed to consolidate multiple tools for solar and roofing teams.",
@@ -3112,8 +4644,15 @@ window.LISTINGS = [
     "rating": 5.0,
     "count": 1,
     "url": "https://apps.apple.com/us/app/nomohub/id6746044312"
+   },
+   {
+    "source": "App Store",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/prospect-pro/id1661978661"
    }
-  ]
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/9a9b325ac_89.png"
  },
  {
   "slug": "notifi",
@@ -3147,6 +4686,30 @@ window.LISTINGS = [
   "tagline": "Notifi is a modern field service management and communication platform built specifically for home service contractors like HVAC, plumbing, and landscaping professionals.",
   "description": "Notifi is a modern field service management and communication platform built specifically for home service contractors like HVAC, plumbing, and landscaping professionals. The software centralizes operations by combining a sales CRM, scheduling, dispatching, estimating, and payment processing into a single intuitive interface. By automating workflows and customer communications, Notifi helps growing teams streamline their daily tasks, capture more leads, and generate online reviews without technical complexity.",
   "ratings": []
+ },
+ {
+  "slug": "now-cfo",
+  "name": "Now CFO",
+  "url": "https://nowcfo.com/",
+  "category": "Professional Services",
+  "type": "Tax/Accounting",
+  "tags": [
+   "Tax/Accounting"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.0,
+    "count": null,
+    "url": "https://maps.app.goo.gl/dCfmFGVxWtGiUpyd8"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/239116c29_NowCFO.png"
  },
  {
   "slug": "nxt-lvl-solutions",
@@ -3197,6 +4760,55 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "onetap-connect",
+  "name": "OneTap Connect",
+  "url": "https://onetapconnect.com/",
+  "category": "Software",
+  "type": "Communication",
+  "tags": [
+   "Communication"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 3.7,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/one-tap-connect/id6670749082"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/4b134dc7a_48.png"
+ },
+ {
+  "slug": "open-solar",
+  "name": "Open Solar",
+  "url": "https://www.opensolar.com/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google Play",
+    "rating": 3.7,
+    "count": null,
+    "url": "https://play.google.com/store/apps/details?id=com.opensolar.app&hl=en_US&gl=US&pli=1"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/596379fb9_52.png"
+ },
+ {
   "slug": "opsync",
   "name": "OpSync",
   "url": "https://opsyncservices.com/home",
@@ -3234,6 +4846,123 @@ window.LISTINGS = [
   "tagline": "Origin Fiber is a specialized software platform acting as a centralized command center for internet service providers (ISPs) and their field sales teams.",
   "description": "Origin Fiber is a specialized software platform acting as a centralized command center for internet service providers (ISPs) and their field sales teams. It equips door-to-door and direct sales representatives in the fiber industry with targeted tools to effectively manage lead pipelines and track performance. Additionally, the platform streamlines payout tracking and commission calculations, enabling businesses to scale their operations seamlessly.",
   "ratings": []
+ },
+ {
+  "slug": "paiv",
+  "name": "Paiv",
+  "url": "https://www.paiv.ai/",
+  "category": "Software",
+  "type": "Gamification",
+  "tags": [
+   "Gamification",
+   "Canvassing",
+   "Field Service Management",
+   "Route Optimization",
+   "Sales Enablement"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.3,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/gamify-canvass-compete-reward/id1577406696"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b56e24909_paiv.webp"
+ },
+ {
+  "slug": "pathfinder-productions",
+  "name": "Pathfinder Productions",
+  "url": "https://www.pathfinderproductions.biz/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://g.co/kgs/aNs8cZj"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/833b2d2aa_Pathfinder.png"
+ },
+ {
+  "slug": "paykeeper",
+  "name": "Paykeeper",
+  "url": "https://paykeeper.com/",
+  "category": "Professional Services",
+  "type": "Payments & Invoicing",
+  "tags": [
+   "Payments & Invoicing"
+  ],
+  "industries": [],
+  "tagline": "Payment processing services",
+  "description": "Payment processing services",
+  "ratings": []
+ },
+ {
+  "slug": "payzer",
+  "name": "Payzer",
+  "url": "https://payzer.com/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Scheduling",
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 4.6,
+    "count": null,
+    "url": "https://www.capterra.com/p/183763/Payzerware/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/53887b22b_Payzer.png"
+ },
+ {
+  "slug": "pco-bookkeepers",
+  "name": "PCO Bookkeepers",
+  "url": "https://pcobookkeepers.com/",
+  "category": "Professional Services",
+  "type": "Tax/Accounting",
+  "tags": [
+   "Tax/Accounting"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "sotellus.com",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://sotellus.com/reviews/v05a07a/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d272d7d6a_PCOBookkeepers.png"
  },
  {
   "slug": "permitiq",
@@ -3274,6 +5003,65 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "pest-daily",
+  "name": "Pest Daily",
+  "url": "https://growing.pestdaily.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Operations Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Facebook",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.facebook.com/PestDaily/reviews"
+   }
+  ]
+ },
+ {
+  "slug": "pest-pro-academy",
+  "name": "Pest Pro Academy",
+  "url": "https://pestproacademy.com/",
+  "category": "Professional Services",
+  "type": "Operations Training",
+  "tags": [
+   "Operations Training",
+   "Systems & Process Training"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "pest-pro-university",
+  "name": "Pest Pro University",
+  "url": "https://www.pestprouniversity.com/",
+  "category": "Professional Services",
+  "type": "Operations Training",
+  "tags": [
+   "Operations Training",
+   "Systems & Process Training"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
   "slug": "pest-sos",
   "name": "Pest SOS",
   "url": "https://pest-sos.com/",
@@ -3289,6 +5077,76 @@ window.LISTINGS = [
   "tagline": "Pest SOS is a specialized contact center and back-office outsourcing partner tailored specifically for the pest control industry.",
   "description": "Pest SOS is a specialized contact center and back-office outsourcing partner tailored specifically for the pest control industry. They provide companies with 24/7 bilingual phone support, inbound sales, scheduling, and billing services that integrate directly into platforms like FieldRoutes. By functioning as an extension of a company's home office, Pest SOS allows owner-operators and mid-sized businesses to seamlessly scale operations without the overhead of hiring in-house staff.",
   "ratings": []
+ },
+ {
+  "slug": "pest-world",
+  "name": "Pest World",
+  "url": "https://www.npmapestworld.org/attend/industry-events-calenda",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "event": {
+   "dates": "Oct 20-23, 2026",
+   "location": "Grapevine, Texas"
+  }
+ },
+ {
+  "slug": "pestboss",
+  "name": "PestBoss",
+  "url": "https://www.pestboss.com/en/web/index.php",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Scheduling"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.capterra.com/p/194603/PESTBOSS/#reviews"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b4fd30656_30.png"
+ },
+ {
+  "slug": "pestpac",
+  "name": "PestPac",
+  "url": "https://www.pestpac.com/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Scheduling",
+   "Route Optimization",
+   "Marketing Tools"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "softwareadvice.com",
+    "rating": 3.9,
+    "count": null,
+    "url": "https://www.softwareadvice.com/field-service/pestpac-profile/reviews/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/aa9b7c4a0_31.png"
  },
  {
   "slug": "ping-marketing",
@@ -3309,6 +5167,63 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "pipe-solar",
+  "name": "Pipe Solar",
+  "url": "https://pipe.solar/",
+  "category": "Software",
+  "type": "Project Management",
+  "tags": [
+   "Project Management",
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5d7e86cb3_PipeSolar.png"
+ },
+ {
+  "slug": "pivotal-recruiting",
+  "name": "Pivotal recruiting",
+  "url": "https://workwithpivotal.com/",
+  "category": "Professional Services",
+  "type": "Recruiting Services",
+  "tags": [
+   "Recruiting Services"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://www.google.com/maps?cid=2265090926182870049"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8782ecae4_Pivotal.png"
+ },
+ {
+  "slug": "pivotl",
+  "name": "Pivotl",
+  "url": "https://pivotl.com/",
+  "category": "Professional Services",
+  "type": "Consulting",
+  "tags": [
+   "Consulting"
+  ],
+  "industries": [],
+  "tagline": "Business transformation and consulting",
+  "description": "Business transformation and consulting",
+  "ratings": []
+ },
+ {
   "slug": "plaibook",
   "name": "Plaibook",
   "url": "https://plaibook.tech/",
@@ -3326,6 +5241,68 @@ window.LISTINGS = [
   ],
   "tagline": "Plaibook is an AI-powered sales analytics and revenue recovery platform built primarily for pest control and home service businesses.",
   "description": "Plaibook is an AI-powered sales analytics and revenue recovery platform built primarily for pest control and home service businesses. The software automatically grades every sales call against quality checkpoints to provide real-time rep performance metrics and pinpoint where deals are lost. Additionally, Plaibook leverages AI-driven SMS campaigns to re-engage dead leads and upsell existing customers, helping operators maximize their marketing ROI.",
+  "ratings": []
+ },
+ {
+  "slug": "pocomos",
+  "name": "Pocomos",
+  "url": "https://www.pocomos.net/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Scheduling",
+   "Route Optimization",
+   "Canvassing"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://www.google.com/search?q=pocomos+reviews&source=lmns&bih=912&biw=1271&rlz=1C5CHFA_enUS952US952&hl=en&sa=X&ved=2ahUKEwisgKXUsc39AhUXw8kDHcPyCGEQ0pQJKAB6BAgBEAI#lrd=0x874dbd3aa7803fe3:0xa51d5ce930e086f1,1,,,,"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/ff507cd15_Pocomos.png"
+ },
+ {
+  "slug": "podium",
+  "name": "Podium",
+  "url": "https://www.podium.com/ls-t/experience/home_services/",
+  "category": "Software",
+  "type": "Communication",
+  "tags": [
+   "Communication"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/podium-small-business-tools/id971412288"
+   }
+  ]
+ },
+ {
+  "slug": "powerhouse-consulting-group",
+  "name": "Powerhouse Consulting Group",
+  "url": "",
+  "category": "Professional Services",
+  "type": "",
+  "tags": [],
+  "industries": [],
+  "tagline": "Leadership and sales training",
+  "description": "Leadership and sales training",
   "ratings": []
  },
  {
@@ -3375,6 +5352,88 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "project-pros",
+  "name": "Project Pros",
+  "url": "https://www.goprojectpros.com/",
+  "category": "Professional Services",
+  "type": "Outsourced Labor",
+  "tags": [
+   "Outsourced Labor"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/155c77272_Projectpros.png"
+ },
+ {
+  "slug": "project-sunroof",
+  "name": "Project Sunroof",
+  "url": "https://sunroof.withgoogle.com/",
+  "category": "Software",
+  "type": "Imagery",
+  "tags": [
+   "Imagery"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/528e95229_76.png"
+ },
+ {
+  "slug": "proline",
+  "name": "ProLine",
+  "url": "https://useproline.com/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.6,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/proline-app/id1549360548"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5f4709e65_ProLine.png"
+ },
+ {
+  "slug": "prospect-bacon",
+  "name": "Prospect bacon",
+  "url": "https://prospectbacon.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.3,
+    "count": null,
+    "url": "https://g.co/kgs/4syJ72k"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2467eba16_ProspectBacon.png"
+ },
+ {
   "slug": "quoteiq",
   "name": "QuoteIQ",
   "url": "https://myquoteiq.com/",
@@ -3416,6 +5475,91 @@ window.LISTINGS = [
     "rating": 4.8,
     "count": 94,
     "url": "https://www.google.com/maps/search/QuoteIQ"
+   }
+  ]
+ },
+ {
+  "slug": "rdcl-services",
+  "name": "RDCL Services",
+  "url": "https://www.rdclservices.com/",
+  "category": "Software",
+  "type": "Site Surveys",
+  "tags": [
+   "Site Surveys",
+   "Outsourced Labor"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0dabaabf8_77.png"
+ },
+ {
+  "slug": "re",
+  "name": "Re+",
+  "url": "https://www.re-plus.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/874a52eee_Re.png",
+  "event": {
+   "dates": "Nov 16-19, 2026",
+   "location": "Las Vegas, NV"
+  }
+ },
+ {
+  "slug": "real-time-marketing",
+  "name": "Real Time Marketing",
+  "url": "https://realtimemarketing.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/maps/place/Real+Time+Marketing/@27.4959668,-82.5731691,15z/data=!4m8!3m7!1s0x872d8f43e4da6171:0x3bbe4d02a1fbd5e1!8m2!3d27.4959668!4d-82.5731691!9m1!1b1!16s%2Fg%2F11c1q8mpjx"
+   }
+  ]
+ },
+ {
+  "slug": "referpro",
+  "name": "ReferPro",
+  "url": "https://www.referpro.com/",
+  "category": "Software",
+  "type": "Productivity Tool",
+  "tags": [
+   "Productivity Tool",
+   "Referral Programs",
+   "Review Management"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://g.co/kgs/KxzujHs"
    }
   ]
  },
@@ -3505,6 +5649,57 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "repcard",
+  "name": "RepCard",
+  "url": "https://www.repcard.com/",
+  "category": "Software",
+  "type": "Communication",
+  "tags": [
+   "Communication",
+   "Canvassing",
+   "Gamification",
+   "Scheduling"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/repcard/id1372990002"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e955721d0_47.png"
+ },
+ {
+  "slug": "restoration-referral-system",
+  "name": "Restoration Referral System",
+  "url": "https://www.restorationreferralsystem.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/search?q=restoration+referral+system&rlz=1C5"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0d2abb119_63.png"
+ },
+ {
   "slug": "revhawk-ai",
   "name": "Revhawk AI",
   "url": "https://www.rev-hawk.com/",
@@ -3519,6 +5714,69 @@ window.LISTINGS = [
   "tagline": "Revhawk AI is a proactive customer retention platform built to help pest control and other subscription-based home service businesses protect their recurring revenue.",
   "description": "Revhawk AI is a proactive customer retention platform built to help pest control and other subscription-based home service businesses protect their recurring revenue. The software utilizes artificial intelligence and machine learning to identify at-risk accounts before they cancel, enabling companies to automatically intercept cancellations and trigger save workflows. Additionally, it allows businesses to capitalize on highly engaged, long-tenured customers by automatically requesting reviews and referrals when the relationship is strongest.",
   "ratings": []
+ },
+ {
+  "slug": "rfx",
+  "name": "RFX",
+  "url": "https://www.rfx.services/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery",
+   "Site Surveys"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/2c210e0b6_60.png"
+ },
+ {
+  "slug": "rilla-voice",
+  "name": "Rilla Voice",
+  "url": "https://www.rillavoice.com/",
+  "category": "Software",
+  "type": "Productivity Tool",
+  "tags": [
+   "Productivity Tool",
+   "Sales Enablement"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.3,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/rillavoice/id1488233758"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/eda287a50_66.png"
+ },
+ {
+  "slug": "roofcon",
+  "name": "RoofCon",
+  "url": "https://roofcon.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/6f30fe0ed_RoofCon.png",
+  "event": {
+   "dates": "Jan 5-7, 2026",
+   "location": "Oklahoma City, OK"
+  }
  },
  {
   "slug": "roofers-going-digital",
@@ -3546,6 +5804,149 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "roofhawk",
+  "name": "RoofHawk",
+  "url": "https://roofhawk.ai/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://www.google.com/search?kgmid=/g/1263_4dxs&hl=en-US&q=RoofHawk&kgs=36b919998c8e122b&shndl=17&source=sh/x/kp/osrp/m5/5#lrd=0x87b692edacb5575b:0x70f4b500cc0eac0e,1,,,,"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d17d43911_55.png"
+ },
+ {
+  "slug": "roofhub",
+  "name": "RoofHub",
+  "url": "https://www.roofhub.pro/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/roof-hub/id1434560046"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/00264aa19_RoofHub.png"
+ },
+ {
+  "slug": "roofing-business-partner",
+  "name": "Roofing Business Partner",
+  "url": "https://www.roofingbusinesspartner.com/",
+  "category": "Professional Services",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "roofing-process",
+  "name": "Roofing Process",
+  "url": "https://roofconference.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/b6420676d_RoofingProcess.png",
+  "event": {
+   "dates": "Dec 3-5, 2025",
+   "location": "Marco Island, Florida"
+  }
+ },
+ {
+  "slug": "roofing-school",
+  "name": "Roofing-School",
+  "url": "https://roofing-school.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training",
+   "Operations Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "roofit",
+  "name": "Roofit",
+  "url": "https://www.roofit.tech/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "CRM platform for roofing contractors",
+  "description": "CRM platform for roofing contractors",
+  "ratings": []
+ },
+ {
+  "slug": "rooflink",
+  "name": "Rooflink",
+  "url": "https://rooflink.com/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Proposal Tools",
+   "Project Management",
+   "Scheduling"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "Scale Your Business.",
+  "description": "Scale Your Business. Ditch the Overhead.",
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://www.capterra.com/p/198426/ROOF-link/reviews/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/6a088d7c0_Rooflink.png"
+ },
+ {
   "slug": "roofnuts",
   "name": "RoofNuts",
   "url": "https://roofnuts.com/",
@@ -3562,6 +5963,51 @@ window.LISTINGS = [
   "tagline": "RoofNuts is a marketing and sales training partner built specifically for top roofing contractors.",
   "description": "RoofNuts is a marketing and sales training partner built specifically for top roofing contractors. They provide outsourced, done-for-you door-to-door canvassing teams and professional appointment setters to help companies scale their lead generation. Additionally, RoofNuts offers specialized sales training and a weather tracking app to help field teams capitalize on storm damage and close more deals.",
   "ratings": []
+ },
+ {
+  "slug": "roofr",
+  "name": "Roofr",
+  "url": "https://roofr.com/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Proposal Tools",
+   "Imagery",
+   "Scheduling"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 4.6,
+    "count": null,
+    "url": "https://www.capterra.com/p/208102/Roofr/reviews/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0e006248e_Roofr.png"
+ },
+ {
+  "slug": "roofs-in-a-box",
+  "name": "Roofs in a box",
+  "url": "https://roofsinabox.com/",
+  "category": "Professional Services",
+  "type": "Outsourced Labor",
+  "tags": [
+   "Outsourced Labor",
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/21a2b12ab_Roofsinabox.png"
  },
  {
   "slug": "roofstack",
@@ -3582,6 +6028,24 @@ window.LISTINGS = [
   ],
   "tagline": "RoofStack provides a comprehensive software platform tailored specifically for roofing contractors to manage their operations from initial lead to final production.",
   "description": "RoofStack provides a comprehensive software platform tailored specifically for roofing contractors to manage their operations from initial lead to final production. The application enables users to obtain accurate roof measurements using high-resolution satellite imagery, generate professional quotes, and track customer relationships seamlessly. By replacing manual spreadsheets with an integrated digital workspace, RoofStack helps roofing businesses accelerate estimating, close deals faster, and keep projects organized.",
+  "ratings": []
+ },
+ {
+  "slug": "rooftops-ai",
+  "name": "Rooftops AI",
+  "url": "https://rooftops.ai/",
+  "category": "Software",
+  "type": "AI Agents",
+  "tags": [
+   "AI Agents",
+   "Imagery",
+   "Aerial Measurements"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "AI-powered roof imagery and measurement platform",
+  "description": "AI-powered roof imagery and measurement platform",
   "ratings": []
  },
  {
@@ -3619,6 +6083,29 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "ruby",
+  "name": "Ruby",
+  "url": "https://www.ruby.com/",
+  "category": "Software",
+  "type": "Communication",
+  "tags": [
+   "Communication"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "trustpilot.com",
+    "rating": 4.4,
+    "count": null,
+    "url": "https://www.trustpilot.com/review/ruby.com"
+   }
+  ]
+ },
+ {
   "slug": "ryno-strategic-solutions",
   "name": "Ryno Strategic Solutions",
   "url": "https://www.rynoss.com/",
@@ -3641,6 +6128,22 @@ window.LISTINGS = [
   ],
   "tagline": "RYNO Strategic Solutions is a full-service digital marketing agency that specializes in serving home service contractors, including HVAC, plumbing, electrical, and roofing businesses.",
   "description": "RYNO Strategic Solutions is a full-service digital marketing agency that specializes in serving home service contractors, including HVAC, plumbing, electrical, and roofing businesses. They offer a comprehensive suite of services such as SEO, paid media, website design, video production, and CSR coaching to help contractors generate more leads and optimize their ROI. With their proprietary RYNOtrax platform, they provide real-time marketing analytics to track campaign performance from initial search down to closed jobs.",
+  "ratings": []
+ },
+ {
+  "slug": "saenz-global",
+  "name": "Saenz Global",
+  "url": "https://www.saenzglobal.com/",
+  "category": "Professional Services",
+  "type": "Back Office",
+  "tags": [
+   "Back Office"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "Roofing back office support services",
+  "description": "Roofing back office support services",
   "ratings": []
  },
  {
@@ -3673,6 +6176,47 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "sales-draft",
+  "name": "Sales Draft",
+  "url": "https://www.salesdraft.io/",
+  "category": "Professional Services",
+  "type": "Recruiting Services",
+  "tags": [
+   "Recruiting Services",
+   "Sales Enablement"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "Sales enablement and recruiting services",
+  "description": "Sales enablement and recruiting services",
+  "ratings": []
+ },
+ {
+  "slug": "sales-transformation-group",
+  "name": "Sales Transformation Group",
+  "url": "https://www.salestransformationgroup.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://g.co/kgs/9EFCckf"
+   }
+  ]
+ },
+ {
   "slug": "salesask",
   "name": "SalesAsk",
   "url": "https://www.salesask.com/",
@@ -3696,6 +6240,56 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "salesrabbit",
+  "name": "SalesRabbit",
+  "url": "https://salesrabbit.com/",
+  "category": "Software",
+  "type": "Canvassing",
+  "tags": [
+   "Canvassing",
+   "Gamification",
+   "Scheduling"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.5,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/salesrabbit-lead-canvass-crm/id879884387"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/01869cb0e_34.png"
+ },
+ {
+  "slug": "salesrecruitinguniversity",
+  "name": "SalesRecruitingUniversity",
+  "url": "https://salesrecruitinguniversity.com/",
+  "category": "Professional Services",
+  "type": "Recruiting Services",
+  "tags": [
+   "Recruiting Services"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://www.google.com/search?hl=en-US&gl=us&q=Sales+Recruiting+University,+151+E+5600+S+%23112,+Murray,+UT+84107&ludocid=17355635973160999730&lsig=AB86z5WT1J23BlbOQ2cwox0uTIXm#lrd=0x8752899b67a8da9b:0xf0db9af6a7409b32,1,,,,"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/a7978a600_SalesRecruitingUniversity.png"
+ },
+ {
   "slug": "sameday",
   "name": "Sameday",
   "url": "https://www.gosameday.com/",
@@ -3705,7 +6299,8 @@ window.LISTINGS = [
    "Communication",
    "Scheduling",
    "Sales Enablement",
-   "AI Agents"
+   "AI Agents",
+   "Productivity Tool"
   ],
   "industries": [
    "Pest Control",
@@ -3718,6 +6313,120 @@ window.LISTINGS = [
   ],
   "tagline": "Sameday AI provides an advanced AI-powered virtual sales agent and receptionist tailored specifically for the trades and home service businesses.",
   "description": "Sameday AI provides an advanced AI-powered virtual sales agent and receptionist tailored specifically for the trades and home service businesses. The platform handles overflow and after-hours calls by engaging with customers in a natural human voice, answering questions, overcoming objections, and directly booking appointments into field service management software. By ensuring every phone call is answered 24/7, Sameday helps contractors maximize lead conversion and eliminate revenue lost to missed calls.",
+  "ratings": []
+ },
+ {
+  "slug": "sandlot-partners",
+  "name": "Sandlot Partners",
+  "url": "https://sandlotpartners.com/",
+  "category": "Professional Services",
+  "type": "Investment Strategy",
+  "tags": [
+   "Investment Strategy"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/search?sca_esv=ecb9c3497f6c7642&rlz=1C5CHFA_enUS952US952&sxsrf=ADLYWIJxb0aPjEMyuf0vsV3WLZVnGuoK4Q:1737240671082&q=sandlot+partners&source=lnms"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e56eb441f_SandlotPartners.png"
+ },
+ {
+  "slug": "scanifly",
+  "name": "Scanifly",
+  "url": "https://scanifly.com/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.1,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/scanifly-mobile/id1640105720"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/bee757c69_56.png"
+ },
+ {
+  "slug": "scoop-solar",
+  "name": "Scoop Solar",
+  "url": "https://www.scoop.solar/",
+  "category": "Software",
+  "type": "Project Management",
+  "tags": [
+   "Project Management",
+   "Field Service Management"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 4.7,
+    "count": null,
+    "url": "https://www.capterra.com/p/136648/Scoop-MAE-Enterprise-Software/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/caf6f4866_43.png"
+ },
+ {
+  "slug": "scorpion",
+  "name": "Scorpion",
+  "url": "https://www.scorpion.co/home-services/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "G2",
+    "rating": 4.4,
+    "count": null,
+    "url": "https://www.g2.com/products/scorpion/reviews"
+   }
+  ]
+ },
+ {
+  "slug": "seemesign",
+  "name": "Seemesign",
+  "url": "https://seemesign.com/",
+  "category": "Software",
+  "type": "Productivity Tool",
+  "tags": [
+   "Productivity Tool",
+   "Sales Enablement"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -3739,6 +6448,85 @@ window.LISTINGS = [
   "tagline": "Sellify AI provides an AI-powered sales automation platform designed specifically to help door-to-door and home service businesses capture missed revenue without expanding their headcount.",
   "description": "Sellify AI provides an AI-powered sales automation platform designed specifically to help door-to-door and home service businesses capture missed revenue without expanding their headcount. The software integrates directly with existing CRMs to conduct natural, two-way SMS conversations that automatically close upsells, win back canceled accounts, process payments, and schedule jobs. By instantly responding to missed inbound calls and proactively engaging neglected customer segments, Sellify AI helps industries like pest control and solar maximize their customer lifetime value.",
   "ratings": []
+ },
+ {
+  "slug": "sequifi",
+  "name": "Sequifi",
+  "url": "https://sequifi.com/",
+  "category": "Software",
+  "type": "Commissions",
+  "tags": [
+   "Commissions",
+   "HR & Workforce Management",
+   "ATS (Applicant Tracking System)",
+   "Productivity Tool",
+   "Gamification",
+   "ERP",
+   "Performance Management"
+  ],
+  "industries": [
+   "Pest Control",
+   "Solar",
+   "Roofing",
+   "HVAC",
+   "Windows",
+   "Alarms",
+   "Fiber"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.capterra.com/p/10017548/Sequifi/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/ee4f32077_83.png"
+ },
+ {
+  "slug": "serge-creator-studios",
+  "name": "Serge Creator Studios",
+  "url": "https://creatorstudios.io/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/1b23790c9_SergeCreatorStudios.png"
+ },
+ {
+  "slug": "service-auto-pilot",
+  "name": "Service Auto Pilot",
+  "url": "https://www.serviceautopilot.com/",
+  "category": "Software",
+  "type": "Scheduling",
+  "tags": [
+   "Scheduling",
+   "Route Optimization",
+   "CRM"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 4.1,
+    "count": null,
+    "url": "https://www.capterra.com/p/122075/Service-Autopilot/reviews/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5b159dc8c_32.png"
  },
  {
   "slug": "service-fusion",
@@ -3799,6 +6587,121 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "service-world",
+  "name": "Service World",
+  "url": "https://www.serviceworldexpo.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8e0d3e4d6_serviceworld.png",
+  "event": {
+   "dates": "Oct 27-30, 2026",
+   "location": "Las Vegas, NV"
+  }
+ },
+ {
+  "slug": "servicecon",
+  "name": "ServiceCon",
+  "url": "https://www.servicecon.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "event": {
+   "dates": "Mar 2-4, 2026",
+   "location": "Houston, TX"
+  }
+ },
+ {
+  "slug": "servicetitan",
+  "name": "ServiceTitan",
+  "url": "https://www.servicetitan.com/",
+  "category": "Software",
+  "type": "Productivity Tool",
+  "tags": [
+   "Productivity Tool",
+   "Project Management",
+   "Communication",
+   "Scheduling",
+   "Route Optimization",
+   "CRM"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.4,
+    "count": null,
+    "url": "https://maps.app.goo.gl/e6xNVx3ZbZoc1YZH9"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/a7ad3c808_86.png"
+ },
+ {
+  "slug": "shape-solar",
+  "name": "Shape Solar",
+  "url": "https://setshape.com/solar",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Communication"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "G2",
+    "rating": 4.5,
+    "count": null,
+    "url": "https://www.g2.com/products/shape-software-shape-software/reviews"
+   }
+  ]
+ },
+ {
+  "slug": "shut-the-fluff-up",
+  "name": "Shut the Fluff Up",
+  "url": "https://shutthefluffup.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://www.google.com/search?q=shut+the+fluff+up+reviews&rlz=1C5C"
+   }
+  ]
+ },
+ {
   "slug": "simpli-verified",
   "name": "Simpli Verified",
   "url": "https://simpliverified.com/",
@@ -3832,6 +6735,31 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "siro",
+  "name": "Siro",
+  "url": "https://siro.ai/",
+  "category": "Software",
+  "type": "Productivity Tool",
+  "tags": [
+   "Productivity Tool",
+   "Sales Enablement"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/siro-sales-game-film/id1546176487"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/69f462b82_69.png"
+ },
+ {
   "slug": "sitecapture",
   "name": "SiteCapture",
   "url": "https://sitecapture.com/",
@@ -3860,6 +6788,53 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "sky-diamonds-university",
+  "name": "Sky Diamonds University",
+  "url": "https://skydiamondsuniversity.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 3.9,
+    "count": null,
+    "url": "https://g.co/kgs/Va9nkF2"
+   }
+  ]
+ },
+ {
+  "slug": "slingshot",
+  "name": "slingshot",
+  "url": "https://getslingshot.com/",
+  "category": "Professional Services",
+  "type": "Outsourced Labor",
+  "tags": [
+   "Outsourced Labor"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.5,
+    "count": null,
+    "url": "https://www.google.com/search?q=slingshot+utah+reviews&sca_esv=3da5c569e43fb20e&sca_upv=1&rlz=1C5CHFA_enUS952US952&sxsrf=ADLYWIII-4-tePn5sxEUnzNEJeOrrq5ZPA%3A1717469354189&ei=qoBeZtiTC4PAkPIPnKvPsAc&ved=0ahUKEwjYkJP298CGAxUDIEQIHZzVE3YQ4dUDCBA&uact=5&oq=slingshot+utah+reviews"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/a9a6bfed7_Slingshot.png"
+ },
+ {
   "slug": "sma-support-services",
   "name": "SMA Support Services",
   "url": "https://www.smasupport.us/",
@@ -3879,6 +6854,217 @@ window.LISTINGS = [
   "tagline": "SMA Support Services provides dedicated virtual assistants and back-office outsourcing for home service and D2D contractors, particularly in roofing, solar, and windows.",
   "description": "SMA Support Services provides dedicated virtual assistants and back-office outsourcing for home service and D2D contractors, particularly in roofing, solar, and windows. They help growth-focused businesses plug administrative profit leaks by handling tasks such as lead follow-up, answering services, insurance claim workflows, and bookkeeping. By taking over execution and admin duties, SMA Support empowers contractors to scale efficiently, collect payments faster, and get their time back.",
   "ratings": []
+ },
+ {
+  "slug": "snoball",
+  "name": "Snoball",
+  "url": "https://snoball.com/",
+  "category": "Software",
+  "type": "Productivity Tool",
+  "tags": [
+   "Productivity Tool",
+   "Referral Programs",
+   "Review Management"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "G2",
+    "rating": 4.7,
+    "count": null,
+    "url": "https://www.g2.com/products/best-company-snoball/reviews"
+   }
+  ]
+ },
+ {
+  "slug": "socius-marketing",
+  "name": "Socius Marketing",
+  "url": "https://www.sociusmarketing.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.7,
+    "count": null,
+    "url": "https://g.co/kgs/gNNq6QK"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/89c5d8701_Socius.png"
+ },
+ {
+  "slug": "solar-ceos",
+  "name": "Solar CEOs",
+  "url": "https://solarceos.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training",
+   "Leadership Training",
+   "Operations Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.7,
+    "count": null,
+    "url": "https://www.google.com/search?q=solar+ceos+&rlz=1C5CHFA_enUS952"
+   }
+  ]
+ },
+ {
+  "slug": "solar-cheat-code",
+  "name": "Solar Cheat Code",
+  "url": "https://www.thecheatcode.ai/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/888d63eb8_SolarCheatCode.png"
+ },
+ {
+  "slug": "solar-exclusive",
+  "name": "Solar Exclusive",
+  "url": "https://solarexclusive.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.8,
+    "count": null,
+    "url": "https://g.co/kgs/TgjpiFr"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/847729a59_SolarExclusive.png"
+ },
+ {
+  "slug": "solar-school",
+  "name": "Solar School",
+  "url": "https://www.solarschool.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Recruiting Training",
+   "Leadership Training",
+   "Marketing Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "solar-survey-ai",
+  "name": "Solar Survey AI",
+  "url": "https://solarsurvey.ai/",
+  "category": "Software",
+  "type": "AI Agents",
+  "tags": [
+   "AI Agents",
+   "Site Surveys"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "AI-powered solar site survey platform",
+  "description": "AI-powered solar site survey platform",
+  "ratings": []
+ },
+ {
+  "slug": "solarapp",
+  "name": "SolarAPP+",
+  "url": "https://solarapp.nrel.gov/",
+  "category": "Software",
+  "type": "Project Management",
+  "tags": [
+   "Project Management"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/409d4c656_45.png"
+ },
+ {
+  "slug": "solargraf",
+  "name": "Solargraf",
+  "url": "https://www.solargraf.com/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Capterra",
+    "rating": 3.2,
+    "count": null,
+    "url": "https://www.capterra.com/p/224635/Solargraf/reviews/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/463e4bd4c_51.png"
+ },
+ {
+  "slug": "solarscout",
+  "name": "SolarScout",
+  "url": "https://www.solarscout.app/",
+  "category": "Software",
+  "type": "Utility Data",
+  "tags": [
+   "Utility Data"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f8854a01c_72.png"
  },
  {
   "slug": "solea-ai",
@@ -3911,6 +7097,31 @@ window.LISTINGS = [
   "tagline": "Solea AI is an AI-native field service management platform and autonomous digital workforce built primarily for pest control and home service businesses.",
   "description": "Solea AI is an AI-native field service management platform and autonomous digital workforce built primarily for pest control and home service businesses. The system deploys specialized AI agents to act as customer service representatives, schedulers, and sales reps that handle inbound calls, route optimization, and lead follow-ups in real time. By fully automating these critical back-office functions, Solea allows operators to maximize their booking rates, eliminate missed calls, and run their office on autopilot without needing to increase headcount.",
   "ratings": []
+ },
+ {
+  "slug": "solo",
+  "name": "Solo",
+  "url": "https://gosolo.io/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/search?q=solo+llc+&sca_esv=62a27476b4e2a955&rlz=1C5CHFA_enUS952US952&sxsrf=ACQVn081lbOxsOvNJ68i6RdccDP4mDLtKA%3A1709264335338&ei=z03hZYSWFKfGkPIPr7af6A0"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/e57db36b5_49.png"
  },
  {
   "slug": "sonar-software",
@@ -3958,6 +7169,72 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "spinify",
+  "name": "Spinify",
+  "url": "https://spinify.com/",
+  "category": "Software",
+  "type": "Gamification",
+  "tags": [
+   "Gamification"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "G2",
+    "rating": 4.6,
+    "count": null,
+    "url": "https://www.g2.com/products/spinify/reviews"
+   }
+  ]
+ },
+ {
+  "slug": "spotio",
+  "name": "Spotio",
+  "url": "https://spotio.com/",
+  "category": "Software",
+  "type": "Canvassing",
+  "tags": [
+   "Canvassing"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 3.5,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/spotio-1-field-sales-app/id1321365455"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/f986874bb_33.png"
+ },
+ {
+  "slug": "src-summit",
+  "name": "SRC Summit",
+  "url": "https://www.srcsummit.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/30e058637_SRCSummit.png",
+  "event": {
+   "dates": "Feb 10-11, 2026",
+   "location": "Irving, TX"
+  }
+ },
+ {
   "slug": "ssg-marketing",
   "name": "SSG Marketing",
   "url": "https://ssgmarketing.io/",
@@ -3978,6 +7255,30 @@ window.LISTINGS = [
   "tagline": "SSG Marketing (Summit Strategic Group) is a specialized marketing agency that provides guaranteed customer acquisition systems for B2C home service businesses.",
   "description": "SSG Marketing (Summit Strategic Group) is a specialized marketing agency that provides guaranteed customer acquisition systems for B2C home service businesses. They help contractors in industries like pest control, HVAC, roofing, and plumbing scale their revenue through targeted ad campaigns and rapid lead follow-up. Their comprehensive 'Book-a-Job' system equips business owners with exclusive leads, automated CRM follow-ups, and proven sales scripts to turn prospects into booked appointments.",
   "ratings": []
+ },
+ {
+  "slug": "stakt",
+  "name": "Stakt",
+  "url": "https://staktcommissions.com/",
+  "category": "Software",
+  "type": "Commissions",
+  "tags": [
+   "Commissions"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 3.9,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/stakt-commissions/id6475820589?platform=iphone"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/8d9c135b5_78.png"
  },
  {
   "slug": "stormbuddi",
@@ -4026,6 +7327,75 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "studio-168-productions",
+  "name": "Studio 168 Productions",
+  "url": "https://studio168p.com/",
+  "category": "Professional Services",
+  "type": "Investment Strategy",
+  "tags": [
+   "Investment Strategy"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/40cb27cd0_Studio168.png"
+ },
+ {
+  "slug": "subcontractor-hub",
+  "name": "Subcontractor Hub",
+  "url": "https://subcontractorhub.com/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Project Management",
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.4,
+    "count": null,
+    "url": "https://share.google/umcQkFWyVX5wITsrm"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/64674fb2d_SubcontractorHub.png"
+ },
+ {
+  "slug": "sumo-quote",
+  "name": "Sumo Quote",
+  "url": "https://www.sumoquote.com/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://www.google.com/maps/place/SumoQuote/@45.7039342,-154.9023899,3z/data=!4m8!3m7!1s0x537165131352302d:0xf7c9b9e9f2415856!8m2!3d51.2072!4d-121.9883!9m1!1b1!16s%2Fg%2F11fml3jcvg"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/61592bc71_53.png"
+ },
+ {
   "slug": "sunate",
   "name": "Sunate",
   "url": "https://www.sunate.app/",
@@ -4053,6 +7423,59 @@ window.LISTINGS = [
   "tagline": "Sunate is an AI-first CRM and workflow automation platform built specifically for field sales and home service contractors, including those in the solar, roofing, and HVAC industries.",
   "description": "Sunate is an AI-first CRM and workflow automation platform built specifically for field sales and home service contractors, including those in the solar, roofing, and HVAC industries. The tool operates as a virtual copilot via text and WhatsApp to automatically pull property data, build estimates, send proposals, and handle lead generation without manual data entry. By streamlining communication and scheduling directly from the job site, Sunate empowers D2D teams to focus entirely on closing deals and growing their business.",
   "ratings": []
+ },
+ {
+  "slug": "sunbase",
+  "name": "Sunbase",
+  "url": "https://www.sunbasedata.com/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery",
+   "Project Management",
+   "CRM",
+   "Canvassing"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.1,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/sunbase/id1336351915"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/9f6e71761_Sunbase.png"
+ },
+ {
+  "slug": "sunobi",
+  "name": "Sunobi",
+  "url": "https://www.sunobi.com/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery",
+   "Project Management"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.2,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/sunobi-sales/id1551706634"
+   }
+  ]
  },
  {
   "slug": "sunship-solar",
@@ -4090,14 +7513,62 @@ window.LISTINGS = [
    "Communication",
    "Marketing Tools",
    "Review Management",
-   "Client Communication"
+   "Client Communication",
+   "Project Management"
   ],
   "industries": [
    "Solar"
   ],
   "tagline": "Sunvoy is a white-labeled customer portal and fleet management software platform built specifically for solar installers.",
   "description": "Sunvoy is a white-labeled customer portal and fleet management software platform built specifically for solar installers. It enables companies to provide a branded app where homeowners can track project progress, monitor energy consumption, and easily submit reviews and referrals. Additionally, the platform helps operations teams manage their entire solar fleet through location-enabled mapping and automated performance tracking.",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://maps.app.goo.gl/VseYQqSLUjt2qfit9"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/c41415ca5_44.png"
+ },
+ {
+  "slug": "superconnect",
+  "name": "SuperConnect",
+  "url": "https://thesuperconnect.com/",
+  "category": "Software",
+  "type": "Utility Data",
+  "tags": [
+   "Utility Data"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
+ },
+ {
+  "slug": "svgu",
+  "name": "SVGU",
+  "url": "https://www.svguniversity.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Facebook",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://www.facebook.com/StormVenturesGroup/reviews"
+   }
+  ]
  },
  {
   "slug": "swivl",
@@ -4177,6 +7648,117 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "tax-hive",
+  "name": "Tax Hive",
+  "url": "https://taxhive.com/",
+  "category": "Professional Services",
+  "type": "Tax/Accounting",
+  "tags": [
+   "Tax/Accounting"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "Tax advisory and preparation services",
+  "description": "Tax advisory and preparation services",
+  "ratings": []
+ },
+ {
+  "slug": "texas-pest-expo",
+  "name": "Texas Pest Expo",
+  "url": "https://txpestexpo.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "event": {
+   "dates": "Jun 16-18, 2026",
+   "location": "Fort Worth, Texas"
+  }
+ },
+ {
+  "slug": "the-american-dream",
+  "name": "The American Dream",
+  "url": "https://americandreamevent.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0c40293ea_theamericandream.png",
+  "event": {
+   "dates": "Jun 17-19, 2026",
+   "location": "Houston, TX"
+  }
+ },
+ {
+  "slug": "the-contractor-fight",
+  "name": "The Contractor Fight",
+  "url": "https://thecontractorfight.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Marketing Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "the-roof-strategist",
+  "name": "The Roof Strategist",
+  "url": "https://theroofstrategist.com/free-training-center",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "the-roofing-academy",
+  "name": "The Roofing Academy",
+  "url": "https://theroofingacademy.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Leadership Training",
+   "Recruiting Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://g.co/kgs/VPdsiHg"
+   }
+  ]
+ },
+ {
   "slug": "the-talent-engine",
   "name": "The Talent Engine",
   "url": "https://www.recruittrainandretain.com/",
@@ -4202,6 +7784,36 @@ window.LISTINGS = [
   ],
   "tagline": "The Talent Engine is a professional advisory firm that helps direct sales and home services organizations optimize their employee lifecycles to drive predictable revenue.",
   "description": "The Talent Engine is a professional advisory firm that helps direct sales and home services organizations optimize their employee lifecycles to drive predictable revenue. They specialize in building interconnected systems for recruiting, sales training, retention, and leadership development to eliminate turnover and scale teams efficiently. Serving industries such as solar, roofing, and pest control, the company provides actionable frameworks that ensure long-term rep success rather than relying on isolated short-term fixes.",
+  "ratings": []
+ },
+ {
+  "slug": "the-tax-firm",
+  "name": "The Tax Firm",
+  "url": "https://www.thetaxfirm.biz/",
+  "category": "Professional Services",
+  "type": "Tax/Accounting",
+  "tags": [
+   "Tax/Accounting"
+  ],
+  "industries": [],
+  "tagline": "Tax and accounting services",
+  "description": "Tax and accounting services",
+  "ratings": []
+ },
+ {
+  "slug": "top-rep",
+  "name": "Top Rep",
+  "url": "https://topreptraining.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -4263,6 +7875,30 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "truwear",
+  "name": "Truwear",
+  "url": "https://truwearservices.com/",
+  "category": "Professional Services",
+  "type": "Swag & Custom Apparel",
+  "tags": [
+   "Swag & Custom Apparel"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.7,
+    "count": null,
+    "url": "https://g.co/kgs/DAQCVHc"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5bf53bf59_TruWear.png"
+ },
+ {
   "slug": "turtle-sales",
   "name": "Turtle Sales",
   "url": "https://turtlesales.ca/",
@@ -4317,6 +7953,7 @@ window.LISTINGS = [
    "Pest Control",
    "Solar",
    "Roofing",
+   "HVAC",
    "Windows",
    "Alarms",
    "Fiber",
@@ -4324,6 +7961,20 @@ window.LISTINGS = [
   ],
   "tagline": "Unie provides an operational software platform designed specifically for businesses in the door-to-door and home services sectors.",
   "description": "Unie provides an operational software platform designed specifically for businesses in the door-to-door and home services sectors. Explore the unie-verse. For years, the uniform industry has remained stagnant, often providing uncomfortable, unfashionable, and outdated garments simply out of necessity. However, with the changing landscape of workplaces and advancements in technology, it's high time for a significant transformation in this space.",
+  "ratings": []
+ },
+ {
+  "slug": "unique-genius",
+  "name": "Unique Genius",
+  "url": "https://unique-genius.com/",
+  "category": "Professional Services",
+  "type": "Marketing Agency",
+  "tags": [
+   "Marketing Agency"
+  ],
+  "industries": [],
+  "tagline": "Marketing and branding services",
+  "description": "Marketing and branding services",
   "ratings": []
  },
  {
@@ -4368,6 +8019,30 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "valley-tax-accounting",
+  "name": "Valley Tax & Accounting",
+  "url": "https://www.valleytaxandaccounting.com/",
+  "category": "Professional Services",
+  "type": "Tax/Accounting",
+  "tags": [
+   "Tax/Accounting"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://g.co/kgs/kVYE17C"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/0b390d37f_ValleyTaxAccounting.png"
+ },
+ {
   "slug": "viam-cx",
   "name": "Viam CX",
   "url": "https://www.viam.cx/",
@@ -4382,6 +8057,22 @@ window.LISTINGS = [
   ],
   "tagline": "VIAM.cx is a tax equity and finance firm that specializes in providing Power Purchase Agreements (PPAs) and tax-optimized funding for the renewable energy sector.",
   "description": "VIAM.cx is a tax equity and finance firm that specializes in providing Power Purchase Agreements (PPAs) and tax-optimized funding for the renewable energy sector. They partner directly with solar installers and EPCs, offering a reliable funding platform that helps D2D solar teams close more deals and maintain steady cash flow.",
+  "ratings": []
+ },
+ {
+  "slug": "virtual-solar-club",
+  "name": "Virtual Solar Club",
+  "url": "https://www.virtualsolar.club/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
   "ratings": []
  },
  {
@@ -4405,6 +8096,47 @@ window.LISTINGS = [
   "ratings": []
  },
  {
+  "slug": "volition-pro",
+  "name": "Volition Pro",
+  "url": "https://volitionpro.com/",
+  "category": "Professional Services",
+  "type": "Consulting",
+  "tags": [
+   "Consulting",
+   "Recruiting Services"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "Business consulting and strategy services",
+  "description": "Business consulting and strategy services",
+  "ratings": []
+ },
+ {
+  "slug": "vox",
+  "name": "Vox",
+  "url": "https://voxmarketinggroup.com/",
+  "category": "Professional Services",
+  "type": "Swag & Custom Apparel",
+  "tags": [
+   "Swag & Custom Apparel"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 4.9,
+    "count": null,
+    "url": "https://g.co/kgs/7SbWq4K"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/c548ade98_Vox.png"
+ },
+ {
   "slug": "vsl-hire",
   "name": "VSL hire",
   "url": "https://vslhire.com/",
@@ -4422,6 +8154,111 @@ window.LISTINGS = [
   "tagline": "VSL Hire is a recruitment and marketing agency that helps businesses streamline their hiring processes through targeted video ads and AI-driven candidate qualification.",
   "description": "VSL Hire is a recruitment and marketing agency that helps businesses streamline their hiring processes through targeted video ads and AI-driven candidate qualification. Serving a wide variety of industries including D2D and home services, they handle everything from scripting and filming ad campaigns to sorting candidates via their custom applicant tracking dashboard. By offering a flat monthly fee and unlimited qualified leads, they enable home service companies to bypass expensive traditional agencies and efficiently scale their teams.",
   "ratings": []
+ },
+ {
+  "slug": "wattmonk",
+  "name": "Wattmonk",
+  "url": "https://www.wattmonk.com/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 3.0,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/wattmonk/id1552218547"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/7df78e095_57.png"
+ },
+ {
+  "slug": "welch-olsen",
+  "name": "Welch Olsen",
+  "url": "https://www.welcholsen.com/",
+  "category": "Professional Services",
+  "type": "Tax/Accounting",
+  "tags": [
+   "Tax/Accounting"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/39b752692_WelchOlsen.png"
+ },
+ {
+  "slug": "western-roofing-expo",
+  "name": "Western Roofing Expo",
+  "url": "https://westernroofingexpo.com/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/38dfa0d1e_WesternStates.png",
+  "event": {
+   "dates": "Sep 27-29, 2026",
+   "location": "Las Vegas, NV"
+  }
+ },
+ {
+  "slug": "win-rate-consulting",
+  "name": "Win Rate Consulting",
+  "url": "https://www.winrateconsulting.com/",
+  "category": "Professional Services",
+  "type": "Sales Training",
+  "tags": [
+   "Sales Training",
+   "Operations Training",
+   "Leadership Training"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "Google",
+    "rating": 5.0,
+    "count": null,
+    "url": "https://g.co/kgs/zFgqB5d"
+   }
+  ]
+ },
+ {
+  "slug": "win-the-storm",
+  "name": "Win The Storm",
+  "url": "https://winthestorm.co/",
+  "category": "Events",
+  "type": "",
+  "tags": [],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/dc7c5884f_WintheStorm.png",
+  "event": {
+   "dates": "Oct 28-30, 2026",
+   "location": "Dallas, TX"
+  }
  },
  {
   "slug": "wisestack",
@@ -4461,6 +8298,61 @@ window.LISTINGS = [
   ]
  },
  {
+  "slug": "workiz",
+  "name": "Workiz",
+  "url": "https://www.workiz.com/home-fsm/",
+  "category": "Software",
+  "type": "Project Management",
+  "tags": [
+   "Project Management",
+   "Communication",
+   "Productivity Tool",
+   "Scheduling"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "App Store",
+    "rating": 4.6,
+    "count": null,
+    "url": "https://apps.apple.com/us/app/workiz-field-service-software/id1469769810"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/d7a582b86_87.png"
+ },
+ {
+  "slug": "workwave",
+  "name": "Workwave",
+  "url": "https://www.workwave.com/",
+  "category": "Software",
+  "type": "CRM",
+  "tags": [
+   "CRM",
+   "Route Optimization",
+   "Scheduling",
+   "Marketing Tools",
+   "Field Service Management"
+  ],
+  "industries": [
+   "Pest Control"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [
+   {
+    "source": "softwareadvice.com",
+    "rating": 3.1,
+    "count": null,
+    "url": "https://www.softwareadvice.com/construction/workwave-profile/reviews/"
+   }
+  ],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/bbaeaaae4_Workwave.png"
+ },
+ {
   "slug": "wrk",
   "name": "Wrk",
   "url": "https://www.wrk.com/",
@@ -4475,6 +8367,40 @@ window.LISTINGS = [
   "tagline": "Wrk is a fully managed workflow automation platform that combines artificial intelligence, robotic process automation (RPA), and human-in-the-loop expertise to streamline business processes.",
   "description": "Wrk is a fully managed workflow automation platform that combines artificial intelligence, robotic process automation (RPA), and human-in-the-loop expertise to streamline business processes. For D2D and home service companies, Wrk can seamlessly automate back-office operations such as CRM data entry, invoice processing, customer communications, and scheduling. By offering 'Automation as a Service,' the platform allows field and sales teams to eliminate manual administrative work and scale their operations without requiring in-house developers.",
   "ratings": []
+ },
+ {
+  "slug": "x-build",
+  "name": "X Build",
+  "url": "https://www.x.build/",
+  "category": "Software",
+  "type": "Proposal Tools",
+  "tags": [
+   "Proposal Tools",
+   "Imagery"
+  ],
+  "industries": [
+   "Roofing"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": []
+ },
+ {
+  "slug": "your-tax-coach",
+  "name": "Your Tax Coach",
+  "url": "https://yourtaxcoach.com/",
+  "category": "Professional Services",
+  "type": "Tax/Accounting",
+  "tags": [
+   "Tax/Accounting"
+  ],
+  "industries": [
+   "Solar"
+  ],
+  "tagline": "",
+  "description": "",
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/dc7582c1b_yourtaxcoach.png"
  },
  {
   "slug": "zotley",
@@ -4533,7 +8459,8 @@ window.LISTINGS = [
   ],
   "tagline": "Zuper is a highly customizable field service management platform that helps D2D and home service businesses automate their operations from initial booking to final payment.",
   "description": "Zuper is a highly customizable field service management platform that helps D2D and home service businesses automate their operations from initial booking to final payment. Serving a wide variety of trades like HVAC, roofing, solar, and pest control, it equips field technicians with an offline-capable mobile app for job checklists, estimating, and route optimization. Zuper's no-code workflows and intelligent dispatching capabilities allow back-office teams to easily scale scheduling and improve overall customer communication.",
-  "ratings": []
+  "ratings": [],
+  "logo": "https://base44.app/api/apps/69500280c503e11e6d7a30fe/files/public/69500280c503e11e6d7a30fe/5ddeee9ee_zupercrm.png"
  },
  {
   "slug": "zyratalk",
