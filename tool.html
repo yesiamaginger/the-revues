@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Revues</title>
+  <meta name="description" content="Tool overview and real user reviews on The Revues." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="logo">The Revues<span>.</span></a>
+      <nav>
+        <a href="index.html#tools">Tools</a>
+        <a href="index.html#categories">Categories</a>
+        <a class="btn btn-sm" data-submit href="#">Submit a tool</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="tool"></main>
+
+  <footer class="wrap footer">
+    <span>© <span data-year></span> The Revues</span>
+    <a data-submit href="#">Contact</a>
+  </footer>
+
+  <script src="data/tools.js"></script>
+  <script src="app.js"></script>
+  <script>Revues.tool();</script>
+</body>
+</html>

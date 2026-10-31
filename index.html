@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Revues — The GTM tools worth using, reviewed</title>
+  <meta name="description" content="A curated directory of the sales and GTM tools companies should be using, with real user reviews." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="logo">The Revues<span>.</span></a>
+      <nav>
+        <a href="#tools">Tools</a>
+        <a href="#categories">Categories</a>
+        <a class="btn btn-sm" data-submit href="#">Submit a tool</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">The GTM stack, reviewed</p>
+        <h1>The tools your team should be using.<br /><span>Backed by real reviews.</span></h1>
+        <p class="lede" data-tagline></p>
+        <div class="search">
+          <input id="search" type="search" placeholder="Search tools — e.g. enrichment, cold email, CRM…" autocomplete="off" />
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="wrap">
+      <div class="chips" id="chips"></div>
+    </section>
+
+    <section id="tools" class="wrap">
+      <p class="count" id="count"></p>
+      <div class="grid" id="grid"></div>
+      <p class="empty" id="empty" hidden>No tools match that search. <a href="#" data-submit>Suggest one?</a></p>
+    </section>
+
+    <section class="wrap cta">
+      <div>
+        <h2>Know a tool that belongs here?</h2>
+        <p>Vendors and users can submit tools and reviews. We list what's genuinely useful.</p>
+      </div>
+      <a class="btn" data-submit href="#">Submit a tool</a>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© <span data-year></span> The Revues</span>
+    <a data-submit href="#">Contact</a>
+  </footer>
+
+  <script src="data/tools.js"></script>
+  <script src="app.js"></script>
+  <script>Revues.home();</script>
+</body>
+</html>
