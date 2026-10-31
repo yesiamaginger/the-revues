@@ -35,8 +35,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "180 Sites is a San Diego-based web design and SEO agency.",
+  "description": "180 Sites is a San Diego-based web design and SEO agency. It builds websites and runs search marketing that help home service businesses, including solar companies, generate more leads online.",
   "ratings": [
    {
     "source": "Facebook",
@@ -184,8 +184,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Alchemy Sales Coaching is a sales coaching and personal development community for door-to-door and field sales professionals, founded by Doug Cartwright.",
+  "description": "Alchemy Sales Coaching is a sales coaching and personal development community for door-to-door and field sales professionals, founded by Doug Cartwright. It takes a personalized approach to training, combining skill development and proven sales methods with the mindset work that turns good reps into top producers.",
   "ratings": []
  },
  {
@@ -200,8 +200,8 @@ window.LISTINGS = [
   "industries": [
    "Pest Control"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Allan Draper is a pest control entrepreneur and consultant who co-founded Proof Pest Control with his brother Brent in 2015 and grew it to branches across multiple states.",
+  "description": "Allan Draper is a pest control entrepreneur and consultant who co-founded Proof Pest Control with his brother Brent in 2015 and grew it to branches across multiple states. He hosts the Bug Bux Podcast, where he shares how to launch, grow and scale a pest control company, including how to recruit and train door-to-door sales reps.",
   "ratings": []
  },
  {
@@ -214,8 +214,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "The American Solar Energy Society (ASES) hosts an annual National Solar Conference that brings together solar researchers, professionals, advocates and policymakers.",
+  "description": "The American Solar Energy Society (ASES) hosts an annual National Solar Conference that brings together solar researchers, professionals, advocates and policymakers. The event covers solar technology, policy and market trends.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -234,8 +234,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Ampleo is a Lehi, Utah consulting firm that provides outsourced, fractional executive services, including CFO, accounting and tax advisory support.",
+  "description": "Ampleo is a Lehi, Utah consulting firm that provides outsourced, fractional executive services, including CFO, accounting and tax advisory support. Growing companies use it to get senior finance leadership and accounting help without hiring a full-time team.",
   "ratings": [
    {
     "source": "Google",
@@ -257,8 +257,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Anthony Conklin is a solar sales leader, speaker and mentor with decades of experience in the industry, including leading Solar-Log's North American business.",
+  "description": "Anthony Conklin is a solar sales leader, speaker and mentor with decades of experience in the industry, including leading Solar-Log's North American business. Through his Big Solar Energy podcast and coaching, he helps solar sales professionals and teams grow into high earners.",
   "ratings": []
  },
  {
@@ -541,8 +541,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Ascend Digital Agency is a Buffalo, New York marketing agency that works exclusively with roofing contractors.",
+  "description": "Ascend Digital Agency is a Buffalo, New York marketing agency that works exclusively with roofing contractors. It builds brand-focused websites and runs SEO and search marketing to help roofing companies generate more leads.",
   "ratings": [
    {
     "source": "Google",
@@ -762,8 +762,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Best Company is a consumer review and ranking site that helps homeowners compare companies across industries, including solar installers.",
+  "description": "Best Company is a consumer review and ranking site that helps homeowners compare companies across industries, including solar installers. Businesses use it to collect verified customer reviews and build trust with prospective customers.",
   "ratings": [
    {
     "source": "Verified Reviews",
@@ -799,8 +799,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Best of Success is Roofing Contractor magazine's annual conference for roofing contractors and business leaders.",
+  "description": "Best of Success is Roofing Contractor magazine's annual conference for roofing contractors and business leaders. It focuses on leadership, business growth and best practices, with education sessions and networking.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -1022,8 +1022,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Breakthrough Academy is a business coaching and peer-group program for owners of contracting and home service companies.",
+  "description": "Breakthrough Academy is a business coaching and peer-group program for owners of contracting and home service companies. It helps owners build the systems, sales processes, financial discipline and leadership habits they need to scale, with coaching and a library of proven templates.",
   "ratings": [
    {
     "source": "Google",
@@ -1181,8 +1181,8 @@ window.LISTINGS = [
    "Construction"
   ],
   "industries": [],
-  "tagline": "Construction and home improvement CRM",
-  "description": "Construction and home improvement CRM",
+  "tagline": "Builder Prime is a CRM and project management platform built for home improvement contractors.",
+  "description": "Builder Prime is a CRM and project management platform built for home improvement contractors. It brings lead tracking, estimates and proposals, scheduling, and payments into one system so contractors can manage jobs from first contact to final invoice.",
   "ratings": []
  },
  {
@@ -1933,8 +1933,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "The D2D Experts, founded by Sam Taggart, is a training and consulting company for door-to-door sales organizations.",
+  "description": "The D2D Experts, founded by Sam Taggart, is a training and consulting company for door-to-door sales organizations. It offers sales, recruiting and leadership training, runs the D2D University online training platform, and hosts D2DCon, one of the largest door-to-door sales conferences.",
   "ratings": [
    {
     "source": "Google",
@@ -1977,8 +1977,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "D2DCon is an annual conference for door-to-door sales reps, managers and company owners, hosted by The D2D Experts.",
+  "description": "D2DCon is an annual conference for door-to-door sales reps, managers and company owners, hosted by The D2D Experts. It features keynote speakers, training sessions and networking, and draws attendees from solar, pest control, roofing, security and other D2D industries.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -2000,8 +2000,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "D2D University (D2DU) is the online training platform from The D2D Experts.",
+  "description": "D2D University (D2DU) is the online training platform from The D2D Experts. It gives door-to-door reps and managers on-demand video training covering sales, recruiting, leadership and mindset, so teams can onboard and develop reps at scale.",
   "ratings": [
    {
     "source": "Google",
@@ -3212,8 +3212,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Hook Agency is a Minneapolis-based marketing agency that specializes in roofing and contractor businesses.",
+  "description": "Hook Agency is a Minneapolis-based marketing agency that specializes in roofing and contractor businesses. It provides website design, SEO and paid advertising aimed at helping contractors rank higher and win more jobs.",
   "ratings": [
    {
     "source": "Google",
@@ -3424,8 +3424,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Intersolar North America is an annual solar and energy storage conference and expo held alongside Energy Storage North America.",
+  "description": "Intersolar North America is an annual solar and energy storage conference and expo held alongside Energy Storage North America. It brings together installers, manufacturers and industry leaders for education sessions and an exhibit hall.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -3480,8 +3480,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "The International Roofing Expo (IRE) is the largest roofing trade show in North America, held annually.",
+  "description": "The International Roofing Expo (IRE) is the largest roofing trade show in North America, held annually. It brings roofing contractors together with manufacturers and suppliers for an exhibit floor, education sessions and networking.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -3699,8 +3699,8 @@ window.LISTINGS = [
    "Project Management"
   ],
   "industries": [],
-  "tagline": "Project management software for contractors",
-  "description": "Project management software for contractors",
+  "tagline": "JobTread is construction management software for builders, remodelers and specialty contractors.",
+  "description": "JobTread is construction management software for builders, remodelers and specialty contractors. It covers estimating, budgeting, scheduling, job management and a client portal, helping contractors keep projects on time and on budget.",
   "ratings": []
  },
  {
@@ -4330,8 +4330,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "The Midwest Roofing Contractors Association (MRCA) Conference & Expo is an annual event for commercial and residential roofing contractors.",
+  "description": "The Midwest Roofing Contractors Association (MRCA) Conference & Expo is an annual event for commercial and residential roofing contractors. It offers education sessions, an exhibit hall and networking with peers and suppliers.",
   "ratings": [],
   "event": {
    "dates": "Nov 18-19, 2026",
@@ -4634,8 +4634,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Now CFO provides outsourced and fractional CFO, controller and accounting services.",
+  "description": "Now CFO provides outsourced and fractional CFO, controller and accounting services. It gives growing businesses access to experienced finance professionals for bookkeeping, financial reporting, forecasting and strategic planning.",
   "ratings": [
    {
     "source": "Google",
@@ -4729,8 +4729,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "OpenSolar is a free solar design and proposal platform for installers.",
+  "description": "OpenSolar is a free solar design and proposal platform for installers. It lets sales teams design systems, model savings, build interactive proposals and offer financing, helping solar companies sell and close faster.",
   "ratings": [
    {
     "source": "Google Play",
@@ -4858,8 +4858,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Payzer is a software platform for home service contractors that combines quoting, invoicing, payments and consumer financing.",
+  "description": "Payzer is a software platform for home service contractors that combines quoting, invoicing, payments and consumer financing. It helps contractors offer customers flexible payment options and get paid faster.",
   "ratings": [
    {
     "source": "Capterra",
@@ -5016,8 +5016,8 @@ window.LISTINGS = [
   "industries": [
    "Pest Control"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "PestWorld is the National Pest Management Association's (NPMA) annual convention and expo for the pest control industry.",
+  "description": "PestWorld is the National Pest Management Association's (NPMA) annual convention and expo for the pest control industry. It features education sessions, keynote speakers, an exhibit hall and networking for pest management professionals.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -5063,8 +5063,8 @@ window.LISTINGS = [
   "industries": [
    "Pest Control"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "PestPac by WorkWave is field service software built for pest control companies.",
+  "description": "PestPac by WorkWave is field service software built for pest control companies. It handles scheduling, routing, billing, customer management and a mobile app for technicians, helping pest control businesses run their operations from one system.",
   "ratings": [
    {
     "source": "softwareadvice.com",
@@ -5182,8 +5182,8 @@ window.LISTINGS = [
   "industries": [
    "Pest Control"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Pocomos is pest control software that combines CRM, scheduling, routing and billing with tools built for door-to-door sales teams.",
+  "description": "Pocomos is pest control software that combines CRM, scheduling, routing and billing with tools built for door-to-door sales teams. It helps pest control companies manage customers and technicians and track the accounts their reps sell.",
   "ratings": [
    {
     "source": "Google",
@@ -5205,8 +5205,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Podium is a customer communication platform for local and home service businesses.",
+  "description": "Podium is a customer communication platform for local and home service businesses. It brings text messaging, website chat, review requests, payments and AI-powered lead response into one inbox to help businesses win and keep customers.",
   "ratings": [
    {
     "source": "App Store",
@@ -5302,8 +5302,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Project Sunroof is a free tool from Google that estimates a home's solar potential.",
+  "description": "Project Sunroof is a free tool from Google that estimates a home's solar potential. It uses aerial imagery and 3D modeling to calculate how much sunlight a roof receives and how much a homeowner could save with solar.",
   "ratings": []
  },
  {
@@ -5424,8 +5424,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "RE+ is the largest clean energy event in North America, covering solar, energy storage, EV charging and related technologies.",
+  "description": "RE+ is the largest clean energy event in North America, covering solar, energy storage, EV charging and related technologies. Held annually, it brings together installers, manufacturers and industry leaders for education sessions and a large exhibit hall.",
   "ratings": [],
   "event": {
    "dates": "Nov 16-19, 2026",
@@ -5580,8 +5580,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "RepCard is a field sales platform built around digital business cards for reps.",
+  "description": "RepCard is a field sales platform built around digital business cards for reps. It automates follow-up with homeowners, tracks leads and appointments, and includes leaderboards and team management tools.",
   "ratings": [
    {
     "source": "App Store",
@@ -5661,8 +5661,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Rilla is conversation analytics software for in-person and field sales teams.",
+  "description": "Rilla is conversation analytics software for in-person and field sales teams. It records and analyzes conversations in the home, giving managers visibility into what reps say and AI-driven coaching that improves close rates.",
   "ratings": [
    {
     "source": "App Store",
@@ -5682,12 +5682,12 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "RoofCON is a leadership and growth conference for roofing and solar contractors, held in Oklahoma City.",
+  "description": "RoofCON is a leadership and growth conference for roofing and solar contractors, held in Oklahoma City. Its program focuses on sales, business development and scaling a roofing operation, with well-known keynote speakers and networking.",
   "ratings": [],
   "event": {
-   "dates": "",
-   "location": ""
+   "dates": "Nov 10-12, 2026",
+   "location": "Oklahoma City, OK"
   }
  },
  {
@@ -5786,8 +5786,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "The Roofing Process Conference is an annual event for roofing contractors, business owners and industry experts.",
+  "description": "The Roofing Process Conference is an annual event for roofing contractors, business owners and industry experts. It focuses on operational excellence, processes and systems that help roofing companies grow.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -5887,8 +5887,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Roofr is roofing software that combines roof measurement reports, proposals and a CRM.",
+  "description": "Roofr is roofing software that combines roof measurement reports, proposals and a CRM. Contractors can order measurements, build and send professional proposals, offer instant estimates on their website, and track jobs from lead to close.",
   "ratings": [
    {
     "source": "Capterra",
@@ -6000,8 +6000,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Ruby provides live virtual receptionists and chat specialists for small businesses.",
+  "description": "Ruby provides live virtual receptionists and chat specialists for small businesses. Its team answers calls and website chats on a company's behalf, so home service businesses never miss a lead.",
   "ratings": [
    {
     "source": "trustpilot.com",
@@ -6159,8 +6159,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "SalesRabbit is a door-to-door sales and canvassing app used by home service teams.",
+  "description": "SalesRabbit is a door-to-door sales and canvassing app used by home service teams. It offers territory mapping and assignment, lead tracking, digital contracts and leaderboards, giving managers visibility into rep activity and production.",
   "ratings": [
    {
     "source": "App Store",
@@ -6255,8 +6255,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Scanifly is a solar design and site survey platform that turns drone and mobile photos into 3D models.",
+  "description": "Scanifly is a solar design and site survey platform that turns drone and mobile photos into 3D models. Installers use it for shade analysis, PV design and remote site surveys, reducing return trips and design errors.",
   "ratings": [
    {
     "source": "App Store",
@@ -6302,8 +6302,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Scorpion is a digital marketing and technology company serving home service businesses and other local industries.",
+  "description": "Scorpion is a digital marketing and technology company serving home service businesses and other local industries. It provides websites, SEO, paid advertising and marketing analytics designed to generate leads and grow revenue.",
   "ratings": [
    {
     "source": "G2",
@@ -6374,8 +6374,8 @@ window.LISTINGS = [
    "Alarms",
    "Fiber"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Sequifi is a sales operations platform for door-to-door and field sales companies in industries like solar, pest control and roofing.",
+  "description": "Sequifi is a sales operations platform for door-to-door and field sales companies in industries like solar, pest control and roofing. It automates commission calculations and payroll, and includes onboarding, recruiting, performance tracking and gamification tools for managing reps.",
   "ratings": [
    {
     "source": "Capterra",
@@ -6415,8 +6415,8 @@ window.LISTINGS = [
   "industries": [
    "Pest Control"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Service Autopilot is business management software for lawn care, landscaping and other home service companies.",
+  "description": "Service Autopilot is business management software for lawn care, landscaping and other home service companies. It automates scheduling, routing, CRM, estimates and invoicing to help owners run and grow their business.",
   "ratings": [
    {
     "source": "Capterra",
@@ -6494,8 +6494,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Service World Expo is an annual trade show and conference in Las Vegas for residential HVAC, plumbing and electrical contractors.",
+  "description": "Service World Expo is an annual trade show and conference in Las Vegas for residential HVAC, plumbing and electrical contractors. It focuses on business growth, with education on sales, marketing, leadership and operations.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -6512,8 +6512,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "ServiceCon is a two-day conference for roofing contractors focused on building and growing service and maintenance divisions.",
+  "description": "ServiceCon is a two-day conference for roofing contractors focused on building and growing service and maintenance divisions. It skips the traditional trade-show format in favor of practical sessions with industry leaders and service growth experts.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -6537,8 +6537,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "ServiceTitan is a software platform for residential and commercial trades businesses such as HVAC, plumbing, electrical and roofing contractors.",
+  "description": "ServiceTitan is a software platform for residential and commercial trades businesses such as HVAC, plumbing, electrical and roofing contractors. It covers CRM, call booking, scheduling and dispatch, estimates, invoicing, payments, marketing and reporting in one system.",
   "ratings": [
    {
     "source": "Google",
@@ -6643,8 +6643,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Siro is an AI-powered sales coaching platform for in-person sales teams.",
+  "description": "Siro is an AI-powered sales coaching platform for in-person sales teams. It records field conversations and analyzes them to help managers coach reps and replicate what top performers do.",
   "ratings": [
    {
     "source": "App Store",
@@ -6763,8 +6763,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Snoball is referral and review software for home improvement and solar companies.",
+  "description": "Snoball is referral and review software for home improvement and solar companies. It makes it easy for happy customers to refer friends and leave reviews, and automates the rewards that keep referrals coming.",
   "ratings": [
    {
     "source": "G2",
@@ -6910,8 +6910,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "SolarAPP+ is an automated permitting platform for residential solar developed by the National Renewable Energy Laboratory (NREL).",
+  "description": "SolarAPP+ is an automated permitting platform for residential solar developed by the National Renewable Energy Laboratory (NREL). Participating local governments use it to issue instant permits for code-compliant rooftop solar and battery systems.",
   "ratings": []
  },
  {
@@ -6927,8 +6927,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Solargraf, from Enphase, is solar design and proposal software for installers.",
+  "description": "Solargraf, from Enphase, is solar design and proposal software for installers. It helps teams design systems, create proposals, model financing options and produce permit plan sets.",
   "ratings": [
    {
     "source": "Capterra",
@@ -7067,8 +7067,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Spinify is sales gamification software that motivates teams with live leaderboards, competitions and recognition.",
+  "description": "Spinify is sales gamification software that motivates teams with live leaderboards, competitions and recognition. It connects to CRMs and other tools to track performance metrics and display them on screens and mobile devices.",
   "ratings": [
    {
     "source": "G2",
@@ -7090,8 +7090,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "SPOTIO is a field sales platform for outside and door-to-door teams.",
+  "description": "SPOTIO is a field sales platform for outside and door-to-door teams. It provides territory management, route planning, lead and activity tracking and manager reporting, with integrations into popular CRMs.",
   "ratings": [
    {
     "source": "App Store",
@@ -7111,8 +7111,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "The Storm Restoration Contractor (SRC) Summit, launched in 2013 by April Hall, is an annual conference for contractors who handle storm damage and insurance restoration work.",
+  "description": "The Storm Restoration Contractor (SRC) Summit, launched in 2013 by April Hall, is an annual conference for contractors who handle storm damage and insurance restoration work. It features a main stage program, a vendor floor and networking events, held in Irving, Texas.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -7265,8 +7265,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "SumoQuote is proposal software for roofing contractors.",
+  "description": "SumoQuote is proposal software for roofing contractors. It turns measurements and photos into branded, professional quotes with good-better-best options and e-signature, helping contractors close more jobs.",
   "ratings": [
    {
     "source": "Google",
@@ -7552,8 +7552,8 @@ window.LISTINGS = [
   "industries": [
    "Pest Control"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "The Texas Pest Expo is a major annual event for the pest control industry in Texas and surrounding states, held in Fort Worth.",
+  "description": "The Texas Pest Expo is a major annual event for the pest control industry in Texas and surrounding states, held in Fort Worth. It offers continuing education, exhibits and Texas-focused pest management training.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -8043,8 +8043,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "WattMonk provides solar design and engineering services, including permit plan sets, PE stamping and structural and electrical engineering.",
+  "description": "WattMonk provides solar design and engineering services, including permit plan sets, PE stamping and structural and electrical engineering. Installers use it to speed up permitting and project turnaround.",
   "ratings": [
    {
     "source": "App Store",
@@ -8080,8 +8080,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "The Western Roofing Expo is the annual convention and trade show of the Western States Roofing Contractors Association, held in Las Vegas.",
+  "description": "The Western Roofing Expo is the annual convention and trade show of the Western States Roofing Contractors Association, held in Las Vegas. It offers roofing contractors education sessions, product exhibits and networking.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -8123,8 +8123,8 @@ window.LISTINGS = [
   "industries": [
    "Roofing"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Win the Storm is one of the largest roofing and storm restoration conferences in the country, held annually in Dallas.",
+  "description": "Win the Storm is one of the largest roofing and storm restoration conferences in the country, held annually in Dallas. It brings contractors, vendors and industry leaders together for keynote speakers, training sessions, a trade show and networking.",
   "ratings": [],
   "event": {
    "dates": "",
@@ -8183,8 +8183,8 @@ window.LISTINGS = [
   "industries": [
    "Solar"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "Workiz is field service management software for small home service businesses.",
+  "description": "Workiz is field service management software for small home service businesses. It combines scheduling, dispatching, invoicing, payments and a built-in phone system to help companies manage jobs and communicate with customers.",
   "ratings": [
    {
     "source": "App Store",
@@ -8210,8 +8210,8 @@ window.LISTINGS = [
   "industries": [
    "Pest Control"
   ],
-  "tagline": "",
-  "description": "",
+  "tagline": "WorkWave makes field service software for pest control, lawn care and other service businesses, including products such as PestPac.",
+  "description": "WorkWave makes field service software for pest control, lawn care and other service businesses, including products such as PestPac. Its tools cover CRM, scheduling, routing, billing and marketing for service companies of all sizes.",
   "ratings": [
    {
     "source": "softwareadvice.com",
