@@ -1,24 +1,28 @@
 # The Revues
 
-A simple directory of the GTM/sales tools companies should be using, with their reviews.
+A simple directory of the software, professional services and events door-to-door home service
+businesses should be using, with their reviews.
 Plain HTML/CSS/JS — no build step, no framework.
 
 ## Files
 
-- `index.html` — homepage: search, category filters, tool grid
-- `tool.html` — one tool's page (`tool.html?t=<slug>`): overview, pros/cons, reviews, quick facts
+- `index.html` — homepage: search, Featured Stack, category filters, directory grid
+- `tool.html` — one listing's page (`tool.html?t=<slug>`): overview, pros/cons, ratings, reviews, quick facts
 - `data/tools.js` — **all content lives here**: site settings, categories, and the tool list
 - `app.js` — renders the pages from `data/tools.js`
 - `styles.css` — styling (light + dark mode)
 
-## Add or edit a tool
+## Add or edit a listing
 
 Open `data/tools.js`, copy an existing entry, and change the fields. The field list is at the
-top of the file. New categories go in `SITE.categories`.
+top of the file. Categories are Software, Professional Services and Events (`SITE.categories`).
 
-Ratings and review quotes are left empty on purpose — fill them in with real numbers and real
-quotes (e.g. from G2/Capterra, with `reviewSource` linking back). Tools without reviews show
-"Reviews coming soon" and a "Share your review" link.
+- **Ratings:** add real ratings to `ratings` with a link to the source (G2, Capterra, Google,
+  App Store…). The first one shows on the card; all of them show on the listing page.
+- **Featured Stack:** edit `SITE.featuredStack` — one `{ job, slug }` per slot.
+- **Events:** add `event: { dates, location }`.
+
+Listings with no ratings show "Reviews coming soon" and a "Share your review" link.
 
 ## Run locally
 

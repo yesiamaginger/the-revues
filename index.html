@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Revues — The GTM tools worth using, reviewed</title>
-  <meta name="description" content="A curated directory of the sales and GTM tools companies should be using, with real user reviews." />
+  <title>The Revues — The door-to-door home services stack, reviewed</title>
+  <meta name="description" content="Software, professional services and events for door-to-door home service businesses, with real reviews." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
   <link rel="stylesheet" href="styles.css" />
@@ -14,9 +14,9 @@
     <div class="wrap nav-inner">
       <a href="index.html" class="logo">The Revues<span>.</span></a>
       <nav>
-        <a href="#tools">Tools</a>
-        <a href="#categories">Categories</a>
-        <a class="btn btn-sm" data-submit href="#">Submit a tool</a>
+        <a href="#stack">Featured Stack</a>
+        <a href="#tools">Directory</a>
+        <a class="btn btn-sm" data-submit href="#">Submit a listing</a>
       </nav>
     </div>
   </header>
@@ -24,31 +24,40 @@
   <main>
     <section class="hero">
       <div class="wrap">
-        <p class="eyebrow">The GTM stack, reviewed</p>
-        <h1>The tools your team should be using.<br /><span>Backed by real reviews.</span></h1>
+        <p class="eyebrow">For door-to-door home service businesses</p>
+        <h1>What your D2D team should be using.<br /><span>Backed by real reviews.</span></h1>
         <p class="lede" data-tagline></p>
         <div class="search">
-          <input id="search" type="search" placeholder="Search tools — e.g. enrichment, cold email, CRM…" autocomplete="off" />
+          <input id="search" type="search" placeholder="Search — e.g. canvassing, training, conference…" autocomplete="off" />
         </div>
       </div>
     </section>
 
+    <section id="stack" class="wrap stack-section">
+      <div class="section-head">
+        <h2>The Featured Stack</h2>
+        <p>Our pick for each job. Start here.</p>
+      </div>
+      <div class="stack" id="stack-list"></div>
+    </section>
+
     <section id="categories" class="wrap">
+      <h2 class="dir-title">The Directory</h2>
       <div class="chips" id="chips"></div>
     </section>
 
     <section id="tools" class="wrap">
       <p class="count" id="count"></p>
       <div class="grid" id="grid"></div>
-      <p class="empty" id="empty" hidden>No tools match that search. <a href="#" data-submit>Suggest one?</a></p>
+      <p class="empty" id="empty" hidden>Nothing matches that search. <a href="#" data-submit>Suggest one?</a></p>
     </section>
 
     <section class="wrap cta">
       <div>
-        <h2>Know a tool that belongs here?</h2>
-        <p>Vendors and users can submit tools and reviews. We list what's genuinely useful.</p>
+        <h2>Know something that belongs here?</h2>
+        <p>Submit software, a service or an event — or send us your review of one already listed.</p>
       </div>
-      <a class="btn" data-submit href="#">Submit a tool</a>
+      <a class="btn" data-submit href="#">Submit a listing</a>
     </section>
   </main>
 

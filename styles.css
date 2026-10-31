@@ -135,3 +135,24 @@ a { color: inherit; }
   .proscons { grid-template-columns: 1fr; }
   .facts { position: static; }
 }
+
+/* Featured stack */
+.section-head { text-align: center; margin-bottom: 20px; }
+.section-head h2, .dir-title { margin: 0 0 4px; font-size: 28px; letter-spacing: -0.02em; }
+.section-head p { margin: 0; color: var(--muted); }
+.stack-section { margin: 24px auto 56px; }
+.stack { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; padding: 16px; background: var(--surface); border-radius: calc(var(--radius) + 6px); }
+.stack-item { display: flex; flex-direction: column; gap: 10px; padding: 16px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; transition: border-color .15s, transform .15s; }
+.stack-item:hover { border-color: var(--accent); transform: translateY(-2px); }
+.stack-job { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
+.stack-name { display: flex; align-items: center; gap: 10px; font-size: 16px; }
+.stack-meta { font-size: 13px; color: var(--muted); }
+.logo-sm { width: 32px; height: 32px; font-size: 12px; border-radius: 8px; }
+.dir-title { text-align: center; margin-bottom: 12px; }
+
+/* Ratings by source on tool page */
+.ratings { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+.rating-src { display: flex; align-items: center; gap: 12px; padding: 14px 18px; border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; font-size: 14px; line-height: 1.4; }
+.rating-src:hover { border-color: var(--text); }
+.rating-big { font-size: 30px; font-weight: 800; letter-spacing: -0.03em; }
+.event-when { color: var(--text); font-weight: 500; }

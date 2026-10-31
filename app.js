@@ -19,15 +19,17 @@ window.Revues = (function () {
     return `<span class="stars" aria-label="${rating} out of 5">${out}</span>`;
   }
 
-  function ratingLine(tool) {
-    if (tool.rating == null) return `<span class="muted">Reviews coming soon</span>`;
-    const count = tool.reviewCount ? ` · ${tool.reviewCount.toLocaleString()} reviews` : "";
-    const src = tool.reviewSource ? ` on ${esc(tool.reviewSource.name)}` : "";
-    return `${stars(tool.rating)} <strong>${tool.rating.toFixed(1)}</strong><span class="muted">${count}${src}</span>`;
+  function ratingLine(r) {
+    if (!r) return `<span class="muted">Reviews coming soon</span>`;
+    const count = r.count ? ` · ${r.count.toLocaleString()} review${r.count === 1 ? "" : "s"}` : "";
+    return `${stars(r.rating)} <strong>${r.rating.toFixed(1)}</strong><span class="muted">${count} on ${esc(r.source)}</span>`;
   }
 
+  const topRating = (t) => (t.ratings || [])[0];
+  const eventLine = (t) => (t.event ? `${esc(t.event.dates)}${t.event.location ? ` · ${esc(t.event.location)}` : ""}` : "");
+
   function submitLinks() {
-    const href = `mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Tool submission for The Revues")}`;
+    const href = `mailto:${SITE.contactEmail}?subject=${encodeURIComponent("Listing submission for The Revues")}`;
     document.querySelectorAll("[data-submit]").forEach((a) => (a.href = href));
     document.querySelectorAll("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
   }
@@ -35,10 +37,10 @@ window.Revues = (function () {
   function card(t) {
     return `<a class="card" href="tool.html?t=${encodeURIComponent(t.slug)}">
       <div class="card-top">${logo(t, "md")}
-        <div><h3>${esc(t.name)}</h3><span class="tag">${esc(t.category)}</span></div>
+        <div><h3>${esc(t.name)}</h3><span class="tag">${esc(t.type || t.category)}</span></div>
       </div>
       <p>${esc(t.tagline)}</p>
-      <div class="card-foot"><span class="rating">${ratingLine(t)}</span></div>
+      <div class="card-foot"><span class="rating">${t.event ? `<span class="event-when">📅 ${eventLine(t)}</span>` : ratingLine(topRating(t))}</span></div>
     </a>`;
   }
 
@@ -57,18 +59,33 @@ window.Revues = (function () {
       .map((c) => `<button class="chip" data-cat="${esc(c)}">${esc(c)} <span>${c === "All" ? TOOLS.length : counts[c] || 0}</span></button>`)
       .join("");
 
-    const sorted = [...TOOLS].sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || (b.rating ?? 0) - (a.rating ?? 0));
+    const stack = document.getElementById("stack-list");
+    stack.innerHTML = (SITE.featuredStack || [])
+      .map(({ job, slug }) => {
+        const t = TOOLS.find((x) => x.slug === slug);
+        if (!t) return "";
+        const r = topRating(t);
+        return `<a class="stack-item" href="tool.html?t=${encodeURIComponent(t.slug)}">
+          <span class="stack-job">${esc(job)}</span>
+          <div class="stack-name">${logo(t, "sm")}<strong>${esc(t.name)}</strong></div>
+          <span class="stack-meta">${t.event ? eventLine(t) : r ? `★ ${r.rating.toFixed(1)} on ${esc(r.source)}` : esc(t.category)}</span>
+        </a>`;
+      })
+      .join("");
+
+    const score = (t) => topRating(t)?.rating ?? 0;
+    const sorted = [...TOOLS].sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || score(b) - score(a));
 
     function render() {
       const q = input.value.trim().toLowerCase();
       const list = sorted.filter(
         (t) =>
           (active === "All" || t.category === active) &&
-          (!q || [t.name, t.tagline, t.description, t.category, t.bestFor].join(" ").toLowerCase().includes(q))
+          (!q || [t.name, t.type, t.tagline, t.description, t.category, t.bestFor].join(" ").toLowerCase().includes(q))
       );
       document.getElementById("grid").innerHTML = list.map(card).join("");
       document.getElementById("empty").hidden = list.length > 0;
-      document.getElementById("count").textContent = `${list.length} tool${list.length === 1 ? "" : "s"}${active === "All" ? "" : ` in ${active}`}`;
+      document.getElementById("count").textContent = `${list.length} listing${list.length === 1 ? "" : "s"}${active === "All" ? "" : ` in ${active}`}`;
       chips.querySelectorAll(".chip").forEach((b) => b.classList.toggle("active", b.dataset.cat === active));
       const p = new URLSearchParams();
       if (active !== "All") p.set("category", active);
@@ -106,7 +123,17 @@ window.Revues = (function () {
           <figcaption><strong>${esc(r.author)}</strong>${r.role ? `, ${esc(r.role)}` : ""}${r.company ? ` at ${esc(r.company)}` : ""}${r.source ? ` <span class="muted">· via ${esc(r.source)}</span>` : ""}</figcaption></figure>`
           )
           .join("")
-      : `<div class="review empty-reviews"><p>We're collecting reviews for ${esc(t.name)}. Use it? <a data-submit href="#">Share your review</a>.</p></div>`;
+      : `<div class="review empty-reviews"><p>We're collecting reviews of ${esc(t.name)}. Use it? <a data-submit href="#">Share your review</a>.</p></div>`;
+
+    const ratingsBlock = (t.ratings || []).length
+      ? `<div class="ratings">${t.ratings
+          .map(
+            (r) => `<a class="rating-src" href="${esc(r.url)}" target="_blank" rel="noopener">
+          <span class="rating-big">${r.rating.toFixed(1)}</span>
+          <span>${stars(r.rating)}<br /><span class="muted">${r.count ? `${r.count.toLocaleString()} reviews on ` : "on "}${esc(r.source)} ↗</span></span></a>`
+          )
+          .join("")}</div>`
+      : "";
 
     const related = TOOLS.filter((x) => x.category === t.category && x.slug !== t.slug).slice(0, 3);
 
@@ -117,11 +144,10 @@ window.Revues = (function () {
         <div class="tool-title">
           <h1>${esc(t.name)}</h1>
           <p class="lede">${esc(t.tagline)}</p>
-          <div class="rating">${ratingLine(t)}</div>
+          <div class="rating">${t.event ? `📅 ${eventLine(t)}` : ratingLine(topRating(t))}</div>
         </div>
         <div class="tool-actions">
           <a class="btn" href="${esc(t.url)}" target="_blank" rel="noopener">Visit ${esc(domain(t.url))} ↗</a>
-          ${t.reviewSource ? `<a class="btn btn-ghost" href="${esc(t.reviewSource.url)}" target="_blank" rel="noopener">All reviews on ${esc(t.reviewSource.name)} ↗</a>` : ""}
         </div>
       </section>
 
@@ -134,11 +160,13 @@ window.Revues = (function () {
             <div><h3>What to watch for</h3>${list(t.cons, "cons")}</div>
           </div>` : ""}
           <h2>Reviews</h2>
+          ${ratingsBlock}
           ${reviews}
         </div>
         <aside class="facts">
           <dl>
-            <dt>Category</dt><dd><a href="index.html?category=${encodeURIComponent(t.category)}">${esc(t.category)}</a></dd>
+            <dt>Category</dt><dd><a href="index.html?category=${encodeURIComponent(t.category)}">${esc(t.category)}</a>${t.type ? ` · ${esc(t.type)}` : ""}</dd>
+            ${t.event ? `<dt>When</dt><dd>${esc(t.event.dates)}</dd>${t.event.location ? `<dt>Where</dt><dd>${esc(t.event.location)}</dd>` : ""}` : ""}
             ${t.bestFor ? `<dt>Best for</dt><dd>${esc(t.bestFor)}</dd>` : ""}
             ${t.pricing ? `<dt>Pricing</dt><dd>${esc(t.pricing)}</dd>` : ""}
             <dt>Website</dt><dd><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(domain(t.url))}</a></dd>
