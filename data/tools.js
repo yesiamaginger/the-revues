@@ -25,7 +25,7 @@ window.SITE = {
   tagline:
     "The software, professional services and events door-to-door home service businesses should know about — with real reviews.",
   contactEmail: "hello@therevues.com", // TODO: confirm address
-  categories: ["Software", "Professional Services", "Events"],
+  categories: ["Software", "Professional Services", "Events", "Manufacturing/Equipment", "Financing"],
 
   // "The Featured Stack" on the homepage: one pick per job, in order.
   featuredStack: [

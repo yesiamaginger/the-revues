@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MASTER = ROOT / "data" / "companies.csv"
 OUT = ROOT / "data" / "listings.js"
 
-SEGMENTS = ["Software", "Professional Services", "Events"]
+SEGMENTS = ["Software", "Professional Services", "Events", "Manufacturing/Equipment", "Financing"]
 INDUSTRIES = ["Pest Control", "Solar", "Roofing", "HVAC", "Plumbing", "Landscaping", "Windows", "Alarms", "Fiber", "Other"]
 
 # Review sources, in the column order of the spreadsheet. Each becomes three columns:

@@ -19,7 +19,7 @@ Plain HTML/CSS/JS — no build step, no framework.
 
 One row per business. Columns:
 
-- **Name, URL, Segment** (Software, Professional Services or Events)
+- **Name, URL, Segment** (Software, Professional Services, Events, Manufacturing/Equipment or Financing)
 - **Tags** and **Industries** — separated by `; `
 - **Bio** — the first sentence becomes the card's one-liner
 - For each review site, `<Site> Rating`, `<Site> Review Count`, `<Site> URL`: Google, Apple App Store,
@@ -57,7 +57,8 @@ segment, rating out of range).
 For extra detail (pros/cons, pricing, reviewer quotes, event dates), add an entry to
 `data/tools.js` with the same slug as the company (its name, lowercase, dashes). Its fields win;
 tags, industries and ratings still come from the CSV if the entry leaves them out. Copy an existing entry, and change the fields. The field list is at the
-top of the file. Categories are Software, Professional Services and Events (`SITE.categories`).
+top of the file. Categories are Software, Professional Services, Events,
+Manufacturing/Equipment and Financing (`SITE.categories`).
 
 - **Ratings:** add real ratings to `ratings` with a link to the source (G2, Capterra, Google,
   App Store…). The first one shows on the card; all of them show on the listing page.
